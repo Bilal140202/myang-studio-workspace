@@ -2,3 +2,5 @@
 - 2026-10-27 · Chromium for Playwright (headless rendering) · BSD
 - 2026-10-27 · huashu-art-motion skill (drawn styles for `xp art`) — git clone github.com/alchaincyf/huashu-art-motion into vendor/ · MIT
 - 2026-10-27 · Be Vietnam Pro Black/ExtraBold + Oswald (thumbnail fonts) from google/fonts · SIL OFL 1.1
+- 2026-10-28 · huashu-art-motion skill (drawn styles for `xp art`) — git clone github.com/alchaincyf/huashu-art-motion into vendor/ · MIT
+- 2026-10-28 · Chromium for Playwright (headless rendering) · BSD

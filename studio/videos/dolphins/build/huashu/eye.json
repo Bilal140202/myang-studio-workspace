@@ -16,7 +16,7 @@
    "data": {
     "icon": "target"
    },
-   "at": 2.686
+   "at": 3.475
   },
   {
    "kind": "draw",
@@ -24,12 +24,12 @@
    "data": {
     "icon": "person"
    },
-   "at": 7.106
+   "at": 8.137
   },
   {
    "kind": "point",
    "text": "Eye opposite the sleeping half",
-   "at": 9.508
+   "at": 9.712
   },
   {
    "kind": "highlight",
@@ -37,7 +37,7 @@
     "target": "draw",
     "index": 1
    },
-   "at": 12.142
+   "at": 12.525
   }
  ]
 }

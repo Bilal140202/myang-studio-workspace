@@ -1,5 +1,5 @@
 {
- "time": "2026-10-27 07:04",
+ "time": "2026-10-28 09:34",
  "ready": false,
  "items": [
   {
@@ -177,7 +177,7 @@
    "id": "disk",
    "name": "Free disk space",
    "status": "info",
-   "detail": "9 GB",
+   "detail": "8 GB",
    "why": "a long series needs ~10–20 GB (assets, frames, masters)",
    "action": "",
    "ask": null

@@ -1,81 +1,191 @@
 1
-00:00:00,238 --> 00:00:03,190
-Dolphins need air to breathe.
+00:00:00,238 --> 00:00:01,138
+Here's a puzzle.
 
 2
-00:00:03,190 --> 00:00:06,375
-But they live in the ocean.
+00:00:01,138 --> 00:00:02,750
+Dolphins are mammals
 
 3
-00:00:06,375 --> 00:00:08,750
-So how do they sleep?
+00:00:02,750 --> 00:00:04,450
+so they need air to breathe.
 
 4
-00:00:09,649 --> 00:00:13,100
-You breathe on autopilot.
+00:00:04,450 --> 00:00:06,212
+But they live in the ocean.
 
 5
-00:00:13,100 --> 00:00:18,068
-A dolphin chooses every breath.
+00:00:06,212 --> 00:00:07,800
+So how do they sleep
 
 6
-00:00:18,068 --> 00:00:22,949
-Fall fully asleep → stop breathing.
+00:00:07,800 --> 00:00:08,750
+without drowning?
 
 7
-00:00:23,849 --> 00:00:27,094
-Dolphins sleep with half the brain.
+00:00:09,649 --> 00:00:11,562
+Humans breathe automatically.
 
 8
-00:00:27,094 --> 00:00:30,404
-The other half stays awake.
+00:00:11,562 --> 00:00:12,999
+You never have to think
 
 9
-00:00:30,404 --> 00:00:35,349
-Unihemispheric slow-wave sleep.
+00:00:12,999 --> 00:00:13,737
+about it.
 
 10
-00:00:36,262 --> 00:00:39,449
-The awake half stays on duty.
+00:00:13,737 --> 00:00:16,162
+A dolphin's breath is voluntary.
 
 11
-00:00:39,449 --> 00:00:43,831
-A sleeping dolphin keeps one eye open.
+00:00:16,162 --> 00:00:17,762
+Every single breath
 
 12
-00:00:43,831 --> 00:00:49,224
-The eye on the opposite
-side, watching for predators.
+00:00:17,762 --> 00:00:19,161
+is a conscious decision.
 
 13
-00:00:50,126 --> 00:00:52,969
-They drift near the surface.
+00:00:19,161 --> 00:00:20,999
+Fall completely asleep
 
 14
-00:00:52,969 --> 00:00:57,413
-Rising every few minutes for a breath.
+00:00:20,999 --> 00:00:22,949
+and a dolphin would stop breathing.
 
 15
-00:00:57,413 --> 00:01:01,625
-Each half gets about 4 hours a day.
+00:00:23,849 --> 00:00:25,212
+So dolphins evolved
 
 16
-00:01:02,501 --> 00:01:05,232
-New mothers get no luxury.
+00:00:25,212 --> 00:00:26,474
+a clever workaround.
 
 17
-00:01:05,232 --> 00:01:09,363
-For a whole month, mother
-and baby barely sleep.
+00:00:26,474 --> 00:00:28,211
+They sleep with only half
 
 18
-00:01:10,270 --> 00:01:12,863
-Half a brain asleep.
+00:00:28,211 --> 00:00:29,574
+of their brain at a time.
 
 19
-00:01:12,863 --> 00:01:15,882
-One eye open.
+00:00:29,574 --> 00:00:31,599
+The other half stays awake.
 
 20
-00:01:15,882 --> 00:01:17,557
-Still breathing.
+00:00:31,599 --> 00:00:33,274
+Scientists call it
+
+21
+00:00:33,274 --> 00:00:35,349
+unihemispheric slow-wave sleep.
+
+22
+00:00:36,262 --> 00:00:37,737
+The sleeping half rests
+
+23
+00:00:37,737 --> 00:00:38,949
+while the awake half
+
+24
+00:00:38,949 --> 00:00:39,949
+stays on duty.
+
+25
+00:00:39,949 --> 00:00:41,837
+And here is the giveaway.
+
+26
+00:00:41,837 --> 00:00:43,349
+A sleeping dolphin
+
+27
+00:00:43,349 --> 00:00:44,599
+keeps one eye open.
+
+28
+00:00:44,599 --> 00:00:46,536
+The eye on the opposite side
+
+29
+00:00:46,536 --> 00:00:47,649
+of the sleeping half
+
+30
+00:00:47,649 --> 00:00:49,224
+watching for predators.
+
+31
+00:00:50,126 --> 00:00:51,638
+They drift near the surface
+
+32
+00:00:51,638 --> 00:00:52,901
+resting motionless
+
+33
+00:00:52,901 --> 00:00:53,963
+or swimming slowly
+
+34
+00:00:53,963 --> 00:00:55,513
+and rise every few minutes
+
+35
+00:00:55,513 --> 00:00:57,100
+for a calm, easy breath.
+
+36
+00:00:57,100 --> 00:00:58,525
+Over a full day
+
+37
+00:00:58,525 --> 00:00:59,838
+each half of the brain
+
+38
+00:00:59,838 --> 00:01:01,625
+gets about four hours of sleep.
+
+39
+00:01:02,501 --> 00:01:04,638
+New mothers do not get that luxury.
+
+40
+00:01:04,638 --> 00:01:05,875
+For a whole month
+
+41
+00:01:05,875 --> 00:01:07,063
+after a calf is born
+
+42
+00:01:07,063 --> 00:01:08,175
+mother and baby
+
+43
+00:01:08,175 --> 00:01:09,363
+barely sleep at all.
+
+44
+00:01:10,270 --> 00:01:11,594
+Half a brain asleep.
+
+45
+00:01:11,594 --> 00:01:12,969
+One eye open.
+
+46
+00:01:12,969 --> 00:01:14,507
+And still breathing.
+
+47
+00:01:14,507 --> 00:01:16,595
+That is how a dolphin sleeps
+
+48
+00:01:16,595 --> 00:01:17,557
+without drowning.

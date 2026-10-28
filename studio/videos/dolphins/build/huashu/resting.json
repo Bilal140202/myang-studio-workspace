@@ -16,7 +16,7 @@
    "data": {
     "icon": "stack"
    },
-   "at": 0.764
+   "at": 0.45
   },
   {
    "kind": "draw",
@@ -24,17 +24,17 @@
    "data": {
     "icon": "check"
    },
-   "at": 3.131
+   "at": 4.55
   },
   {
    "kind": "point",
    "text": "Every few minutes",
-   "at": 5.098
+   "at": 5.275
   },
   {
    "kind": "title",
    "text": "4 hours per half, per day",
-   "at": 9.946
+   "at": 10.562
   }
  ]
 }

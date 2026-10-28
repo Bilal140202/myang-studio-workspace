@@ -1,0 +1,1823 @@
+{
+ "format": "9x16",
+ "lang": "en",
+ "dur": 79.432,
+ "scenes": [
+  {
+   "id": "hook",
+   "t0": 0.0,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "dolphins",
+       "kind": "draw",
+       "text": "Dolphins need air",
+       "data": {
+        "icon": "bulb"
+       }
+      },
+      {
+       "at_word": "ocean",
+       "kind": "point",
+       "text": "But they live underwater"
+      },
+      {
+       "at_word": "how",
+       "kind": "title",
+       "text": "How do they sleep?"
+      }
+     ]
+    },
+    "phu_de": "Here's a puzzle. | Dolphins are mammals, | so they need air to breathe. | But they live in the ocean. | So how do they sleep | without drowning?"
+   },
+   "voice": {
+    "t0": 0.1,
+    "dur": 9.024,
+    "file": "build/audio/hook.wav"
+   },
+   "text": "Here's a puzzle. Dolphins are mammals, so they need air to breathe. But they live in the ocean. So how do they sleep without drowning?",
+   "t1": 9.374
+  },
+  {
+   "id": "problem",
+   "t0": 9.374,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "breathe",
+       "kind": "draw",
+       "text": "You breathe on autopilot",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "every",
+       "kind": "point",
+       "text": "Dolphins decide every breath"
+      },
+      {
+       "at_word": "fall",
+       "kind": "draw",
+       "text": "Fully asleep = stop breathing",
+       "data": {
+        "icon": "cross"
+       }
+      },
+      {
+       "at_word": "breathing",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "Humans breathe automatically. | You never have to think | about it. | A dolphin's breath is voluntary. | Every single breath | is a conscious decision. | Fall completely asleep, | and a dolphin | would stop breathing."
+   },
+   "voice": {
+    "t0": 9.524,
+    "dur": 13.8,
+    "file": "build/audio/problem.wav"
+   },
+   "text": "Humans breathe automatically. You never have to think about it. A dolphin's breath is voluntary. Every single breath is a conscious decision. Fall completely asleep, and a dolphin would stop breathing.",
+   "t1": 23.574
+  },
+  {
+   "id": "trick",
+   "t0": 23.574,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "half",
+       "kind": "draw",
+       "text": "Half the brain sleeps",
+       "data": {
+        "icon": "network"
+       }
+      },
+      {
+       "at_word": "other",
+       "kind": "point",
+       "text": "One half at a time"
+      },
+      {
+       "at_word": "unihemispheric",
+       "kind": "point",
+       "text": "Unihemispheric slow-wave sleep"
+      },
+      {
+       "at_word": "sleep",
+       "nth": 2,
+       "kind": "highlight",
+       "data": {
+        "target": "point",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "So dolphins evolved | a clever workaround. | They sleep with only half | of their brain at a time. | The other half stays awake. | Scientists call it | unihemispheric slow-wave sleep."
+   },
+   "voice": {
+    "t0": 23.724,
+    "dur": 12.0,
+    "file": "build/audio/trick.wav"
+   },
+   "text": "So dolphins evolved a clever workaround. They sleep with only half of their brain at a time. The other half stays awake. Scientists call it unihemispheric slow-wave sleep.",
+   "t1": 35.974
+  },
+  {
+   "id": "eye",
+   "t0": 35.974,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "duty",
+       "kind": "draw",
+       "text": "Awake half on duty",
+       "data": {
+        "icon": "target"
+       }
+      },
+      {
+       "at_word": "open",
+       "kind": "draw",
+       "text": "One eye open",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "opposite",
+       "kind": "point",
+       "text": "Eye opposite the sleeping half"
+      },
+      {
+       "at_word": "predators",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "The sleeping half rests, | while the awake half | stays on duty. | And here is the giveaway. | A sleeping dolphin | keeps one eye open. | The eye on the opposite side | of the sleeping half, | watching for predators."
+   },
+   "voice": {
+    "t0": 36.124,
+    "dur": 13.464,
+    "file": "build/audio/eye.wav"
+   },
+   "text": "The sleeping half rests, while the awake half stays on duty. And here is the giveaway. A sleeping dolphin keeps one eye open. The eye on the opposite side of the sleeping half, watching for predators.",
+   "t1": 49.838
+  },
+  {
+   "id": "resting",
+   "t0": 49.838,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "drift",
+       "kind": "draw",
+       "text": "Rests at the surface",
+       "data": {
+        "icon": "stack"
+       }
+      },
+      {
+       "at_word": "rise",
+       "kind": "draw",
+       "text": "Rises to breathe",
+       "data": {
+        "icon": "check"
+       }
+      },
+      {
+       "at_word": "minutes",
+       "kind": "point",
+       "text": "Every few minutes"
+      },
+      {
+       "at_word": "four",
+       "kind": "title",
+       "text": "4 hours per half, per day"
+      }
+     ]
+    },
+    "phu_de": "They drift near the surface, | resting motionless | or swimming slowly, | and rise every few minutes | for a calm, easy breath. | Over a full day, | each half of the brain | gets about four hours of sleep."
+   },
+   "voice": {
+    "t0": 49.988,
+    "dur": 12.0,
+    "file": "build/audio/resting.wav"
+   },
+   "text": "They drift near the surface, resting motionless or swimming slowly, and rise every few minutes for a calm, easy breath. Over a full day, each half of the brain gets about four hours of sleep.",
+   "t1": 62.238
+  },
+  {
+   "id": "calf",
+   "t0": 62.238,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "mothers",
+       "kind": "draw",
+       "text": "New mothers barely sleep",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "month",
+       "kind": "point",
+       "text": "First month with the calf"
+      },
+      {
+       "at_word": "barely",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 0
+       }
+      }
+     ]
+    },
+    "phu_de": "New mothers | do not get that luxury. | For a whole month | after a calf is born, | mother and baby | barely sleep at all."
+   },
+   "voice": {
+    "t0": 62.388,
+    "dur": 7.344,
+    "file": "build/audio/calf.wav"
+   },
+   "text": "New mothers do not get that luxury. For a whole month after a calf is born, mother and baby barely sleep at all.",
+   "t1": 69.982
+  },
+  {
+   "id": "outro",
+   "t0": 69.982,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "half",
+       "kind": "point",
+       "text": "Half a brain asleep"
+      },
+      {
+       "at_word": "eye",
+       "kind": "point",
+       "text": "One eye open"
+      },
+      {
+       "at_word": "still",
+       "kind": "title",
+       "text": "Still breathing."
+      }
+     ]
+    },
+    "phu_de": "Half a brain asleep. | One eye open. | And still breathing. | That is how a dolphin sleeps | without drowning."
+   },
+   "voice": {
+    "t0": 70.132,
+    "dur": 7.8,
+    "file": "build/audio/outro.wav"
+   },
+   "text": "Half a brain asleep. One eye open. And still breathing. That is how a dolphin sleeps without drowning.",
+   "t1": 79.432
+  }
+ ],
+ "subs": [
+  {
+   "s": "Here's a puzzle.",
+   "t0": 0.238,
+   "t1": 1.138,
+   "w": [
+    [
+     "Here's",
+     0.238,
+     0.475,
+     0
+    ],
+    [
+     "a",
+     0.475,
+     0.563,
+     0
+    ],
+    [
+     "puzzle.",
+     0.563,
+     1.138,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Dolphins are mammals",
+   "t0": 1.138,
+   "t1": 2.75,
+   "w": [
+    [
+     "Dolphins",
+     1.138,
+     2.113,
+     0
+    ],
+    [
+     "are",
+     2.113,
+     2.175,
+     0
+    ],
+    [
+     "mammals,",
+     2.175,
+     2.75,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "so they need air to breathe.",
+   "t0": 2.75,
+   "t1": 4.45,
+   "w": [
+    [
+     "so",
+     2.75,
+     3.15,
+     0
+    ],
+    [
+     "they",
+     3.15,
+     3.312,
+     0
+    ],
+    [
+     "need",
+     3.312,
+     3.575,
+     0
+    ],
+    [
+     "air",
+     3.575,
+     3.775,
+     0
+    ],
+    [
+     "to",
+     3.775,
+     3.925,
+     0
+    ],
+    [
+     "breathe.",
+     3.925,
+     4.45,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "But they live in the ocean.",
+   "t0": 4.45,
+   "t1": 6.212,
+   "w": [
+    [
+     "But",
+     4.45,
+     5.0,
+     0
+    ],
+    [
+     "they",
+     5.0,
+     5.125,
+     0
+    ],
+    [
+     "live",
+     5.125,
+     5.387,
+     0
+    ],
+    [
+     "in",
+     5.387,
+     5.5,
+     0
+    ],
+    [
+     "the",
+     5.5,
+     5.662,
+     0
+    ],
+    [
+     "ocean.",
+     5.662,
+     6.212,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "So how do they sleep",
+   "t0": 6.212,
+   "t1": 7.8,
+   "w": [
+    [
+     "So",
+     6.212,
+     6.863,
+     0
+    ],
+    [
+     "how",
+     6.863,
+     7.05,
+     0
+    ],
+    [
+     "do",
+     7.05,
+     7.175,
+     0
+    ],
+    [
+     "they",
+     7.175,
+     7.337,
+     0
+    ],
+    [
+     "sleep",
+     7.337,
+     7.8,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "without drowning?",
+   "t0": 7.8,
+   "t1": 8.75,
+   "w": [
+    [
+     "without",
+     7.8,
+     8.15,
+     0
+    ],
+    [
+     "drowning?",
+     8.15,
+     8.75,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Humans breathe automatically.",
+   "t0": 9.649,
+   "t1": 11.562,
+   "w": [
+    [
+     "Humans",
+     9.649,
+     10.149,
+     0
+    ],
+    [
+     "breathe",
+     10.149,
+     10.624,
+     0
+    ],
+    [
+     "automatically.",
+     10.624,
+     11.562,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "You never have to think",
+   "t0": 11.562,
+   "t1": 12.999,
+   "w": [
+    [
+     "You",
+     11.562,
+     12.099,
+     0
+    ],
+    [
+     "never",
+     12.099,
+     12.386,
+     0
+    ],
+    [
+     "have",
+     12.386,
+     12.624,
+     0
+    ],
+    [
+     "to",
+     12.624,
+     12.736,
+     0
+    ],
+    [
+     "think",
+     12.736,
+     12.999,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "about it.",
+   "t0": 12.999,
+   "t1": 13.737,
+   "w": [
+    [
+     "about",
+     12.999,
+     13.374,
+     0
+    ],
+    [
+     "it.",
+     13.374,
+     13.737,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "A dolphin's breath is voluntary.",
+   "t0": 13.737,
+   "t1": 16.162,
+   "w": [
+    [
+     "A",
+     13.737,
+     14.224,
+     0
+    ],
+    [
+     "dolphin's",
+     14.224,
+     14.811,
+     0
+    ],
+    [
+     "breath",
+     14.811,
+     15.261,
+     0
+    ],
+    [
+     "is",
+     15.261,
+     15.449,
+     0
+    ],
+    [
+     "voluntary.",
+     15.449,
+     16.162,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Every single breath",
+   "t0": 16.162,
+   "t1": 17.762,
+   "w": [
+    [
+     "Every",
+     16.162,
+     16.886,
+     0
+    ],
+    [
+     "single",
+     16.886,
+     17.324,
+     0
+    ],
+    [
+     "breath",
+     17.324,
+     17.762,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "is a conscious decision.",
+   "t0": 17.762,
+   "t1": 19.161,
+   "w": [
+    [
+     "is",
+     17.762,
+     17.924,
+     0
+    ],
+    [
+     "a",
+     17.924,
+     17.999,
+     0
+    ],
+    [
+     "conscious",
+     17.999,
+     18.512,
+     0
+    ],
+    [
+     "decision.",
+     18.512,
+     19.161,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Fall completely asleep",
+   "t0": 19.161,
+   "t1": 20.999,
+   "w": [
+    [
+     "Fall",
+     19.161,
+     19.862,
+     0
+    ],
+    [
+     "completely",
+     19.862,
+     20.462,
+     0
+    ],
+    [
+     "asleep,",
+     20.462,
+     20.999,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "and a dolphin would stop breathing.",
+   "t0": 20.999,
+   "t1": 22.949,
+   "w": [
+    [
+     "and",
+     20.999,
+     21.374,
+     0
+    ],
+    [
+     "a",
+     21.374,
+     21.449,
+     0
+    ],
+    [
+     "dolphin",
+     21.449,
+     21.936,
+     0
+    ],
+    [
+     "would",
+     21.936,
+     22.099,
+     0
+    ],
+    [
+     "stop",
+     22.099,
+     22.387,
+     0
+    ],
+    [
+     "breathing.",
+     22.387,
+     22.949,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "So dolphins evolved",
+   "t0": 23.849,
+   "t1": 25.212,
+   "w": [
+    [
+     "So",
+     23.849,
+     24.112,
+     0
+    ],
+    [
+     "dolphins",
+     24.112,
+     24.712,
+     0
+    ],
+    [
+     "evolved",
+     24.712,
+     25.212,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "a clever workaround.",
+   "t0": 25.212,
+   "t1": 26.474,
+   "w": [
+    [
+     "a",
+     25.212,
+     25.286,
+     0
+    ],
+    [
+     "clever",
+     25.286,
+     25.649,
+     0
+    ],
+    [
+     "workaround.",
+     25.649,
+     26.474,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "They sleep with only half",
+   "t0": 26.474,
+   "t1": 28.211,
+   "w": [
+    [
+     "They",
+     26.474,
+     27.024,
+     0
+    ],
+    [
+     "sleep",
+     27.024,
+     27.461,
+     0
+    ],
+    [
+     "with",
+     27.461,
+     27.637,
+     0
+    ],
+    [
+     "only",
+     27.637,
+     27.886,
+     0
+    ],
+    [
+     "half",
+     27.886,
+     28.211,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "of their brain at a time.",
+   "t0": 28.211,
+   "t1": 29.574,
+   "w": [
+    [
+     "of",
+     28.211,
+     28.312,
+     0
+    ],
+    [
+     "their",
+     28.312,
+     28.449,
+     0
+    ],
+    [
+     "brain",
+     28.449,
+     28.862,
+     0
+    ],
+    [
+     "at",
+     28.862,
+     28.999,
+     0
+    ],
+    [
+     "a",
+     28.999,
+     29.074,
+     0
+    ],
+    [
+     "time.",
+     29.074,
+     29.574,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "The other half stays awake.",
+   "t0": 29.574,
+   "t1": 31.599,
+   "w": [
+    [
+     "The",
+     29.574,
+     30.112,
+     0
+    ],
+    [
+     "other",
+     30.112,
+     30.336,
+     0
+    ],
+    [
+     "half",
+     30.336,
+     30.674,
+     0
+    ],
+    [
+     "stays",
+     30.674,
+     31.036,
+     0
+    ],
+    [
+     "awake.",
+     31.036,
+     31.599,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Scientists call it",
+   "t0": 31.599,
+   "t1": 33.274,
+   "w": [
+    [
+     "Scientists",
+     31.599,
+     32.799,
+     0
+    ],
+    [
+     "call",
+     32.799,
+     33.074,
+     0
+    ],
+    [
+     "it",
+     33.074,
+     33.274,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "unihemispheric slow-wave sleep.",
+   "t0": 33.274,
+   "t1": 35.349,
+   "w": [
+    [
+     "unihemispheric",
+     33.274,
+     34.261,
+     0
+    ],
+    [
+     "slow-wave",
+     34.261,
+     34.824,
+     0
+    ],
+    [
+     "sleep.",
+     34.824,
+     35.349,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "The sleeping half rests",
+   "t0": 36.262,
+   "t1": 37.737,
+   "w": [
+    [
+     "The",
+     36.262,
+     36.374,
+     0
+    ],
+    [
+     "sleeping",
+     36.374,
+     36.899,
+     0
+    ],
+    [
+     "half",
+     36.899,
+     37.224,
+     0
+    ],
+    [
+     "rests,",
+     37.224,
+     37.737,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "while the awake half",
+   "t0": 37.737,
+   "t1": 38.949,
+   "w": [
+    [
+     "while",
+     37.737,
+     38.186,
+     0
+    ],
+    [
+     "the",
+     38.186,
+     38.299,
+     0
+    ],
+    [
+     "awake",
+     38.299,
+     38.674,
+     0
+    ],
+    [
+     "half",
+     38.674,
+     38.949,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "stays on duty.",
+   "t0": 38.949,
+   "t1": 39.949,
+   "w": [
+    [
+     "stays",
+     38.949,
+     39.312,
+     0
+    ],
+    [
+     "on",
+     39.312,
+     39.449,
+     0
+    ],
+    [
+     "duty.",
+     39.449,
+     39.949,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "And here is the giveaway.",
+   "t0": 39.949,
+   "t1": 41.837,
+   "w": [
+    [
+     "And",
+     39.949,
+     40.474,
+     0
+    ],
+    [
+     "here",
+     40.474,
+     40.837,
+     0
+    ],
+    [
+     "is",
+     40.837,
+     41.024,
+     0
+    ],
+    [
+     "the",
+     41.024,
+     41.149,
+     0
+    ],
+    [
+     "giveaway.",
+     41.149,
+     41.837,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "A sleeping dolphin",
+   "t0": 41.837,
+   "t1": 43.349,
+   "w": [
+    [
+     "A",
+     41.837,
+     42.312,
+     0
+    ],
+    [
+     "sleeping",
+     42.312,
+     42.812,
+     0
+    ],
+    [
+     "dolphin",
+     42.812,
+     43.349,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "keeps one eye open.",
+   "t0": 43.349,
+   "t1": 44.599,
+   "w": [
+    [
+     "keeps",
+     43.349,
+     43.699,
+     0
+    ],
+    [
+     "one",
+     43.699,
+     43.936,
+     0
+    ],
+    [
+     "eye",
+     43.936,
+     44.111,
+     0
+    ],
+    [
+     "open.",
+     44.111,
+     44.599,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "The eye on the opposite side",
+   "t0": 44.599,
+   "t1": 46.536,
+   "w": [
+    [
+     "The",
+     44.599,
+     45.161,
+     0
+    ],
+    [
+     "eye",
+     45.161,
+     45.436,
+     0
+    ],
+    [
+     "on",
+     45.436,
+     45.574,
+     0
+    ],
+    [
+     "the",
+     45.574,
+     45.686,
+     0
+    ],
+    [
+     "opposite",
+     45.686,
+     46.161,
+     0
+    ],
+    [
+     "side",
+     46.161,
+     46.536,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "of the sleeping half",
+   "t0": 46.536,
+   "t1": 47.649,
+   "w": [
+    [
+     "of",
+     46.536,
+     46.636,
+     0
+    ],
+    [
+     "the",
+     46.636,
+     46.749,
+     0
+    ],
+    [
+     "sleeping",
+     46.749,
+     47.186,
+     0
+    ],
+    [
+     "half,",
+     47.186,
+     47.649,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "watching for predators.",
+   "t0": 47.649,
+   "t1": 49.224,
+   "w": [
+    [
+     "watching",
+     47.649,
+     48.349,
+     0
+    ],
+    [
+     "for",
+     48.349,
+     48.499,
+     0
+    ],
+    [
+     "predators.",
+     48.499,
+     49.224,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "They drift near the surface",
+   "t0": 50.126,
+   "t1": 51.638,
+   "w": [
+    [
+     "They",
+     50.126,
+     50.288,
+     0
+    ],
+    [
+     "drift",
+     50.288,
+     50.688,
+     0
+    ],
+    [
+     "near",
+     50.688,
+     50.888,
+     0
+    ],
+    [
+     "the",
+     50.888,
+     51.0,
+     0
+    ],
+    [
+     "surface,",
+     51.0,
+     51.638,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "resting motionless",
+   "t0": 51.638,
+   "t1": 52.901,
+   "w": [
+    [
+     "resting",
+     51.638,
+     52.238,
+     0
+    ],
+    [
+     "motionless",
+     52.238,
+     52.901,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "or swimming slowly",
+   "t0": 52.901,
+   "t1": 53.963,
+   "w": [
+    [
+     "or",
+     52.901,
+     53.038,
+     0
+    ],
+    [
+     "swimming",
+     53.038,
+     53.426,
+     0
+    ],
+    [
+     "slowly,",
+     53.426,
+     53.963,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "and rise every few minutes",
+   "t0": 53.963,
+   "t1": 55.513,
+   "w": [
+    [
+     "and",
+     53.963,
+     54.388,
+     0
+    ],
+    [
+     "rise",
+     54.388,
+     54.676,
+     0
+    ],
+    [
+     "every",
+     54.676,
+     54.888,
+     0
+    ],
+    [
+     "few",
+     54.888,
+     55.113,
+     0
+    ],
+    [
+     "minutes",
+     55.113,
+     55.513,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "for a calm, easy breath.",
+   "t0": 55.513,
+   "t1": 57.1,
+   "w": [
+    [
+     "for",
+     55.513,
+     55.65,
+     0
+    ],
+    [
+     "a",
+     55.65,
+     55.738,
+     0
+    ],
+    [
+     "calm,",
+     55.738,
+     56.188,
+     0
+    ],
+    [
+     "easy",
+     56.188,
+     56.6,
+     0
+    ],
+    [
+     "breath.",
+     56.6,
+     57.1,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Over a full day",
+   "t0": 57.1,
+   "t1": 58.525,
+   "w": [
+    [
+     "Over",
+     57.1,
+     57.775,
+     0
+    ],
+    [
+     "a",
+     57.775,
+     57.85,
+     0
+    ],
+    [
+     "full",
+     57.85,
+     58.138,
+     0
+    ],
+    [
+     "day,",
+     58.138,
+     58.525,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "each half of the brain",
+   "t0": 58.525,
+   "t1": 59.838,
+   "w": [
+    [
+     "each",
+     58.525,
+     59.0,
+     0
+    ],
+    [
+     "half",
+     59.0,
+     59.25,
+     0
+    ],
+    [
+     "of",
+     59.25,
+     59.351,
+     0
+    ],
+    [
+     "the",
+     59.351,
+     59.463,
+     0
+    ],
+    [
+     "brain",
+     59.463,
+     59.838,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "gets about four hours of sleep.",
+   "t0": 59.838,
+   "t1": 61.625,
+   "w": [
+    [
+     "gets",
+     59.838,
+     60.113,
+     0
+    ],
+    [
+     "about",
+     60.113,
+     60.4,
+     0
+    ],
+    [
+     "four",
+     60.4,
+     60.701,
+     0
+    ],
+    [
+     "hours",
+     60.701,
+     61.0,
+     0
+    ],
+    [
+     "of",
+     61.0,
+     61.101,
+     0
+    ],
+    [
+     "sleep.",
+     61.101,
+     61.625,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "New mothers do not get that luxury.",
+   "t0": 62.501,
+   "t1": 64.638,
+   "w": [
+    [
+     "New",
+     62.501,
+     62.726,
+     0
+    ],
+    [
+     "mothers",
+     62.726,
+     63.213,
+     0
+    ],
+    [
+     "do",
+     63.213,
+     63.351,
+     0
+    ],
+    [
+     "not",
+     63.351,
+     63.6,
+     0
+    ],
+    [
+     "get",
+     63.6,
+     63.826,
+     0
+    ],
+    [
+     "that",
+     63.826,
+     64.051,
+     0
+    ],
+    [
+     "luxury.",
+     64.051,
+     64.638,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "For a whole month",
+   "t0": 64.638,
+   "t1": 65.875,
+   "w": [
+    [
+     "For",
+     64.638,
+     65.2,
+     0
+    ],
+    [
+     "a",
+     65.2,
+     65.25,
+     0
+    ],
+    [
+     "whole",
+     65.25,
+     65.526,
+     0
+    ],
+    [
+     "month",
+     65.526,
+     65.875,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "after a calf is born",
+   "t0": 65.875,
+   "t1": 67.063,
+   "w": [
+    [
+     "after",
+     65.875,
+     66.163,
+     0
+    ],
+    [
+     "a",
+     66.163,
+     66.225,
+     0
+    ],
+    [
+     "calf",
+     66.225,
+     66.538,
+     0
+    ],
+    [
+     "is",
+     66.538,
+     66.675,
+     0
+    ],
+    [
+     "born,",
+     66.675,
+     67.063,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "mother and baby",
+   "t0": 67.063,
+   "t1": 68.175,
+   "w": [
+    [
+     "mother",
+     67.063,
+     67.625,
+     0
+    ],
+    [
+     "and",
+     67.625,
+     67.776,
+     0
+    ],
+    [
+     "baby",
+     67.776,
+     68.175,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "barely sleep at all.",
+   "t0": 68.175,
+   "t1": 69.363,
+   "w": [
+    [
+     "barely",
+     68.175,
+     68.538,
+     0
+    ],
+    [
+     "sleep",
+     68.538,
+     68.875,
+     0
+    ],
+    [
+     "at",
+     68.875,
+     69.026,
+     0
+    ],
+    [
+     "all.",
+     69.026,
+     69.363,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "Half a brain asleep.",
+   "t0": 70.27,
+   "t1": 71.594,
+   "w": [
+    [
+     "Half",
+     70.27,
+     70.557,
+     0
+    ],
+    [
+     "a",
+     70.557,
+     70.657,
+     0
+    ],
+    [
+     "brain",
+     70.657,
+     70.982,
+     0
+    ],
+    [
+     "asleep.",
+     70.982,
+     71.594,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "One eye open.",
+   "t0": 71.594,
+   "t1": 72.969,
+   "w": [
+    [
+     "One",
+     71.594,
+     72.232,
+     0
+    ],
+    [
+     "eye",
+     72.232,
+     72.42,
+     0
+    ],
+    [
+     "open.",
+     72.42,
+     72.969,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "And still breathing.",
+   "t0": 72.969,
+   "t1": 74.507,
+   "w": [
+    [
+     "And",
+     72.969,
+     73.52,
+     0
+    ],
+    [
+     "still",
+     73.52,
+     73.895,
+     0
+    ],
+    [
+     "breathing.",
+     73.895,
+     74.507,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "That is how a dolphin sleeps",
+   "t0": 74.507,
+   "t1": 76.595,
+   "w": [
+    [
+     "That",
+     74.507,
+     75.119,
+     0
+    ],
+    [
+     "is",
+     75.119,
+     75.257,
+     0
+    ],
+    [
+     "how",
+     75.257,
+     75.482,
+     0
+    ],
+    [
+     "a",
+     75.482,
+     75.582,
+     0
+    ],
+    [
+     "dolphin",
+     75.582,
+     76.07,
+     0
+    ],
+    [
+     "sleeps",
+     76.07,
+     76.595,
+     0
+    ]
+   ]
+  },
+  {
+   "s": "without drowning.",
+   "t0": 76.595,
+   "t1": 77.557,
+   "w": [
+    [
+     "without",
+     76.595,
+     76.957,
+     0
+    ],
+    [
+     "drowning.",
+     76.957,
+     77.557,
+     0
+    ]
+   ]
+  }
+ ],
+ "style": {
+  "subtitle_style": "box"
+ },
+ "title": "dolphins"
+}

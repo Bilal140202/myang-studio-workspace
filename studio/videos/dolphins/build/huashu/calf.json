@@ -16,12 +16,12 @@
    "data": {
     "icon": "person"
    },
-   "at": 0.599
+   "at": 0.488
   },
   {
    "kind": "point",
    "text": "First month with the calf",
-   "at": 3.953
+   "at": 3.288
   },
   {
    "kind": "highlight",
@@ -29,7 +29,7 @@
     "target": "draw",
     "index": 0
    },
-   "at": 5.959
+   "at": 5.937
   }
  ]
 }

@@ -21,7 +21,7 @@ publish:
 scenes:
   - id: hook
     narration: Here's a puzzle. Dolphins are mammals, so they need air to breathe. But they live in the ocean. So how do they sleep without drowning?
-    subtitle: "Dolphins need air to breathe. | But they live in the **ocean**. | So how do they sleep?"
+    subtitle: "Here's a puzzle. | Dolphins are mammals, | so they need air to breathe. | But they live in the ocean. | So how do they sleep | without drowning?"
     huashu:
       grammar: y3_whiteboard
       cues:
@@ -31,7 +31,7 @@ scenes:
 
   - id: problem
     narration: Humans breathe automatically. You never have to think about it. A dolphin's breath is voluntary. Every single breath is a conscious decision. Fall completely asleep, and a dolphin would stop breathing.
-    subtitle: "You breathe on **autopilot**. | A dolphin chooses **every breath**. | Fall fully asleep → stop breathing."
+    subtitle: "Humans breathe automatically. | You never have to think | about it. | A dolphin's breath is voluntary. | Every single breath | is a conscious decision. | Fall completely asleep, | and a dolphin | would stop breathing."
     huashu:
       grammar: y3_whiteboard
       cues:
@@ -42,7 +42,7 @@ scenes:
 
   - id: trick
     narration: So dolphins evolved a clever workaround. They sleep with only half of their brain at a time. The other half stays awake. Scientists call it unihemispheric slow-wave sleep.
-    subtitle: "Dolphins sleep with **half the brain**. | The other half stays awake. | **Unihemispheric** slow-wave sleep."
+    subtitle: "So dolphins evolved | a clever workaround. | They sleep with only half | of their brain at a time. | The other half stays awake. | Scientists call it | unihemispheric slow-wave sleep."
     huashu:
       grammar: y3_whiteboard
       cues:
@@ -53,7 +53,7 @@ scenes:
 
   - id: eye
     narration: The sleeping half rests, while the awake half stays on duty. And here is the giveaway. A sleeping dolphin keeps one eye open. The eye on the opposite side of the sleeping half, watching for predators.
-    subtitle: "The awake half **stays on duty**. | A sleeping dolphin keeps **one eye open**. | The eye on the **opposite** side, watching for **predators**."
+    subtitle: "The sleeping half rests, | while the awake half | stays on duty. | And here is the giveaway. | A sleeping dolphin | keeps one eye open. | The eye on the opposite side | of the sleeping half, | watching for predators."
     huashu:
       grammar: y3_whiteboard
       cues:
@@ -64,18 +64,18 @@ scenes:
 
   - id: resting
     narration: They drift near the surface, resting motionless or swimming slowly, and rise every few minutes for a calm, easy breath. Over a full day, each half of the brain gets about four hours of sleep.
-    subtitle: "They drift near the surface. | Rising every few minutes for a **breath**. | Each half gets about **4 hours** a day."
+    subtitle: "They drift near the surface, | resting motionless | or swimming slowly, | and rise every few minutes | for a calm, easy breath. | Over a full day, | each half of the brain | gets about four hours of sleep."
     huashu:
       grammar: y3_whiteboard
       cues:
         - { at_word: drift, kind: draw, text: "Rests at the surface", data: { icon: stack } }
-        - { at_word: rising, kind: draw, text: "Rises to breathe", data: { icon: check } }
+        - { at_word: rise, kind: draw, text: "Rises to breathe", data: { icon: check } }
         - { at_word: minutes, kind: point, text: "Every few minutes" }
-        - { at_word: "4", kind: title, text: "4 hours per half, per day" }
+        - { at_word: four, kind: title, text: "4 hours per half, per day" }
 
   - id: calf
     narration: New mothers do not get that luxury. For a whole month after a calf is born, mother and baby barely sleep at all.
-    subtitle: "New mothers get **no luxury**. | For a whole **month**, | mother and baby barely sleep."
+    subtitle: "New mothers | do not get that luxury. | For a whole month | after a calf is born, | mother and baby | barely sleep at all."
     huashu:
       grammar: y3_whiteboard
       cues:
@@ -85,7 +85,7 @@ scenes:
 
   - id: outro
     narration: Half a brain asleep. One eye open. And still breathing. That is how a dolphin sleeps without drowning.
-    subtitle: "Half a brain asleep. | One eye open. | **Still breathing.**"
+    subtitle: "Half a brain asleep. | One eye open. | And still breathing. | That is how a dolphin sleeps | without drowning."
     huashu:
       grammar: y3_whiteboard
       cues:

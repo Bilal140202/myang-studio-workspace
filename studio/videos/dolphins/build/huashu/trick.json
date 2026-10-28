@@ -16,17 +16,17 @@
    "data": {
     "icon": "network"
    },
-   "at": 1.806
+   "at": 4.312
   },
   {
    "kind": "point",
    "text": "One half at a time",
-   "at": 4.068
+   "at": 6.538
   },
   {
    "kind": "point",
    "text": "Unihemispheric slow-wave sleep",
-   "at": 6.83
+   "at": 9.7
   },
   {
    "kind": "highlight",
@@ -34,7 +34,7 @@
     "target": "point",
     "index": 1
    },
-   "at": 11.085
+   "at": 11.25
   }
  ]
 }

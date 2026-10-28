@@ -16,12 +16,12 @@
    "data": {
     "icon": "person"
    },
-   "at": 0.821
+   "at": 0.775
   },
   {
    "kind": "point",
    "text": "Dolphins decide every breath",
-   "at": 6.699
+   "at": 6.788
   },
   {
    "kind": "draw",
@@ -29,7 +29,7 @@
    "data": {
     "icon": "cross"
    },
-   "at": 8.694
+   "at": 9.787
   },
   {
    "kind": "highlight",
@@ -37,7 +37,7 @@
     "target": "draw",
     "index": 1
    },
-   "at": 12.468
+   "at": 13.013
   }
  ]
 }
