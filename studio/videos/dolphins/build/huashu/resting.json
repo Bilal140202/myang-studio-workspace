@@ -1,0 +1,40 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 13.0,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "Rests at the surface",
+   "data": {
+    "icon": "stack"
+   },
+   "at": 0.764
+  },
+  {
+   "kind": "draw",
+   "text": "Rises to breathe",
+   "data": {
+    "icon": "check"
+   },
+   "at": 3.131
+  },
+  {
+   "kind": "point",
+   "text": "Every few minutes",
+   "at": 5.098
+  },
+  {
+   "kind": "title",
+   "text": "4 hours per half, per day",
+   "at": 9.946
+  }
+ ]
+}

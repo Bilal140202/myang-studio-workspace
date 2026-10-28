@@ -1,0 +1,94 @@
+# How dolphins sleep without drowning — 9x16 sketch/whiteboard short (EN)
+# Visuals: huashu whiteboard (drawn in code). Voice: Edge TTS en-GB-SoniaNeural ("Sonia").
+# Cues use at_word: they fire on the narrator's exact word timings (Edge TTS word boundaries).
+name: dolphins
+format: 9x16
+language: en
+voice: { sample: documentarian, volume: 0.55, speed: 1.0 }
+sfx: { level: 1.0, ambience: khong }
+style: { subtitle_style: box }
+publish:
+  titles:
+    - "How do dolphins sleep without drowning?"
+    - "Dolphins sleep with one eye open — here's why"
+    - "The dolphin sleep trick scientists can't stop talking about"
+  hook: "Dolphins can't fall asleep the way you do — or they'd stop breathing."
+  topics: ["animal facts", "ocean life", "how dolphins sleep", "unihemispheric sleep"]
+  drama: "One half of the brain sleeps while the other stays on duty."
+  trust: "Facts checked against Whale and Dolphin Conservation and marine-mammal research."
+  tags: ["dolphins", "animalfacts", "ocean", "marinebiology", "learnontiktok"]
+
+scenes:
+  - id: hook
+    narration: Here's a puzzle. Dolphins are mammals, so they need air to breathe. But they live in the ocean. So how do they sleep without drowning?
+    subtitle: "Dolphins need air to breathe. | But they live in the **ocean**. | So how do they sleep?"
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: dolphins, kind: draw, text: "Dolphins need air", data: { icon: bulb } }
+        - { at_word: ocean, kind: point, text: "But they live underwater" }
+        - { at_word: how, kind: title, text: "How do they sleep?" }
+
+  - id: problem
+    narration: Humans breathe automatically. You never have to think about it. A dolphin's breath is voluntary. Every single breath is a conscious decision. Fall completely asleep, and a dolphin would stop breathing.
+    subtitle: "You breathe on **autopilot**. | A dolphin chooses **every breath**. | Fall fully asleep → stop breathing."
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: breathe, kind: draw, text: "You breathe on autopilot", data: { icon: person } }
+        - { at_word: every, kind: point, text: "Dolphins decide every breath" }
+        - { at_word: fall, kind: draw, text: "Fully asleep = stop breathing", data: { icon: cross } }
+        - { at_word: breathing, kind: highlight, data: { target: draw, index: 1 } }
+
+  - id: trick
+    narration: So dolphins evolved a clever workaround. They sleep with only half of their brain at a time. The other half stays awake. Scientists call it unihemispheric slow-wave sleep.
+    subtitle: "Dolphins sleep with **half the brain**. | The other half stays awake. | **Unihemispheric** slow-wave sleep."
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: half, kind: draw, text: "Half the brain sleeps", data: { icon: network } }
+        - { at_word: other, kind: point, text: "One half at a time" }
+        - { at_word: unihemispheric, kind: point, text: "Unihemispheric slow-wave sleep" }
+        - { at_word: sleep, nth: 2, kind: highlight, data: { target: point, index: 1 } }
+
+  - id: eye
+    narration: The sleeping half rests, while the awake half stays on duty. And here is the giveaway. A sleeping dolphin keeps one eye open. The eye on the opposite side of the sleeping half, watching for predators.
+    subtitle: "The awake half **stays on duty**. | A sleeping dolphin keeps **one eye open**. | The eye on the **opposite** side, watching for **predators**."
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: duty, kind: draw, text: "Awake half on duty", data: { icon: target } }
+        - { at_word: open, kind: draw, text: "One eye open", data: { icon: person } }
+        - { at_word: opposite, kind: point, text: "Eye opposite the sleeping half" }
+        - { at_word: predators, kind: highlight, data: { target: draw, index: 1 } }
+
+  - id: resting
+    narration: They drift near the surface, resting motionless or swimming slowly, and rise every few minutes for a calm, easy breath. Over a full day, each half of the brain gets about four hours of sleep.
+    subtitle: "They drift near the surface. | Rising every few minutes for a **breath**. | Each half gets about **4 hours** a day."
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: drift, kind: draw, text: "Rests at the surface", data: { icon: stack } }
+        - { at_word: rising, kind: draw, text: "Rises to breathe", data: { icon: check } }
+        - { at_word: minutes, kind: point, text: "Every few minutes" }
+        - { at_word: "4", kind: title, text: "4 hours per half, per day" }
+
+  - id: calf
+    narration: New mothers do not get that luxury. For a whole month after a calf is born, mother and baby barely sleep at all.
+    subtitle: "New mothers get **no luxury**. | For a whole **month**, | mother and baby barely sleep."
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: mothers, kind: draw, text: "New mothers barely sleep", data: { icon: person } }
+        - { at_word: month, kind: point, text: "First month with the calf" }
+        - { at_word: barely, kind: highlight, data: { target: draw, index: 0 } }
+
+  - id: outro
+    narration: Half a brain asleep. One eye open. And still breathing. That is how a dolphin sleeps without drowning.
+    subtitle: "Half a brain asleep. | One eye open. | **Still breathing.**"
+    huashu:
+      grammar: y3_whiteboard
+      cues:
+        - { at_word: half, kind: point, text: "Half a brain asleep" }
+        - { at_word: eye, kind: point, text: "One eye open" }
+        - { at_word: still, kind: title, text: "Still breathing." }

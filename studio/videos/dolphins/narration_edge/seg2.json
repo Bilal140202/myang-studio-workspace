@@ -1,0 +1,161 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "Humans",
+   "start": 0.125,
+   "end": 0.625
+  },
+  {
+   "word": "breathe",
+   "start": 0.637,
+   "end": 1.1
+  },
+  {
+   "word": "automatically",
+   "start": 1.113,
+   "end": 2.038
+  },
+  {
+   "word": "You",
+   "start": 2.438,
+   "end": 2.575
+  },
+  {
+   "word": "never",
+   "start": 2.587,
+   "end": 2.862
+  },
+  {
+   "word": "have",
+   "start": 2.875,
+   "end": 3.1
+  },
+  {
+   "word": "to",
+   "start": 3.112,
+   "end": 3.212
+  },
+  {
+   "word": "think",
+   "start": 3.225,
+   "end": 3.475
+  },
+  {
+   "word": "about",
+   "start": 3.487,
+   "end": 3.85
+  },
+  {
+   "word": "it",
+   "start": 3.862,
+   "end": 4.213
+  },
+  {
+   "word": "A",
+   "start": 4.6,
+   "end": 4.7
+  },
+  {
+   "word": "dolphin's",
+   "start": 4.713,
+   "end": 5.287
+  },
+  {
+   "word": "breath",
+   "start": 5.3,
+   "end": 5.737
+  },
+  {
+   "word": "is",
+   "start": 5.75,
+   "end": 5.925
+  },
+  {
+   "word": "voluntary",
+   "start": 5.938,
+   "end": 6.638
+  },
+  {
+   "word": "Every",
+   "start": 7.013,
+   "end": 7.362
+  },
+  {
+   "word": "single",
+   "start": 7.375,
+   "end": 7.8
+  },
+  {
+   "word": "breath",
+   "start": 7.812,
+   "end": 8.238
+  },
+  {
+   "word": "is",
+   "start": 8.25,
+   "end": 8.4
+  },
+  {
+   "word": "a",
+   "start": 8.412,
+   "end": 8.475
+  },
+  {
+   "word": "conscious",
+   "start": 8.488,
+   "end": 8.988
+  },
+  {
+   "word": "decision",
+   "start": 9.0,
+   "end": 9.637
+  },
+  {
+   "word": "Fall",
+   "start": 10.025,
+   "end": 10.338
+  },
+  {
+   "word": "completely",
+   "start": 10.35,
+   "end": 10.938
+  },
+  {
+   "word": "asleep",
+   "start": 10.95,
+   "end": 11.475
+  },
+  {
+   "word": "and",
+   "start": 11.75,
+   "end": 11.85
+  },
+  {
+   "word": "a",
+   "start": 11.863,
+   "end": 11.925
+  },
+  {
+   "word": "dolphin",
+   "start": 11.938,
+   "end": 12.412
+  },
+  {
+   "word": "would",
+   "start": 12.425,
+   "end": 12.575
+  },
+  {
+   "word": "stop",
+   "start": 12.588,
+   "end": 12.863
+  },
+  {
+   "word": "breathing",
+   "start": 12.875,
+   "end": 13.425
+  }
+ ]
+}

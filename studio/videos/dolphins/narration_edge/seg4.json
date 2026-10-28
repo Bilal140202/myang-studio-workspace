@@ -1,0 +1,186 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "The",
+   "start": 0.138,
+   "end": 0.25
+  },
+  {
+   "word": "sleeping",
+   "start": 0.263,
+   "end": 0.775
+  },
+  {
+   "word": "half",
+   "start": 0.787,
+   "end": 1.1
+  },
+  {
+   "word": "rests",
+   "start": 1.113,
+   "end": 1.613
+  },
+  {
+   "word": "while",
+   "start": 1.863,
+   "end": 2.062
+  },
+  {
+   "word": "the",
+   "start": 2.075,
+   "end": 2.175
+  },
+  {
+   "word": "awake",
+   "start": 2.188,
+   "end": 2.55
+  },
+  {
+   "word": "half",
+   "start": 2.562,
+   "end": 2.825
+  },
+  {
+   "word": "stays",
+   "start": 2.837,
+   "end": 3.188
+  },
+  {
+   "word": "on",
+   "start": 3.2,
+   "end": 3.325
+  },
+  {
+   "word": "duty",
+   "start": 3.337,
+   "end": 3.825
+  },
+  {
+   "word": "And",
+   "start": 4.225,
+   "end": 4.35
+  },
+  {
+   "word": "here",
+   "start": 4.362,
+   "end": 4.713
+  },
+  {
+   "word": "is",
+   "start": 4.725,
+   "end": 4.9
+  },
+  {
+   "word": "the",
+   "start": 4.912,
+   "end": 5.025
+  },
+  {
+   "word": "giveaway",
+   "start": 5.037,
+   "end": 5.713
+  },
+  {
+   "word": "A",
+   "start": 6.112,
+   "end": 6.188
+  },
+  {
+   "word": "sleeping",
+   "start": 6.2,
+   "end": 6.688
+  },
+  {
+   "word": "dolphin",
+   "start": 6.7,
+   "end": 7.225
+  },
+  {
+   "word": "keeps",
+   "start": 7.237,
+   "end": 7.575
+  },
+  {
+   "word": "one",
+   "start": 7.588,
+   "end": 7.812
+  },
+  {
+   "word": "eye",
+   "start": 7.825,
+   "end": 7.987
+  },
+  {
+   "word": "open",
+   "start": 8.0,
+   "end": 8.475
+  },
+  {
+   "word": "The",
+   "start": 8.863,
+   "end": 9.037
+  },
+  {
+   "word": "eye",
+   "start": 9.05,
+   "end": 9.312
+  },
+  {
+   "word": "on",
+   "start": 9.325,
+   "end": 9.45
+  },
+  {
+   "word": "the",
+   "start": 9.463,
+   "end": 9.562
+  },
+  {
+   "word": "opposite",
+   "start": 9.575,
+   "end": 10.037
+  },
+  {
+   "word": "side",
+   "start": 10.05,
+   "end": 10.412
+  },
+  {
+   "word": "of",
+   "start": 10.425,
+   "end": 10.512
+  },
+  {
+   "word": "the",
+   "start": 10.525,
+   "end": 10.625
+  },
+  {
+   "word": "sleeping",
+   "start": 10.637,
+   "end": 11.062
+  },
+  {
+   "word": "half",
+   "start": 11.075,
+   "end": 11.525
+  },
+  {
+   "word": "watching",
+   "start": 11.8,
+   "end": 12.225
+  },
+  {
+   "word": "for",
+   "start": 12.238,
+   "end": 12.375
+  },
+  {
+   "word": "predators",
+   "start": 12.387,
+   "end": 13.1
+  }
+ ]
+}

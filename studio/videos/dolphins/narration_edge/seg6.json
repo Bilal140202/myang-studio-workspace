@@ -1,0 +1,121 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "New",
+   "start": 0.113,
+   "end": 0.338
+  },
+  {
+   "word": "mothers",
+   "start": 0.35,
+   "end": 0.825
+  },
+  {
+   "word": "do",
+   "start": 0.838,
+   "end": 0.963
+  },
+  {
+   "word": "not",
+   "start": 0.975,
+   "end": 1.212
+  },
+  {
+   "word": "get",
+   "start": 1.225,
+   "end": 1.438
+  },
+  {
+   "word": "that",
+   "start": 1.45,
+   "end": 1.663
+  },
+  {
+   "word": "luxury",
+   "start": 1.675,
+   "end": 2.25
+  },
+  {
+   "word": "For",
+   "start": 2.638,
+   "end": 2.812
+  },
+  {
+   "word": "a",
+   "start": 2.825,
+   "end": 2.862
+  },
+  {
+   "word": "whole",
+   "start": 2.875,
+   "end": 3.138
+  },
+  {
+   "word": "month",
+   "start": 3.15,
+   "end": 3.487
+  },
+  {
+   "word": "after",
+   "start": 3.5,
+   "end": 3.775
+  },
+  {
+   "word": "a",
+   "start": 3.788,
+   "end": 3.837
+  },
+  {
+   "word": "calf",
+   "start": 3.85,
+   "end": 4.15
+  },
+  {
+   "word": "is",
+   "start": 4.162,
+   "end": 4.287
+  },
+  {
+   "word": "born",
+   "start": 4.3,
+   "end": 4.675
+  },
+  {
+   "word": "mother",
+   "start": 4.963,
+   "end": 5.237
+  },
+  {
+   "word": "and",
+   "start": 5.25,
+   "end": 5.388
+  },
+  {
+   "word": "baby",
+   "start": 5.4,
+   "end": 5.787
+  },
+  {
+   "word": "barely",
+   "start": 5.8,
+   "end": 6.15
+  },
+  {
+   "word": "sleep",
+   "start": 6.162,
+   "end": 6.487
+  },
+  {
+   "word": "at",
+   "start": 6.5,
+   "end": 6.638
+  },
+  {
+   "word": "all",
+   "start": 6.65,
+   "end": 6.975
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "They",
+   "start": 0.138,
+   "end": 0.3
+  },
+  {
+   "word": "drift",
+   "start": 0.312,
+   "end": 0.7
+  },
+  {
+   "word": "near",
+   "start": 0.713,
+   "end": 0.9
+  },
+  {
+   "word": "the",
+   "start": 0.912,
+   "end": 1.012
+  },
+  {
+   "word": "surface",
+   "start": 1.025,
+   "end": 1.65
+  },
+  {
+   "word": "resting",
+   "start": 1.887,
+   "end": 2.25
+  },
+  {
+   "word": "motionless",
+   "start": 2.263,
+   "end": 2.913
+  },
+  {
+   "word": "or",
+   "start": 2.925,
+   "end": 3.05
+  },
+  {
+   "word": "swimming",
+   "start": 3.062,
+   "end": 3.438
+  },
+  {
+   "word": "slowly",
+   "start": 3.45,
+   "end": 3.975
+  },
+  {
+   "word": "and",
+   "start": 4.263,
+   "end": 4.4
+  },
+  {
+   "word": "rise",
+   "start": 4.412,
+   "end": 4.688
+  },
+  {
+   "word": "every",
+   "start": 4.7,
+   "end": 4.9
+  },
+  {
+   "word": "few",
+   "start": 4.912,
+   "end": 5.125
+  },
+  {
+   "word": "minutes",
+   "start": 5.138,
+   "end": 5.525
+  },
+  {
+   "word": "for",
+   "start": 5.537,
+   "end": 5.662
+  },
+  {
+   "word": "a",
+   "start": 5.675,
+   "end": 5.75
+  },
+  {
+   "word": "calm",
+   "start": 5.763,
+   "end": 6.2
+  },
+  {
+   "word": "easy",
+   "start": 6.388,
+   "end": 6.612
+  },
+  {
+   "word": "breath",
+   "start": 6.625,
+   "end": 7.112
+  },
+  {
+   "word": "Over",
+   "start": 7.487,
+   "end": 7.787
+  },
+  {
+   "word": "a",
+   "start": 7.8,
+   "end": 7.862
+  },
+  {
+   "word": "full",
+   "start": 7.875,
+   "end": 8.15
+  },
+  {
+   "word": "day",
+   "start": 8.162,
+   "end": 8.537
+  },
+  {
+   "word": "each",
+   "start": 8.812,
+   "end": 9.012
+  },
+  {
+   "word": "half",
+   "start": 9.025,
+   "end": 9.262
+  },
+  {
+   "word": "of",
+   "start": 9.275,
+   "end": 9.363
+  },
+  {
+   "word": "the",
+   "start": 9.375,
+   "end": 9.475
+  },
+  {
+   "word": "brain",
+   "start": 9.488,
+   "end": 9.85
+  },
+  {
+   "word": "gets",
+   "start": 9.863,
+   "end": 10.125
+  },
+  {
+   "word": "about",
+   "start": 10.137,
+   "end": 10.412
+  },
+  {
+   "word": "four",
+   "start": 10.425,
+   "end": 10.713
+  },
+  {
+   "word": "hours",
+   "start": 10.725,
+   "end": 11.012
+  },
+  {
+   "word": "of",
+   "start": 11.025,
+   "end": 11.113
+  },
+  {
+   "word": "sleep",
+   "start": 11.125,
+   "end": 11.637
+  }
+ ]
+}

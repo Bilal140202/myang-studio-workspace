@@ -1,0 +1,40 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 13.0,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "Half the brain sleeps",
+   "data": {
+    "icon": "network"
+   },
+   "at": 1.806
+  },
+  {
+   "kind": "point",
+   "text": "One half at a time",
+   "at": 4.068
+  },
+  {
+   "kind": "point",
+   "text": "Unihemispheric slow-wave sleep",
+   "at": 6.83
+  },
+  {
+   "kind": "highlight",
+   "data": {
+    "target": "point",
+    "index": 1
+   },
+   "at": 11.085
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+# Thumbnail config — dolphins
+mau_nhan: "#ffd400"
+phien_ban:
+  - ten: khong-ngu
+    nguon: anh_bia/ca-map.png
+    chu: ["DOLPHINS", "*NEVER SLEEP"]     # "*" = accent-colour box
+    bo_cuc: trai                          # text left, subject right
+    tach_nen: false
+    lat: false

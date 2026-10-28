@@ -1,0 +1,50 @@
+{
+ "video": "out/dolphins_9x16.mp4",
+ "canh_bao": [
+  "bitrate 0.8 Mbps is low for 1080×1920 — prone to blocking when posted (aim for ≥ 8 Mbps)",
+  "blown-out frames at seconds [0, 1, 2, 3, 4, 5, 6, 7]",
+  "no text on the first frame (TikTok's auto-picked cover would be textless)"
+ ],
+ "thoi_luong": 89.33,
+ "dung_luong_mb": 8.6,
+ "mbps": 0.8,
+ "do_to_lufs": -14.4,
+ "dung_yen_dai_nhat_s": 2,
+ "giong": [
+  {
+   "id": "hook",
+   "dur": 12.38
+  },
+  {
+   "id": "problem",
+   "dur": 14.86
+  },
+  {
+   "id": "trick",
+   "dur": 12.46
+  },
+  {
+   "id": "eye",
+   "dur": 13.7
+  },
+  {
+   "id": "resting",
+   "dur": 14.85
+  },
+  {
+   "id": "calf",
+   "dur": 8.68
+  },
+  {
+   "id": "outro",
+   "dur": 8.53
+  }
+ ],
+ "giong_phu": 0.96,
+ "duoi_s": 1.38,
+ "duoi_nghe": "Half a brain asleep, one eye open and still breathing, that is how a dolphin sleeps without drowning.",
+ "diem_cat": {
+  "so": 6,
+  "loi": []
+ }
+}

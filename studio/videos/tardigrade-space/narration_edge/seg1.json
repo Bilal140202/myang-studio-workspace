@@ -1,0 +1,86 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "This",
+   "start": 0.138,
+   "end": 0.375
+  },
+  {
+   "word": "animal",
+   "start": 0.388,
+   "end": 0.775
+  },
+  {
+   "word": "spent",
+   "start": 0.787,
+   "end": 1.262
+  },
+  {
+   "word": "ten",
+   "start": 1.275,
+   "end": 1.512
+  },
+  {
+   "word": "days",
+   "start": 1.525,
+   "end": 1.875
+  },
+  {
+   "word": "in",
+   "start": 1.887,
+   "end": 2.0
+  },
+  {
+   "word": "open",
+   "start": 2.013,
+   "end": 2.312
+  },
+  {
+   "word": "space",
+   "start": 2.325,
+   "end": 2.95
+  },
+  {
+   "word": "Then",
+   "start": 3.337,
+   "end": 3.6
+  },
+  {
+   "word": "scientists",
+   "start": 3.612,
+   "end": 4.388
+  },
+  {
+   "word": "added",
+   "start": 4.4,
+   "end": 4.675
+  },
+  {
+   "word": "water",
+   "start": 4.688,
+   "end": 5.188
+  },
+  {
+   "word": "and",
+   "start": 5.412,
+   "end": 5.537
+  },
+  {
+   "word": "it",
+   "start": 5.55,
+   "end": 5.662
+  },
+  {
+   "word": "woke",
+   "start": 5.675,
+   "end": 5.938
+  },
+  {
+   "word": "up",
+   "start": 5.95,
+   "end": 6.325
+  }
+ ]
+}

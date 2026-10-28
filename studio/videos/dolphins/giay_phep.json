@@ -1,0 +1,135 @@
+{
+ "hook": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "db33a263189e",
+  "file": "build/huashu/hook.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 299,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 9.974,
+    "f0": 0
+   }
+  ]
+ },
+ "problem": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "1823b44f8571",
+  "file": "build/huashu/problem.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 444,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 14.8,
+    "f0": 0
+   }
+  ]
+ },
+ "trick": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "fd64307e4836",
+  "file": "build/huashu/trick.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 390,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 13.0,
+    "f0": 0
+   }
+  ]
+ },
+ "eye": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "1ca51fb87e59",
+  "file": "build/huashu/eye.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 434,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 14.464,
+    "f0": 0
+   }
+  ]
+ },
+ "resting": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "463e19f3f006",
+  "file": "build/huashu/resting.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 390,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 13.0,
+    "f0": 0
+   }
+  ]
+ },
+ "calf": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "0e8efb5c4e2a",
+  "file": "build/huashu/calf.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 250,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 8.344,
+    "f0": 0
+   }
+  ]
+ },
+ "outro": {
+  "nguon": "huashu",
+  "loai": "huashu",
+  "grammar": "y3_whiteboard",
+  "hash": "8c9502fefe3c",
+  "file": "build/huashu/outro.mp4",
+  "tac_gia": "huashu-art-motion (drawn in code)",
+  "giay_phep": "own work",
+  "khung": 302,
+  "cat": [],
+  "shots": [
+   {
+    "k": "v",
+    "t0": 0.0,
+    "t1": 10.05,
+    "f0": 0
+   }
+  ]
+ }
+}

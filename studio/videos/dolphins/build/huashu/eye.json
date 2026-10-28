@@ -1,0 +1,43 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 14.464,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "Awake half on duty",
+   "data": {
+    "icon": "target"
+   },
+   "at": 2.686
+  },
+  {
+   "kind": "draw",
+   "text": "One eye open",
+   "data": {
+    "icon": "person"
+   },
+   "at": 7.106
+  },
+  {
+   "kind": "point",
+   "text": "Eye opposite the sleeping half",
+   "at": 9.508
+  },
+  {
+   "kind": "highlight",
+   "data": {
+    "target": "draw",
+    "index": 1
+   },
+   "at": 12.142
+  }
+ ]
+}

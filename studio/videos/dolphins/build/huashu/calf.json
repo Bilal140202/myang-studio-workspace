@@ -1,0 +1,35 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 8.344,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "New mothers barely sleep",
+   "data": {
+    "icon": "person"
+   },
+   "at": 0.599
+  },
+  {
+   "kind": "point",
+   "text": "First month with the calf",
+   "at": 3.953
+  },
+  {
+   "kind": "highlight",
+   "data": {
+    "target": "draw",
+    "index": 0
+   },
+   "at": 5.959
+  }
+ ]
+}

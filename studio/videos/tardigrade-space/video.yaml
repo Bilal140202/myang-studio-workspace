@@ -1,0 +1,56 @@
+# The animal that survived outer space — 9x16 sketch/whiteboard (EN)
+# Voice: Edge TTS en-GB-SoniaNeural. Cues use at_word on DISPLAYED subtitle words.
+# Anti-slop: polish narration freely, but facts/sources may not change.
+name: tardigrade-space
+format: 9x16
+language: en
+voice: { sample: documentarian, volume: 0.55, speed: 1.0 }
+sfx: { level: 1.0, ambience: khong }
+style: { subtitle_style: box }
+publish:
+  titles:
+    - "The animal that survived outer space"
+    - "This animal spent ten days in open space. Then scientists added water, and it woke up."
+    - "The animal that survived outer space — the animal file nobody expects"
+  hook: "This animal spent ten days in open space. Then scientists added water, and it woke up."
+  topics: ["animal facts", "weird biology", "nature shorts", "survival"]
+  drama: "This animal spent ten days in open space. Then scientists added water, and it woke up."
+  trust: "Every fact sourced in nghien_cuu.md. Day 2 of the 30-day bank."
+  tags: ["tardigradespace", "animalfacts", "survival", "learnontiktok", "myang"]
+
+scenes:
+  - id: hook
+    narration: "This animal spent ten days in open space. Then scientists added water, and it woke up."
+    subtitle: "**The animal that survived outer space.**"
+    huashu:
+      grammar: y3_whiteboard
+      cues: []   # add at_word cues AFTER polish (word must be DISPLAYED)
+
+  - id: f1
+    narration: "Tardigrades survived 10 days of exposed low-Earth orbit in 2007 -- vacuum, UV and cosmic radiation -- and some laid viable eggs afterward."
+    subtitle: "**Tardigrades survived 10 days of exposed low-Earth orbit in 2007 -- vacuum, UV and cosmic radiation -- and some laid viable eggs afterward**."
+    huashu:
+      grammar: y3_whiteboard
+      cues: []   # add at_word cues AFTER polish (word must be DISPLAYED)
+
+  - id: f2
+    narration: "They survive by entering the tun state: expelling almost all water and halting metabolism (cryptobiosis)."
+    subtitle: "**They survive by entering the tun state: expelling almost all water and halting metabolism (cryptobiosis)**."
+    huashu:
+      grammar: y3_whiteboard
+      cues: []   # add at_word cues AFTER polish (word must be DISPLAYED)
+
+  - id: f3
+    narration: "Tardigrades revived and reproduced after 30.5 years frozen at −20 °C in a museum collection."
+    subtitle: "**Tardigrades revived and reproduced after 30.5 years frozen at −20 °C in a museum collection**."
+    huashu:
+      grammar: y3_whiteboard
+      cues: []   # add at_word cues AFTER polish (word must be DISPLAYED)
+
+  - id: outro
+    narration: "That is how animal that survived outer space — filed, checked, and stamped."
+    subtitle: "**Filed.** | Checked against the research. | **Stamped.**"
+    huashu:
+      grammar: y3_whiteboard
+      cues: []   # add at_word cues AFTER polish (word must be DISPLAYED)
+

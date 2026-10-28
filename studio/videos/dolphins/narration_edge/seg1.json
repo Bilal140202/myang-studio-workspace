@@ -1,0 +1,131 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "Here's",
+   "start": 0.138,
+   "end": 0.375
+  },
+  {
+   "word": "a",
+   "start": 0.388,
+   "end": 0.463
+  },
+  {
+   "word": "puzzle",
+   "start": 0.475,
+   "end": 1.038
+  },
+  {
+   "word": "Dolphins",
+   "start": 1.4,
+   "end": 2.013
+  },
+  {
+   "word": "are",
+   "start": 2.025,
+   "end": 2.075
+  },
+  {
+   "word": "mammals",
+   "start": 2.087,
+   "end": 2.65
+  },
+  {
+   "word": "so",
+   "start": 2.913,
+   "end": 3.05
+  },
+  {
+   "word": "they",
+   "start": 3.062,
+   "end": 3.212
+  },
+  {
+   "word": "need",
+   "start": 3.225,
+   "end": 3.475
+  },
+  {
+   "word": "air",
+   "start": 3.487,
+   "end": 3.675
+  },
+  {
+   "word": "to",
+   "start": 3.688,
+   "end": 3.825
+  },
+  {
+   "word": "breathe",
+   "start": 3.837,
+   "end": 4.35
+  },
+  {
+   "word": "But",
+   "start": 4.713,
+   "end": 4.9
+  },
+  {
+   "word": "they",
+   "start": 4.912,
+   "end": 5.025
+  },
+  {
+   "word": "live",
+   "start": 5.037,
+   "end": 5.287
+  },
+  {
+   "word": "in",
+   "start": 5.3,
+   "end": 5.4
+  },
+  {
+   "word": "the",
+   "start": 5.412,
+   "end": 5.562
+  },
+  {
+   "word": "ocean",
+   "start": 5.575,
+   "end": 6.112
+  },
+  {
+   "word": "So",
+   "start": 6.5,
+   "end": 6.763
+  },
+  {
+   "word": "how",
+   "start": 6.775,
+   "end": 6.95
+  },
+  {
+   "word": "do",
+   "start": 6.963,
+   "end": 7.075
+  },
+  {
+   "word": "they",
+   "start": 7.088,
+   "end": 7.237
+  },
+  {
+   "word": "sleep",
+   "start": 7.25,
+   "end": 7.7
+  },
+  {
+   "word": "without",
+   "start": 7.713,
+   "end": 8.05
+  },
+  {
+   "word": "drowning",
+   "start": 8.062,
+   "end": 8.65
+  }
+ ]
+}

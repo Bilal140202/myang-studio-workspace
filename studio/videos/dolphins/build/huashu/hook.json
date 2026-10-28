@@ -1,0 +1,32 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 9.974,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "Dolphins need air",
+   "data": {
+    "icon": "bulb"
+   },
+   "at": 0.238
+  },
+  {
+   "kind": "point",
+   "text": "But they live underwater",
+   "at": 5.472
+  },
+  {
+   "kind": "title",
+   "text": "How do they sleep?",
+   "at": 7.05
+  }
+ ]
+}

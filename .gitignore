@@ -1,0 +1,15 @@
+# Backup-superset ignore: the workspace backup repo tracks EVERYTHING except true junk.
+# Render frame caches (regenerable by `xp art`) are the only heavy exclusion.
+skills/
+node_modules/
+tool-results/
+publish.git/
+backup.git/
+gh-recover/
+.stash*/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+build/layers/

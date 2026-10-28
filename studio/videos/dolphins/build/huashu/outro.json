@@ -1,0 +1,29 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 10.05,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "point",
+   "text": "Half a brain asleep",
+   "at": 0.288
+  },
+  {
+   "kind": "point",
+   "text": "One eye open",
+   "at": 4.36
+  },
+  {
+   "kind": "title",
+   "text": "Still breathing.",
+   "at": 5.9
+  }
+ ]
+}

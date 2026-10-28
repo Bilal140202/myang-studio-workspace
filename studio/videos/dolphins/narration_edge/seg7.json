@@ -1,0 +1,96 @@
+{
+ "voice": "en-GB-SoniaNeural",
+ "rate": "+0%",
+ "words": [
+  {
+   "word": "Half",
+   "start": 0.138,
+   "end": 0.425
+  },
+  {
+   "word": "a",
+   "start": 0.438,
+   "end": 0.525
+  },
+  {
+   "word": "brain",
+   "start": 0.537,
+   "end": 0.85
+  },
+  {
+   "word": "asleep",
+   "start": 0.863,
+   "end": 1.462
+  },
+  {
+   "word": "One",
+   "start": 1.863,
+   "end": 2.1
+  },
+  {
+   "word": "eye",
+   "start": 2.112,
+   "end": 2.288
+  },
+  {
+   "word": "open",
+   "start": 2.3,
+   "end": 2.837
+  },
+  {
+   "word": "And",
+   "start": 3.212,
+   "end": 3.388
+  },
+  {
+   "word": "still",
+   "start": 3.4,
+   "end": 3.763
+  },
+  {
+   "word": "breathing",
+   "start": 3.775,
+   "end": 4.375
+  },
+  {
+   "word": "That",
+   "start": 4.775,
+   "end": 4.987
+  },
+  {
+   "word": "is",
+   "start": 5.0,
+   "end": 5.125
+  },
+  {
+   "word": "how",
+   "start": 5.138,
+   "end": 5.35
+  },
+  {
+   "word": "a",
+   "start": 5.362,
+   "end": 5.45
+  },
+  {
+   "word": "dolphin",
+   "start": 5.463,
+   "end": 5.938
+  },
+  {
+   "word": "sleeps",
+   "start": 5.95,
+   "end": 6.463
+  },
+  {
+   "word": "without",
+   "start": 6.475,
+   "end": 6.825
+  },
+  {
+   "word": "drowning",
+   "start": 6.838,
+   "end": 7.425
+  }
+ ]
+}

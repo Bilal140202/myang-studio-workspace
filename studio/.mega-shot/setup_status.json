@@ -1,0 +1,186 @@
+{
+ "time": "2026-10-27 07:04",
+ "ready": false,
+ "items": [
+  {
+   "id": "uv",
+   "name": "uv (Python runner)",
+   "status": "ok",
+   "detail": "uv 0.13.6 (x86_64-unknown-linux-gnu)",
+   "why": "runs every xp command and installs Python packages on demand",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "ffmpeg",
+   "name": "FFmpeg + FFprobe",
+   "status": "ok",
+   "detail": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the F",
+   "why": "mixing, encoding, frame extraction",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "chromium",
+   "name": "Chromium (Playwright)",
+   "status": "ok",
+   "detail": "launches headless",
+   "why": "renders every frame",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "webcodecs",
+   "name": "In-browser H.264 encoder",
+   "status": "info",
+   "detail": "software only (slower)",
+   "why": "fast rendering (see references/performance.md)",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "gpu",
+   "name": "NVIDIA GPU / driver",
+   "status": "info",
+   "detail": "nvidia-smi not found",
+   "why": "VoiceStudio runs much faster on an NVIDIA GPU",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "voicestudio",
+   "name": "VoiceStudio (narration API :3900)",
+   "status": "missing",
+   "detail": "not installed",
+   "why": "generates narration and word timestamps (local voice cloning)",
+   "action": "xp setup --install voicestudio   (official release from github.com/debpalash/VoiceStudio for this OS/CPU, SHA-256 verified, per-user install without admin; on macOS it also runs xattr -cr /Applications/VoiceStudio.app because the app is not notarized; then opens it and waits for the API)",
+   "ask": "install"
+  },
+  {
+   "id": "voices",
+   "name": "Voice samples",
+   "status": "missing",
+   "detail": "none",
+   "why": "cloned narration voice (≤ 10 s ref.wav + exact ref.txt)",
+   "action": "Quick start: xp voice add --archetype documentarian (built-in English narrator). Own voice: ask the user for an audio OR video file of the voice (≥ 15 s of one person speaking; music is removed automatically) and confirm they own it or have permission → xp voice add <file> --name <name> --consent",
+   "ask": "provide"
+  },
+  {
+   "id": "pixabay_api_key",
+   "name": "Pixabay API key",
+   "status": "missing",
+   "detail": "not set",
+   "why": "search stock footage/photos",
+   "action": "Add PIXABAY_API_KEY=<key> to .env (copy .env.example; free key: https://pixabay.com/api/docs/)",
+   "ask": "provide"
+  },
+  {
+   "id": "pexels_api_key",
+   "name": "Pexels API key",
+   "status": "optional",
+   "detail": "not set",
+   "why": "search stock footage/photos (second source, optional)",
+   "action": "Add PEXELS_API_KEY=<key> to .env (copy .env.example; free key: https://www.pexels.com/api/)",
+   "ask": "provide"
+  },
+  {
+   "id": "youtube_api_key",
+   "name": "YouTube API key",
+   "status": "optional",
+   "detail": "not set",
+   "why": "optional viral research (xp viral): metadata of top videos on a topic",
+   "action": "Optional: Google Cloud Console → enable \"YouTube Data API v3\" → Credentials → API key → add YOUTUBE_API_KEY=<key> to .env",
+   "ask": "provide"
+  },
+  {
+   "id": "policy",
+   "name": "Auto-download policy",
+   "status": "missing",
+   "detail": "not set",
+   "why": "allows xp assets to download licensed assets automatically (sources, licence, MB limit per video)",
+   "action": "Ask the user to approve auto-downloads from Pixabay/Pexels/NASA/Poly Haven/ambientCG (≤ 1 GB per video), then: xp setup --policy",
+   "ask": "decide"
+  },
+  {
+   "id": "birefnet",
+   "name": "BiRefNet model",
+   "status": "optional",
+   "detail": "not downloaded",
+   "why": "2.5D parallax stills, thumbnail cut-outs",
+   "action": "xp setup --install birefnet   (~973 MB; otherwise downloaded on first use)",
+   "ask": "install"
+  },
+  {
+   "id": "fonts",
+   "name": "Thumbnail fonts",
+   "status": "ok",
+   "detail": "present",
+   "why": "thumbnails with full Vietnamese diacritics",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "rockwell",
+   "name": "Rockwell Extra Bold",
+   "status": "info",
+   "detail": "not installed (Georgia is used instead)",
+   "why": "poster-style thumbnail titles",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "three",
+   "name": "three.js",
+   "status": "optional",
+   "detail": "not installed",
+   "why": "3D template (threejs) only",
+   "action": "xp setup --install three   (needs Node.js/npm)",
+   "ask": "install"
+  },
+  {
+   "id": "blender",
+   "name": "Blender",
+   "status": "optional",
+   "detail": "not found",
+   "why": "Blender template only (Cycles scenery)",
+   "action": "Optional: unzip portable Blender into .mega-shot/tools/ (https://www.blender.org/download/) or set MS_BLENDER",
+   "ask": "manual-optional"
+  },
+  {
+   "id": "huashu",
+   "name": "huashu-art-motion skill",
+   "status": "ok",
+   "detail": "present",
+   "why": "drawn styles: sketch/whiteboard, flat 2D, kinetic type, 3b1b, 35 painterly styles (xp art)",
+   "action": "",
+   "ask": null
+  },
+  {
+   "id": "hyperframes",
+   "name": "HyperFrames (news graphics)",
+   "status": "optional",
+   "detail": "not installed",
+   "why": "news template motion graphics (xp hf)",
+   "action": "xp setup --install hyperframes   (needs Node.js/npm)",
+   "ask": "install"
+  },
+  {
+   "id": "composer",
+   "name": "Music composer + samples",
+   "status": "optional",
+   "detail": "not installed",
+   "why": "original per-video music from an ABC score (xp compose)",
+   "action": "xp setup --install composer   (needs git + Node.js)",
+   "ask": "install"
+  },
+  {
+   "id": "disk",
+   "name": "Free disk space",
+   "status": "info",
+   "detail": "9 GB",
+   "why": "a long series needs ~10–20 GB (assets, frames, masters)",
+   "action": "",
+   "ask": null
+  }
+ ]
+}

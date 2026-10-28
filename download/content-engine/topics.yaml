@@ -1,0 +1,526 @@
+# =============================================================================
+# MYANG STUDIO — 30-DAY TOPIC BANK (single source of truth)
+# =============================================================================
+# Niche: "animal survival engineering — how animals do impossible things"
+# Every topic is a paradox that a whiteboard can draw and Sonia can deadpan.
+# Every fact carries a real source. Facts without sources are forbidden.
+#
+# This file drives everything:
+#   bin/make_calendar.py   -> 30-day-content-calendar.xlsx (this file is read, xlsx written)
+#   bin/new_video.py       -> scaffolds studio/videos/<slug>/video.yaml from a day row
+#   bin/qa_gate.py         -> anti-slop checks (banned phrases, word timing, Myang budget)
+#
+# day 1 is the pilot (dolphins) — already produced with the v2 pipeline.
+# longform days (7/14/21/28): the 16x9 compilation REPLACES the daily short;
+# IG gets 2-3 reel cutdowns carved from the long-form instead.
+# =============================================================================
+
+meta:
+  channel: Myang Studio
+  tagline: "Filed under: beautiful — and lethal"
+  niche: "animal survival engineering / weird biology"
+  language: en
+  start_date: "2026-10-29"          # day 1 publishes this date
+  voice: en-GB-SoniaNeural          # locked — deadpan British archivist
+  tts_rate: "+0%"                   # keep narration natural; tempo handled at import
+  subtitle_style: box
+  visual_grammar: y3_whiteboard
+  loudness_target: -14              # LUFS, YouTube standard
+  shorts_duration: "55-95s"
+  longform_duration: "8-12min"
+
+longform:
+  - day: 7
+    slug: refuse-to-die
+    title: "Animals that refuse to die"
+    angle: "Freezing solid, surviving space, quitting cancer — the survival engineering arms race."
+    reuses: [2, 3, 5, 6, 13]
+    myang: chapter_cards_evidence
+  - day: 14
+    slug: invisible-superpowers
+    title: "Superpowers you can't see"
+    angle: "Electroreception, infrasound, taste-by-touch — senses that feel like science fiction."
+    reuses: [9, 16, 26, 28, 2]
+    myang: chapter_cards_evidence
+  - day: 21
+    slug: physics-of-records
+    title: "The physics of record breakers"
+    angle: "Bullet punches, 390 km/h dives, sonic shrimp — what biomechanics says about limits."
+    reuses: [4, 10, 15, 14, 21]
+    myang: chapter_cards_evidence
+  - day: 28
+    slug: living-on-almost-nothing
+    title: "Living on almost nothing"
+    angle: "Never drinking, never sleeping, slowing to a stop — the energy-budget champions."
+    reuses: [8, 20, 29, 21, 12]
+    myang: chapter_cards_evidence
+
+days:
+  # ── WEEK 1 — SURVIVAL ENGINEERING ─────────────────────────────────────────
+  - day: 1
+    format: short
+    slug: dolphins
+    title: "How dolphins sleep without drowning"
+    pillar: survival
+    hook: "Dolphins can't fall asleep the way you do — or they'd stop breathing."
+    facts:
+      - fact: "Dolphin breathing is voluntary; every breath is a conscious decision, so full sleep would mean suffocation."
+        source: "Lyamin et al., Neuroscience & Biobehavioral Reviews (2008)"
+      - fact: "Dolphins rest one brain hemisphere at a time (unihemispheric slow-wave sleep), keeping one eye open against predators."
+        source: "Lyamin et al., Neuroscience & Biobehavioral Reviews (2008)"
+      - fact: "Each hemisphere gets roughly 4 hours of sleep per day; newborn calves and mothers go near-sleepless for the first month."
+        source: "Lyamin et al., Neuroscience & Biobehavioral Reviews (2008)"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: published
+
+  - day: 2
+    format: short
+    slug: tardigrade-space
+    title: "The animal that survived outer space"
+    pillar: survival
+    hook: "This animal spent ten days in open space. Then scientists added water, and it woke up."
+    facts:
+      - fact: "Tardigrades survived 10 days of exposed low-Earth orbit in 2007 — vacuum, UV and cosmic radiation — and some laid viable eggs afterward."
+        source: "Jönsson et al., Current Biology (2008)"
+      - fact: "They survive by entering the tun state: expelling almost all water and halting metabolism (cryptobiosis)."
+        source: "Jönsson et al., Current Biology (2008)"
+      - fact: "Tardigrades revived and reproduced after 30.5 years frozen at −20 °C in a museum collection."
+        source: "Tsujimoto, Imura & Kanda, Cryobiology (2016)"
+    myang: { beat: corner_reaction, expression: shock, moment: "when the word 'space' lands" }
+    status: planned
+
+  - day: 3
+    format: short
+    slug: wood-frog-freeze
+    title: "The frog that freezes solid and comes back"
+    pillar: survival
+    hook: "In winter, this frog has no heartbeat. Not slow — zero. Then spring presses restart."
+    facts:
+      - fact: "Up to ~65% of a wood frog's body water freezes; the heart stops entirely, brain activity flatlines, and it still revives."
+        source: "Storey & Storey (freeze-tolerance biochemistry series, since 1984)"
+      - fact: "Its liver dumps massive glucose and urea loads as cryoprotectant — nature's antifreeze for cells and organs."
+        source: "Storey & Storey; Costanzo & Lee (Alaskan populations, 2013)"
+      - fact: "Alaskan wood frogs survive body temperatures around −18 °C for months under the leaf litter."
+        source: "Costanzo & Lee et al., Journal of Experimental Biology (2013)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "at the flatline" }
+    status: planned
+
+  - day: 4
+    format: short
+    slug: mantis-punch
+    title: "The fastest punch on Earth belongs to a shrimp"
+    pillar: records
+    hook: "The fastest punch on the planet is thrown by a shrimp the size of your thumb."
+    facts:
+      - fact: "The peacock mantis shrimp's raptorial claw accelerates at roughly 10,000 g, reaching ~23 m/s — comparable to a .22 bullet leaving the barrel."
+        source: "Patek, Korff & Caldwell, Nature (2004)"
+      - fact: "The strike hits with ~1,500 newtons and a collapsing cavitation bubble delivers a second, blunter blow."
+        source: "Patek, Korff & Caldwell, Nature (2004)"
+      - fact: "Aquarium glass eventually loses to this shrimp; keepers use acrylic or reinforced tanks."
+        source: "Patek et al. (2004); husbandry reports documented in aquarist literature"
+    myang: { beat: corner_reaction, expression: shock, moment: "on the cavitation reveal" }
+    status: planned
+
+  - day: 5
+    format: short
+    slug: mole-rat-cancer
+    title: "The nearly cancer-proof, acid-proof rodent"
+    pillar: survival
+    hook: "This wrinkly rodent barely gets cancer, feels no acid burn, and can run on no oxygen for hours."
+    facts:
+      - fact: "Naked mole rats secrete a high-molecular-mass hyaluronan that jams tumor cell overcrowding — cancer is vanishingly rare."
+        source: "Tian et al., Nature (2013)"
+      - fact: "Under oxygen starvation they switch to fructose metabolism, like a plant, and keep their organs running."
+        source: "Park et al., Science (2017)"
+      - fact: "They are insensitive to acid and capsaicin pain; and can live over 30 years — about ten times a mouse."
+        source: "Park et al., PLOS Biology (2008); longevity documented in husbandry literature"
+    myang: { beat: corner_reaction, expression: squint, moment: "at the wrinkles" }
+    status: planned
+
+  - day: 6
+    format: short
+    slug: bowhead-200
+    title: "The whale that outlived the telephone"
+    pillar: records
+    hook: "This whale was middle-aged when the telephone was invented. It's still swimming."
+    facts:
+      - fact: "Bowhead whales live over 200 years — the oldest was found with a stone harpoon point from the 1800s still in its blubber."
+        source: "George et al. (age estimates, 1990s); documented harpoon recovery"
+      - fact: "Their genome shows duplicated and positively-selected DNA-repair and cell-cycle genes."
+        source: "Keane et al., Cell Reports (2015)"
+      - fact: "They break through Arctic ice with their 5-metre skulls — ice up to 30 cm thick."
+        source: "Bowhead biology documented by NOAA / Arctic research programmes"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: planned
+
+  - day: 7
+    format: long
+    slug: refuse-to-die
+    title: "Animals that refuse to die"
+    pillar: survival
+    hook: "Some animals treat death as an optional setting. Here's the engineering behind it."
+    facts:
+      - fact: "Long-form compilation: expands shorts of days 2, 3, 5, 6, 13 with connective narration and chapter cards."
+        source: "Engine reuses researched scene banks — no new facts without sources"
+    myang: { beat: chapter_cards, expression: evidence }
+    status: planned
+
+  # ── WEEK 2 — SENSES & SIGNALS ─────────────────────────────────────────────
+  - day: 8
+    format: short
+    slug: camel-water
+    title: "Why a camel's hump is the wrong answer"
+    pillar: survival
+    hook: "Everyone thinks the hump holds water. It doesn't — the truth is weirder."
+    facts:
+      - fact: "The hump stores fat, not water; trimming water loss is what actually makes camels desert-proof."
+        source: "Schmidt-Nielsen, Desert Animals: Physiological Problems of Heat and Water (1964)"
+      - fact: "A thirsty camel can drink about 100 litres in 10 minutes, and its oval red blood cells tolerate the dilution."
+        source: "Schmidt-Nielsen (1964)"
+      - fact: "Camels survive losing ~25-30% of body mass to sweat; most mammals die near 15%. Body temperature floats between ~34 and 41 °C instead of sweating it away."
+        source: "Schmidt-Nielsen (1964)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "on 'everyone is wrong'" }
+    status: planned
+
+  - day: 9
+    format: short
+    slug: platypus-sense
+    title: "The mammal that hunts with its eyes closed"
+    pillar: senses
+    hook: "This mammal hunts with eyes, ears and nostrils shut. It feels electricity instead."
+    facts:
+      - fact: "The platypus bill carries tens of thousands of electroreceptors that detect the muscle twitches of shrimp and worms."
+        source: "Manger & Pettigrew (1995); Proske, Gregory & Iggo, Journal of Experimental Biology (1998)"
+      - fact: "It closes eyes, ears and nostrils underwater, tracking prey purely by electric field strength and direction."
+        source: "Proske, Gregory & Iggo, J. Exp. Biol. (1998)"
+      - fact: "Males also carry venomous ankle spurs — one of the few venomous mammals."
+        source: "Monotreme biology documented in Australian museum research"
+    myang: { beat: corner_reaction, expression: smug, moment: "when glasses 'detect' electricity — evidence pose" }
+    status: planned
+
+  - day: 10
+    format: short
+    slug: peregrine-dive
+    title: "390 km/h with its eyes open"
+    pillar: records
+    hook: "The fastest animal alive isn't a cheetah. It's a bird folding itself into a bullet."
+    facts:
+      - fact: "A peregrine's stoop has been measured at up to 389 km/h — the accepted speed record for any animal."
+        source: "Speed record compiled by Audubon / ornithological records"
+      - fact: "A nictitating membrane cleans and protects the eye mid-dive; nostril tubercles smooth airflow into the lungs."
+        source: "Cornell Lab of Ornithology (peregrine adaptations)"
+      - fact: "Deep central foveae act like telephoto lenses, locking prey from over a kilometre up."
+        source: "Cornell Lab of Ornithology; raptor vision literature"
+    myang: { beat: corner_reaction, expression: shock, moment: "at the speed number" }
+    status: planned
+
+  - day: 11
+    format: short
+    slug: bee-dance
+    title: "The dance that points at dinner"
+    pillar: senses
+    hook: "A bee just told her sisters where the flowers are — without a single word. She danced it."
+    facts:
+      - fact: "The waggle dance encodes direction as the angle versus the sun, and distance as waggle duration."
+        source: "von Frisch, The Dance Language and Orientation of Bees (1967)"
+      - fact: "Karl von Frisch decoded it and won the 1973 Nobel Prize — proof a dance can be a map."
+        source: "Nobel Prize in Physiology or Medicine (1973)"
+      - fact: "Recruits read the dance in pitch-dark hives, feeling the waggler's vibration through the comb."
+        source: "von Frisch (1967); follow-up comb-vibration studies"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: planned
+
+  - day: 12
+    format: short
+    slug: squirrel-freeze
+    title: "The coldest blood in the mammal world"
+    pillar: survival
+    hook: "Every winter, this squirrel's body chills below freezing. It doesn't die. It doesn't even freeze."
+    facts:
+      - fact: "The Arctic ground squirrel supercools its blood and body to about −2.9 °C — the lowest documented body temperature in any mammal."
+        source: "Barnes, Science (1989)"
+      - fact: "It avoids ice formation while sub-zero — no antifreeze proteins, just scrupulous nucleation control."
+        source: "Barnes, Science (1989)"
+      - fact: "Its brain also cools near-freezing during hibernation, then rewarms fully on waking."
+        source: "Hibernation physiology documented in Arctic rodent research"
+    myang: { beat: corner_reaction, expression: squint, moment: "at the thermometer" }
+    status: planned
+
+  - day: 13
+    format: short
+    slug: immortal-jellyfish
+    title: "The jellyfish that hits reverse on old age"
+    pillar: survival
+    hook: "When this jellyfish gets stressed or old, it doesn't die. It turns back into a baby."
+    facts:
+      - fact: "Turritopsis dohrnii can revert from adult medusa back to the polyp stage via transdifferentiation — restarting the life cycle."
+        source: "Kubota (1982, life-cycle reversal); Miglietta & Lessios, Biological Invasions (2004)"
+      - fact: "In theory the cycle can repeat indefinitely; in practice most get eaten before old age matters."
+        source: "Miglietta & Lessios (2004)"
+      - fact: "Ships' ballast water has spread it across the world's oceans — immortal, and invasive."
+        source: "Miglietta & Lessios, Biological Invasions (2004)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "'in theory' caveat" }
+    status: planned
+
+  - day: 14
+    format: long
+    slug: invisible-superpowers
+    title: "Superpowers you can't see"
+    pillar: senses
+    hook: "Some animals perceive the world in ways you literally cannot imagine. Here's the evidence."
+    facts:
+      - fact: "Long-form compilation: expands shorts of days 9, 16, 26, 28, 2 with connective narration and chapter cards."
+        source: "Engine reuses researched scene banks — no new facts without sources"
+    myang: { beat: chapter_cards, expression: evidence }
+    status: planned
+
+  # ── WEEK 3 — RECORDS & EXTREMES ───────────────────────────────────────────
+  - day: 15
+    format: short
+    slug: pistol-shrimp
+    title: "The shrimp that shoots plasma"
+    pillar: records
+    hook: "This shrimp snaps its claw so hard the water flashes hotter than molten lava."
+    facts:
+      - fact: "The pistol shrimp's snap fires a cavitation bubble that collapses with a bang near 210 dB — among the loudest biological sounds."
+        source: "Versluis et al., Science (2000)"
+      - fact: "The collapsing bubble flashes to roughly 4,700 K for an instant — close to the sun's surface temperature."
+        source: "Versluis et al., Science (2000)"
+      - fact: "The shockwave stuns prey bigger than the shrimp itself; the sound alone can be heard across a reef."
+        source: "Versluis et al. (2000); reef acoustics literature"
+    myang: { beat: corner_reaction, expression: shock, moment: "at the temperature number" }
+    status: planned
+
+  - day: 16
+    format: short
+    slug: octopus-brains
+    title: "Nine brains and a taste-bud problem"
+    pillar: senses
+    hook: "This animal has nine brains — and its arms taste whatever they touch, without asking the head."
+    facts:
+      - fact: "About 500 million neurons: a central brain plus eight semi-independent arm ganglia that solve problems on their own."
+        source: "Wells, Octopus: Physiology and Behaviour of an Advanced Invertebrate (1978); Hanlon & Messenger, Cephalopod Behaviour (1996)"
+      - fact: "Suckers are chemotactile — they taste and grip at the same time, deciding locally what to reject."
+        source: "Wells (1978)"
+      - fact: "Two of its three hearts pump blood through gills; the blood is blue because it runs on copper (haemocyanin)."
+        source: "Hanlon & Messenger, Cephalopod Behaviour (1996)"
+    myang: { beat: corner_reaction, expression: smug, moment: "at 'nine brains'" }
+    status: planned
+
+  - day: 17
+    format: short
+    slug: giraffe-pressure
+    title: "The giraffe should have a stroke by now"
+    pillar: body
+    hook: "A giraffe's blood pressure would hospitalise you in minutes. The giraffe is fine. Here's why."
+    facts:
+      - fact: "Giraffe systolic blood pressure is roughly double a human's — needed to lift blood two metres up that neck."
+        source: "Goetz et al. (1960 catheter measurements); giraffe cardiovascular literature"
+      - fact: "Genome studies found mutations in cardiovascular and bone-growth genes matching giraffe-specific hypertension tolerance."
+        source: "Agaba et al., Nature Communications (2016)"
+      - fact: "Tight leg skin and specialized valve networks manage the pressure swing when the head swings from sky to ground."
+        source: "Giraffe cardiovascular physiology literature (Mitchell & Skinner)"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: planned
+
+  - day: 18
+    format: short
+    slug: crow-grudges
+    title: "The crow that remembers your face"
+    pillar: senses
+    hook: "If you annoy this bird once, it will remember your face for years. And tell its friends."
+    facts:
+      - fact: "Wild crows learned and held grudges against a specific 'dangerous human' mask for years, and taught recruits to scold it."
+        source: "Marzluff et al., Animal Behaviour (2012)"
+      - fact: "Rooks dropped stones into a tube to raise a floating worm — solving an Aesop's-fable water-level puzzle."
+        source: "Bird & Emery, Current Biology (2009)"
+      - fact: "Scrub jays re-hide caches when they notice they were watched — evidence of experience-projection."
+        source: "Emery & Clayton, Nature (2001)"
+    myang: { beat: corner_reaction, expression: squint, moment: "side-eye at the mask" }
+    status: planned
+
+  - day: 19
+    format: short
+    slug: greenland-shark
+    title: "The shark older than the United States"
+    pillar: records
+    hook: "This blind, freezing shark may be older than the United States. Scientists dated its eyes."
+    facts:
+      - fact: "Greenland sharks live for centuries — eye-lens radiocarbon dating put the largest individuals near 400 years old."
+        source: "Nielsen et al., Science (2016)"
+      - fact: "They cruise the deep Arctic at under 1 km/h, half-blind from parasitic copepods on their corneas."
+        source: "Nielsen et al. (2016); Arctic shark ecology literature"
+      - fact: "They don't reach adulthood until ~150 years — the longest known vertebrate maturity wait."
+        source: "Nielsen et al. (2016)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "at 'half-blind'" }
+    status: planned
+
+  - day: 20
+    format: short
+    slug: kangaroo-rat
+    title: "The animal that never drinks water"
+    pillar: body
+    hook: "This desert rodent can live its whole life without drinking a single drop of water."
+    facts:
+      - fact: "Kangaroo rats harvest metabolic water from seed digestion — and lose almost nothing back."
+        source: "Schmidt-Nielsen, water-metabolism studies of desert mammals (1950s–1964)"
+      - fact: "Their kidneys concentrate urine far beyond any similar-sized mammal; nasal passages recycle exhaled moisture."
+        source: "Schmidt-Nielsen (1964)"
+      - fact: "Mid-air, they kick charging rattlesnakes away — jump kicks measured at sub-second reflex times."
+        source: "Whitford, Freymiller & Clark (rattlesnake–kangaroo rat studies, 2017–2019)"
+    myang: { beat: corner_reaction, expression: smug, moment: "at 'never drinks'" }
+    status: planned
+
+  - day: 21
+    format: long
+    slug: physics-of-records
+    title: "The physics of record breakers"
+    pillar: records
+    hook: "Records in nature aren't luck — they're engineering limits being tested."
+    facts:
+      - fact: "Long-form compilation: expands shorts of days 4, 10, 15, 14, 21 with connective narration and chapter cards."
+        source: "Engine reuses researched scene banks — no new facts without sources"
+    myang: { beat: chapter_cards, expression: evidence }
+    status: planned
+
+  # ── WEEK 4 — ENERGY & MAINTENANCE ─────────────────────────────────────────
+  - day: 22
+    format: short
+    slug: hummingbird-torpor
+    title: "The bird that powers down at night"
+    pillar: body
+    hook: "By day its heart beats 1,200 times a minute. At night, it drops to 50 — on purpose."
+    facts:
+      - fact: "Hummingbird hearts hit ~1,200 bpm in flight; at night they enter torpor and drop to ~50 bpm to survive until morning."
+        source: "Lasiewski (1964, hummingbird energetics); torpor physiology literature"
+      - fact: "They remember hundreds of individual flowers, when each refills, and skip the empties — episodic-like memory."
+        source: "Healy & Hurly (flower-memory studies)"
+      - fact: "Their wings are near-symmetrical, letting them fly backwards — the only bird that routinely does."
+        source: "Hummingbird flight biomechanics literature (Cornell Lab of Ornithology)"
+    myang: { beat: corner_reaction, expression: shock, moment: "at 1,200 bpm" }
+    status: planned
+
+  - day: 23
+    format: short
+    slug: sperm-whale
+    title: "The loudest living thing talks in clans"
+    pillar: records
+    hook: "The loudest animal on Earth uses its sound not to attack — but to talk to family."
+    facts:
+      - fact: "Sperm whale clicks reach about 230 dB re 1 µPa at 1 m — the loudest sound made by any animal."
+        source: "Richardson et al., Marine Mammals and Noise (1995)"
+      - fact: "They dive over 2,000 m hunting squid in total darkness, navigating by echolocation."
+        source: "Watwood et al., Journal of Experimental Biology (2006)"
+      - fact: "Families share coda dialects; whales with similar 'songs' form vocal clans — culture without humans."
+        source: "Rendell & Whitehead, Proceedings of the Royal Society B (2003)"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: planned
+
+  - day: 24
+    format: short
+    slug: icefish-blood
+    title: "The fish with invisible blood"
+    pillar: survival
+    hook: "This fish's blood is clear. No red. No haemoglobin. It shouldn't work — it works."
+    facts:
+      - fact: "Icefish are the only vertebrates with no haemoglobin; their blood runs clear and carries little oxygen."
+        source: "Ruud, Nature (1954)"
+      - fact: "Compensation: giant gills, a huge heart pumping large volumes, and ice-cold water where oxygen dissolves easily."
+        source: "Ruud (1954); Antarctic fish physiology literature"
+      - fact: "Antifreeze glycoproteins keep their blood from freezing below 0 °C."
+        source: "DeVries & Wohlschlag, Science (1969); DeVries (1971)"
+    myang: { beat: corner_reaction, expression: squint, moment: "at the clear blood" }
+    status: planned
+
+  - day: 25
+    format: short
+    slug: vulture-acid
+    title: "The stomach that eats anthrax"
+    pillar: body
+    hook: "This bird eats rotten, infected corpses — and its stomach acid nukes everything. Almost."
+    facts:
+      - fact: "Vulture stomach acid sits near pH 1, destroying most pathogens — including anthrax and botulism."
+        source: "Roggenbuck et al., Nature Communications (2014)"
+      - fact: "Their faces stay bald partly because feathers would trap gore their hygiene can't reach."
+        source: "Vulture ecology literature (bald-head thermoregulation and hygiene hypothesis)"
+      - fact: "A Rüppell's vulture holds the altitude record for any bird: about 11,300 metres, confirmed by an aircraft collision."
+        source: "Laybourne, The Wilson Bulletin (1974)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "at the gross-out peak" }
+    status: planned
+
+  - day: 26
+    format: short
+    slug: archerfish
+    title: "The fish that shoots with homework done"
+    pillar: senses
+    hook: "This fish shoots water jets at bugs above the water — and corrects for light bending as it aims."
+    facts:
+      - fact: "Archerfish spit precision jets to knock insects off overhangs, compensating for the light refraction at the water surface."
+        source: "Schuster et al., Current Biology (2004, refraction compensation studies)"
+      - fact: "They can learn the trick by watching a schoolmate hit a target — observational learning in a fish."
+        source: "Schuster et al. (2004–2006 learning studies)"
+      - fact: "The jet hits with a shaped flow that clusters water at the tip just before impact."
+        source: "Archerfish jet dynamics literature (Vailati et al., 2012)"
+    myang: { beat: corner_reaction, expression: smug, moment: "glasses-on aiming pose" }
+    status: planned
+
+  - day: 27
+    format: short
+    slug: axolotl-heal
+    title: "The salamander that regrows everything"
+    pillar: body
+    hook: "Cut off this salamander's leg, and it grows a perfect new one. Limb, bone, nerves, all of it."
+    facts:
+      - fact: "Axolotls regenerate limbs, tail, jaw, spinal cord and even sections of heart tissue without scarring."
+        source: "Regeneration biology literature (Bryant & Gardiner; Tanaka); Nowoshilow et al., Nature (2018)"
+      - fact: "Their genome is the largest ever decoded at the time — 32 billion base pairs, ten times a human's."
+        source: "Nowoshilow et al., Nature (2018)"
+      - fact: "They keep gills and stay aquatic for life — neoteny — while still being able to survive metamorphosis artificially."
+        source: "Axolotl developmental biology (standard literature)"
+    myang: { beat: corner_reaction, expression: shock, moment: "at regrowth timelapse" }
+    status: planned
+
+  - day: 28
+    format: long
+    slug: living-on-almost-nothing
+    title: "Living on almost nothing"
+    pillar: body
+    hook: "Some animals treat energy and water as optional. Here's their survival budget."
+    facts:
+      - fact: "Long-form compilation: expands shorts of days 8, 20, 29, 21, 12 with connective narration and chapter cards."
+        source: "Engine reuses researched scene banks — no new facts without sources"
+    myang: { beat: chapter_cards, expression: evidence }
+    status: planned
+
+  # ── WEEK 5 (days 29-30) ───────────────────────────────────────────────────
+  - day: 29
+    format: short
+    slug: sloth-budget
+    title: "The price of being slow"
+    pillar: body
+    hook: "This animal risks its life once a week — for a bathroom trip. Everything else, it slows down."
+    facts:
+      - fact: "Three-toed sloths descend their tree about once a week to defecate — their single most dangerous routine."
+        source: "Sloth ecology literature; Pauli et al., Proceedings of the Royal Society B (2014)"
+      - fact: "That release can approach a third of their body weight — urine and faeces stored up all week."
+        source: "Field studies of sloth defecation (documented in sloth ecology literature)"
+      - fact: "Their fur farms algae for camouflage, and moths live in it — a three-way mutualism that fertilises the algae."
+        source: "Pauli et al., Proceedings of the Royal Society B (2014)"
+    myang: { beat: corner_reaction, expression: unimused, moment: "at the bathroom reveal" }
+    status: planned
+
+  - day: 30
+    format: short
+    slug: flamingo-leg
+    title: "The one-leg trick physics explains"
+    pillar: body
+    hook: "Flamingos stand on one leg for hours. The twist? It takes no muscle at all."
+    facts:
+      - fact: "A passive mechanical lock in the flamingo's ankle joint lets it stand on one leg with near-zero muscle activity."
+        source: "Chang & Ting, Biology Letters (2017)"
+      - fact: "Dead flamingo cadavers still balanced on one leg when positioned — the stance is built into the skeleton."
+        source: "Chang & Ting, Biology Letters (2017)"
+      - fact: "Their pink comes from carotenoids in brine shrimp and algae; the filter-feeding beak works upside down."
+        source: "Flamingo filter-feeding literature (Jenkin, 1957)"
+    myang: { beat: outro_stamp, expression: stamped }
+    status: planned

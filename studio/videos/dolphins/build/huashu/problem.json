@@ -1,0 +1,43 @@
+{
+ "grammar": "y3_whiteboard",
+ "duration": 14.8,
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "safe": {
+  "top": 0,
+  "bottom": 540
+ },
+ "data": {},
+ "cues": [
+  {
+   "kind": "draw",
+   "text": "You breathe on autopilot",
+   "data": {
+    "icon": "person"
+   },
+   "at": 0.821
+  },
+  {
+   "kind": "point",
+   "text": "Dolphins decide every breath",
+   "at": 6.699
+  },
+  {
+   "kind": "draw",
+   "text": "Fully asleep = stop breathing",
+   "data": {
+    "icon": "cross"
+   },
+   "at": 8.694
+  },
+  {
+   "kind": "highlight",
+   "data": {
+    "target": "draw",
+    "index": 1
+   },
+   "at": 12.468
+  }
+ ]
+}
