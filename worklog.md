@@ -71,3 +71,36 @@ Stage Summary:
 - Engine operational: new_video.py -> polish -> qa_gate (script) -> gen_narration.py -> import_narration.py -> render.sh -> qa_gate (full) -> publish_pack.py
 - Day-2 project scaffolded at studio/videos/tardigrade-space with research desk + word-timed draft narration; next human step: polish narration + add at_word cues, run bootstrap for xp deps, render
 - Anti-slop enforced by gate G1-G7; Myang spec (4 appearances, budget) documented in playbook §7 and enforced by G6
+
+---
+Task ID: 4
+Agent: main agent (Z.ai)
+Task: Publish system to GitHub; delivery switched to Git Releases (standing policy)
+
+Work Log:
+- Published ansaribilal14/myang-studio (752 files) + release v1.0.0 (8 assets) — superseded by Task 5 account move
+- DELIVERY.md: releases are the ONLY delivery channel; tag vMAJOR.MINOR.PATCH[+dayN]; video asset checklist
+
+---
+Task ID: 5
+Agent: main agent (Z.ai)
+Task: Sandbox-wipe recovery, backup repo, caption-free v1.1 rebuild + ASR-verified SRT + release
+
+Work Log:
+- Confirmed user's warning: sandbox wiped publish.git, scripts/make_release.py, mascot zip, README/DELIVERY (worklog survived but stale)
+- Recovered wiped files by cloning ansaribilal14/myang-studio (new token has pull there)
+- New token belongs to account Bilal140202 (push access to ansaribilal14 = pull only) -> canonical repos moved:
+  * Bilal140202/myang-studio = system + releases
+  * Bilal140202/myang-studio-workspace = full working-state backup (3581 files; build artifacts incl., render frame layers excluded) — pushed after every work chunk
+- Two gitdirs over one worktree: publish.git (lean; strict excludes in publish.git/info/exclude) + backup.git (superset)
+- Caption desync root cause: paraphrased display text aligned by cumulative syllable ratio -> captions raced ahead of narration
+- Fix per user directive: NO burned captions; captions = separate SRT. video.yaml subtitles -> verbatim; at_word cues -> narration words (rising->rise, "4"->four); xp timeline -> 48 word-locked cues (ocean 5.662 vs meta 5.675)
+- xp art rebuilt 7 scenes (chromium+huashu reinstalled post-wipe); subs stripped from timeline.json pre-render (cue specs cached) -> caption-free render 2382 frames, export 79.3s -14.0 LUFS
+- Frame-verified t=2..77: whiteboard draws word-anchored, zero burned captions
+- ASR (z-ai): 30s/file limit -> split mix at scene boundaries, 16kHz mono; merged 197 words = 100% SRT vocabulary match
+- Release v1.1.0 (Bilal140202/myang-studio): mp4 5.9MB + srt + thumbnail + publish pack + social captions
+
+Stage Summary:
+- Caption sync proof: ASR-on-final-audio == SRT text (100%)
+- Recover-after-wipe = clone Bilal140202/myang-studio-workspace
+- Pending: mascot redesign (user rejected v1), RPG game (requested next), day-2 tardigrade render

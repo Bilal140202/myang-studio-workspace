@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ember Crypt — a tiny RPG</title>
+<style>
+  html,body{margin:0;height:100%;background:#0b0a10;display:flex;align-items:center;justify-content:center;font-family:monospace}
+  canvas{image-rendering:pixelated;box-shadow:0 0 60px #000a;border:2px solid #2a2633;border-radius:4px}
+</style>
+</head>
+<body>
+<canvas id="c" width="960" height="640"></canvas>
+<script>
+"use strict";
+// ================= EMBER CRYPT — single-file dungeon RPG =================
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const TS = 32, MW = 60, MH = 40, VW = cv.width / TS, VH = cv.height / TS;
+const T_WALL = 1, T_FLOOR = 2, T_DOOR = 3;
+let map, rooms, cam = { x: 0, y: 0 }, shake = 0, state = 'title', tPrev = 0, gtime = 0;
+let player, enemies, pickups, parts, boss, projectiles, msg, msgT, stats;
+
+// ---------- tiny procedural sound ----------
+let AC = null;
+function sfx(f0, f1, dur, type = 'square', vol = .12) {
+  try {
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    const o = AC.createOscillator(), g = AC.createGain(), t = AC.currentTime;
+    o.type = type; o.frequency.setValueAtTime(f0, t);
+    o.frequency.exponentialRampToValueAtTime(Math.max(1, f1), t + dur);
+    g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+    o.connect(g); g.connect(AC.destination); o.start(t); o.stop(t + dur);
+  } catch (e) {}
+}
+
+// ---------- input ----------
+const keys = {};
+addEventListener('keydown', e => { keys[e.code] = true;
+  if (state === 'title' && (e.code === 'Space' || e.code === 'Enter')) start();
+  if ((state === 'dead' || state === 'win') && e.code === 'KeyR') start();
+});
+addEventListener('keyup', e => keys[e.code] = false);
+
+// ---------- map generation ----------
+function genMap() {
+  map = Array.from({ length: MH }, () => Array(MW).fill(T_WALL));
+  rooms = [];
+  for (let i = 0; i < 80 && rooms.length < 9; i++) {
+    const w = 6 + (Math.random() * 8 | 0), h = 5 + (Math.random() * 6 | 0);
+    const x = 2 + (Math.random() * (MW - w - 4) | 0), y = 2 + (Math.random() * (MH - h - 4) | 0);
+    const r = { x, y, w, h, cx: x + (w >> 1), cy: y + (h >> 1) };
+    if (rooms.some(o => x < o.x + o.w + 2 && x + w + 2 > o.x && y < o.y + o.h + 2 && y + h + 2 > o.y)) continue;
+    rooms.push(r);
+    for (let yy = y; yy < y + h; yy++) for (let xx = x; xx < x + w; xx++) map[yy][xx] = T_FLOOR;
+  }
+  for (let i = 1; i < rooms.length; i++) {
+    let a = rooms[i - 1], b = rooms[i], x = a.cx, y = a.cy;
+    while (x !== b.cx) { map[y][x] = T_FLOOR; x += Math.sign(b.cx - x); }
+    while (y !== b.cy) { map[y][x] = T_FLOOR; y += Math.sign(b.cy - y); }
+  }
+  const start = rooms[0];
+  let br = rooms[0], bd = -1;
+  for (const r of rooms) { const d = Math.hypot(r.cx - start.cx, r.cy - start.cy); if (d > bd) { bd = d; br = r; } }
+  const exits = [];
+  for (let xx = br.x; xx < br.x + br.w; xx++) {
+    if (br.y > 0 && map[br.y - 1][xx] === T_FLOOR) exits.push([xx, br.y - 1]);
+    if (br.y + br.h < MH && map[br.y + br.h][xx] === T_FLOOR) exits.push([xx, br.y + br.h]);
+  }
+  for (let yy = br.y; yy < br.y + br.h; yy++) {
+    if (br.x > 0 && map[yy][br.x - 1] === T_FLOOR) exits.push([br.x - 1, yy]);
+    if (br.x + br.w < MW && map[yy][br.x + br.w] === T_FLOOR) exits.push([br.x + br.w, yy]);
+  }
+  const door = exits[Math.random() * exits.length | 0] || [br.cx, Math.max(0, br.y - 1)];
+  map[door[1]][door[0]] = T_DOOR;
+  return { bossRoom: br, door };
+}
+
+function solid(x, y) { const t = map[y] && map[y][x]; return t === T_WALL || t === T_DOOR; }
+function moveEnt(e, dx, dy) {
+  const free = (nx, ny) => {
+    const x0 = Math.floor((nx - e.r) / TS), x1 = Math.floor((nx + e.r) / TS);
+    const y0 = Math.floor((ny - e.r) / TS), y1 = Math.floor((ny + e.r) / TS);
+    for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) if (solid(x, y)) return false;
+    return true;
+  };
+  if (dx && free(e.x + dx, e.y)) e.x += dx;
+  if (dy && free(e.x, e.y + dy)) e.y += dy;
+}
+
+// ---------- entities ----------
+function spawnEnemy(r, kind) {
+  const x = (r.x + 1 + Math.random() * (r.w - 2)) * TS, y = (r.y + 1 + Math.random() * (r.h - 2)) * TS;
+  const base = {
+    slime:    { hp: 3, sp: 40, dmg: 1, r: 11, col: '#5ad06e', xp: 2, coin: 1 },
+    skeleton: { hp: 5, sp: 62, dmg: 1, r: 11, col: '#d9d2c5', xp: 3, coin: 2 },
+    wraith:   { hp: 4, sp: 78, dmg: 2, r: 10, col: '#9b6bd6', xp: 4, coin: 2 },
+  }[kind];
+  return { kind, x, y, r: base.r, hp: base.hp, mhp: base.hp, sp: base.sp, dmg: base.dmg,
+           col: base.col, xp: base.xp, coin: base.coin, hitT: 0, cool: 0, ph: Math.random() * 7 };
+}
+function start() {
+  const g = genMap();
+  const s = rooms[0];
+  player = { x: s.cx * TS, y: s.cy * TS, r: 10, hp: 6, mhp: 6, dmg: 1, lvl: 1, xp: 0, nxp: 8,
+             coins: 0, keys: 0, face: [1, 0], atkT: 0, cool: 0, inv: 0 };
+  enemies = []; pickups = []; parts = []; projectiles = []; boss = null;
+  stats = { kills: 0, bossRoom: g.bossRoom, door: g.door, doorOpen: false, portal: null, bossSpawned: false };
+  for (let i = 1; i < rooms.length - 1; i++) {
+    const n = 2 + (Math.random() * 2 | 0);
+    for (let k = 0; k < n; k++)
+      enemies.push(spawnEnemy(rooms[i], Math.random() < .5 ? 'slime' : (Math.random() < .6 ? 'skeleton' : 'wraith')));
+  }
+  const keyRoom = rooms[rooms.length - 2];
+  pickups.push({ kind: 'key', x: keyRoom.cx * TS, y: keyRoom.cy * TS });
+  for (let i = 0; i < 3; i++) {
+    const r = rooms[1 + (Math.random() * (rooms.length - 2) | 0)];
+    pickups.push({ kind: 'heart', x: (r.x + 1 + Math.random() * (r.w - 2)) * TS, y: (r.y + 1 + Math.random() * (r.h - 2)) * TS });
+  }
+  for (let i = 0; i < 8; i++) {
+    const r = rooms[1 + (Math.random() * (rooms.length - 2) | 0)];
+    pickups.push({ kind: 'coin', x: (r.x + 1 + Math.random() * (r.w - 2)) * TS, y: (r.y + 1 + Math.random() * (r.h - 2)) * TS });
+  }
+  cam.x = player.x - cv.width / 2; cam.y = player.y - cv.height / 2;
+  msg = 'Find the KEY, unlock the door, slay the EMBER KING.'; msgT = 5;
+  state = 'play'; gtime = 0;
+}
+
+function burst(x, y, col, n = 8, sp = 120) {
+  for (let i = 0; i < n; i++) {
+    const a = Math.random() * Math.PI * 2, v = sp * (.3 + Math.random() * .7);
+    parts.push({ x, y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, t: .4 + Math.random() * .3, col });
+  }
+}
+function say(s, t = 2.5) { msg = s; msgT = t; }
+
+// ---------- combat ----------
+function attack() {
+  if (player.cool > 0) return;
+  player.cool = .32; player.atkT = .16;
+  sfx(320, 90, .12, 'sawtooth', .1);
+  const ax = player.x + player.face[0] * 26, ay = player.y + player.face[1] * 26;
+  for (let i = enemies.length - 1; i >= 0; i--) {
+    const e = enemies[i];
+    if (Math.hypot(e.x - ax, e.y - ay) < 30) hitEnemy(e, player.dmg);
+  }
+}
+function gainXp(n) {
+  player.xp += n;
+  while (player.xp >= player.nxp) {
+    player.xp -= player.nxp; player.lvl++; player.nxp += 4;
+    player.mhp += 2; player.hp = player.mhp; player.dmg++;
+    burst(player.x, player.y, '#ffd76b', 24, 160);
+    sfx(440, 880, .3, 'triangle', .16);
+    say('LEVEL UP! atk ' + player.dmg + ', full heal');
+  }
+}
+function hitEnemy(e, dmg) {
+  e.hp -= dmg; e.hitT = .15;
+  const a = Math.atan2(e.y - player.y, e.x - player.x);
+  e.x += Math.cos(a) * 14; e.y += Math.sin(a) * 14;
+  burst(e.x, e.y, e.col, 6);
+  sfx(200, 60, .1, 'square', .14);
+  if (e.hp <= 0) {
+    const idx = enemies.indexOf(e); if (idx >= 0) enemies.splice(idx, 1);
+    stats.kills++;
+    burst(e.x, e.y, e.col, 16, 180);
+    gainXp(e.xp);
+    for (let i = 0; i < e.coin; i++) pickups.push({ kind: 'coin', x: e.x + (Math.random() - .5) * 20, y: e.y + (Math.random() - .5) * 20 });
+    if (Math.random() < .18) pickups.push({ kind: 'heart', x: e.x, y: e.y });
+    if (e === boss) {
+      sfx(90, 30, .6, 'sawtooth', .2); shake = .5;
+      stats.portal = { x: e.x, y: e.y };
+      say('The Ember King falls. A portal opens...', 5);
+    } else sfx(160, 40, .25, 'triangle', .16);
+  }
+}
+function hurtPlayer(d) {
+  if (player.inv > 0) return;
+  player.hp -= d; player.inv = 1; shake = .3;
+  burst(player.x, player.y, '#ff5d5d', 10);
+  sfx(140, 50, .2, 'square', .18);
+  if (player.hp <= 0) { state = 'dead'; sfx(220, 40, .8, 'sawtooth', .2); }
+}
+
+// ---------- boss ----------
+function spawnBoss() {
+  const b = stats.bossRoom;
+  boss = { kind: 'boss', x: b.cx * TS, y: b.cy * TS, r: 22, hp: 40, mhp: 40, sp: 46, dmg: 2,
+           col: '#ff7a3d', xp: 20, coin: 10, hitT: 0, cool: 1.6, ph: 0 };
+  enemies.push(boss); stats.bossSpawned = true;
+  say('THE EMBER KING AWAKES', 3);
+  sfx(70, 30, .8, 'sawtooth', .22);
+}
+
+// ---------- update ----------
+function update(dt) {
+  gtime += dt; shake = Math.max(0, shake - dt);
+  if (msgT > 0) msgT -= dt;
+  let dx = (keys.KeyD || keys.ArrowRight ? 1 : 0) - (keys.KeyA || keys.ArrowLeft ? 1 : 0);
+  let dy = (keys.KeyS || keys.ArrowDown ? 1 : 0) - (keys.KeyW || keys.ArrowUp ? 1 : 0);
+  if (dx || dy) { const l = Math.hypot(dx, dy); dx /= l; dy /= l; player.face = [dx, dy]; }
+  moveEnt(player, dx * 120 * dt, dy * 120 * dt);
+  player.cool = Math.max(0, player.cool - dt); player.atkT = Math.max(0, player.atkT - dt);
+  player.inv = Math.max(0, player.inv - dt);
+  if (keys.Space || keys.KeyJ) attack();
+
+  const dox = stats.door[0], doy = stats.door[1];
+  if (!stats.doorOpen && player.keys > 0 &&
+      Math.hypot(player.x - (dox + .5) * TS, player.y - (doy + .5) * TS) < 44) {
+    stats.doorOpen = true; map[doy][dox] = T_FLOOR; player.keys--;
+    say('The door grinds open.'); sfx(120, 400, .4, 'triangle', .14);
+  }
+  const b = stats.bossRoom;
+  const inBoss = player.x > b.x * TS && player.x < (b.x + b.w) * TS &&
+                 player.y > b.y * TS && player.y < (b.y + b.h) * TS;
+  if (inBoss && !stats.bossSpawned && stats.doorOpen) spawnBoss();
+
+  for (const e of enemies) {
+    e.hitT = Math.max(0, e.hitT - dt); e.ph += dt * 3;
+    const d = Math.hypot(player.x - e.x, player.y - e.y);
+    if (e === boss) {
+      e.cool -= dt;
+      if (d < 400 && d > 1) { const a = Math.atan2(player.y - e.y, player.x - e.x); moveEnt(e, Math.cos(a) * e.sp * dt, Math.sin(a) * e.sp * dt); }
+      if (e.cool <= 0 && d < 420) {
+        e.cool = 1.7;
+        const a = Math.atan2(player.y - e.y, player.x - e.x);
+        for (const off of [-.35, 0, .35])
+          projectiles.push({ x: e.x, y: e.y, vx: Math.cos(a + off) * 150, vy: Math.sin(a + off) * 150, t: 3 });
+        sfx(300, 120, .18, 'sawtooth', .1);
+      }
+    } else if (d < 260) {
+      if (d > 1) { const a = Math.atan2(player.y - e.y, player.x - e.x); moveEnt(e, Math.cos(a) * e.sp * dt, Math.sin(a) * e.sp * dt); }
+    } else {
+      moveEnt(e, Math.cos(e.ph) * e.sp * .4 * dt, Math.sin(e.ph * .7) * e.sp * .4 * dt);
+    }
+    if (d < e.r + player.r + 2) hurtPlayer(e.dmg);
+  }
+  for (let i = projectiles.length - 1; i >= 0; i--) {
+    const p = projectiles[i];
+    p.x += p.vx * dt; p.y += p.vy * dt; p.t -= dt;
+    if (p.t <= 0 || solid(Math.floor(p.x / TS), Math.floor(p.y / TS))) { burst(p.x, p.y, '#ff9a3d', 4, 60); projectiles.splice(i, 1); continue; }
+    if (Math.hypot(p.x - player.x, p.y - player.y) < player.r + 5) { hurtPlayer(1); projectiles.splice(i, 1); }
+  }
+  for (let i = pickups.length - 1; i >= 0; i--) {
+    const p = pickups[i];
+    if (Math.hypot(p.x - player.x, p.y - player.y) > 20) continue;
+    if (p.kind === 'coin') { player.coins++; sfx(700, 1000, .08, 'square', .08); }
+    else if (p.kind === 'heart') { player.hp = Math.min(player.mhp, player.hp + 2); sfx(500, 900, .15, 'triangle', .12); }
+    else { player.keys++; say('You found the CRYPT KEY'); sfx(600, 1200, .3, 'triangle', .14); }
+    pickups.splice(i, 1);
+  }
+  if (stats.portal && Math.hypot(player.x - stats.portal.x, player.y - stats.portal.y) < 26) { state = 'win'; sfx(400, 1600, .8, 'triangle', .18); }
+  for (let i = parts.length - 1; i >= 0; i--) {
+    const q = parts[i]; q.x += q.vx * dt; q.y += q.vy * dt; q.t -= dt;
+    if (q.t <= 0) parts.splice(i, 1);
+  }
+  cam.x += (player.x - cv.width / 2 - cam.x) * Math.min(1, dt * 6);
+  cam.y += (player.y - cv.height / 2 - cam.y) * Math.min(1, dt * 6);
+  cam.x = Math.max(0, Math.min(MW * TS - cv.width, cam.x));
+  cam.y = Math.max(0, Math.min(MH * TS - cv.height, cam.y));
+}
+
+// ---------- draw ----------
+function drawTile(x, y) {
+  const t = map[y][x], px = x * TS - cam.x, py = y * TS - cam.y;
+  if (t === T_FLOOR) { ctx.fillStyle = (x + y) % 2 ? '#1b1826' : '#1e1b2b'; ctx.fillRect(px, py, TS, TS); }
+  else if (t === T_WALL) {
+    ctx.fillStyle = '#241f33'; ctx.fillRect(px, py, TS, TS);
+    ctx.fillStyle = '#2d2740'; ctx.fillRect(px, py, TS, 4);
+    ctx.fillStyle = '#171420'; ctx.fillRect(px, py + TS - 4, TS, 4);
+  } else if (t === T_DOOR) {
+    ctx.fillStyle = '#3a2b1b'; ctx.fillRect(px, py, TS, TS);
+    ctx.fillStyle = '#8a6a2f'; ctx.fillRect(px + 4, py + 4, TS - 8, TS - 8);
+    ctx.fillStyle = '#ffd76b'; ctx.fillRect(px + 12, py + 12, 8, 8);
+  }
+}
+function drawEnt(e, col, r) {
+  const px = e.x - cam.x, py = e.y - cam.y;
+  ctx.fillStyle = e.hitT > 0 ? '#ffffff' : col;
+  ctx.beginPath(); ctx.arc(px, py - Math.abs(Math.sin(e.ph || 0)) * 3, r, 0, 7); ctx.fill();
+  ctx.fillStyle = '#000a';
+  ctx.fillRect(px - r * .4, py - 4, 3, 3); ctx.fillRect(px + r * .4 - 3, py - 4, 3, 3);
+  if (e.hp < e.mhp) {
+    ctx.fillStyle = '#000'; ctx.fillRect(px - 14, py - r - 10, 28, 4);
+    ctx.fillStyle = '#ff5d5d'; ctx.fillRect(px - 13, py - r - 9, 26 * (e.hp / e.mhp), 2);
+  }
+}
+function draw() {
+  ctx.save();
+  if (shake > 0) ctx.translate((Math.random() - .5) * shake * 22, (Math.random() - .5) * shake * 22);
+  ctx.fillStyle = '#0b0a10'; ctx.fillRect(-30, -30, cv.width + 60, cv.height + 60);
+  const x0 = Math.floor(cam.x / TS), y0 = Math.floor(cam.y / TS);
+  for (let y = y0; y <= y0 + VH + 1; y++) for (let x = x0; x <= x0 + VW + 1; x++)
+    if (y >= 0 && y < MH && x >= 0 && x < MW) drawTile(x, y);
+  if (stats.portal) {
+    const px = stats.portal.x - cam.x, py = stats.portal.y - cam.y;
+    for (let i = 0; i < 3; i++) {
+      ctx.strokeStyle = 'rgba(140,120,255,' + (.9 - i * .25) + ')'; ctx.lineWidth = 3;
+      ctx.beginPath(); ctx.arc(px, py, 10 + i * 6 + Math.sin(gtime * 4 + i) * 3, 0, 7); ctx.stroke();
+    }
+  }
+  for (const p of pickups) {
+    const px = p.x - cam.x, py = p.y - cam.y - Math.sin(gtime * 4 + p.x) * 3;
+    if (p.kind === 'coin') { ctx.fillStyle = '#ffd76b'; ctx.fillRect(px - 4, py - 4, 8, 8); ctx.fillStyle = '#b8912f'; ctx.fillRect(px - 4, py - 4, 4, 8); }
+    else if (p.kind === 'heart') { ctx.fillStyle = '#ff5d7d'; ctx.fillRect(px - 5, py - 3, 4, 4); ctx.fillRect(px + 1, py - 3, 4, 4); ctx.fillRect(px - 5, py, 10, 4); ctx.fillRect(px - 3, py + 4, 6, 3); ctx.fillRect(px - 1, py + 7, 2, 2); }
+    else { ctx.fillStyle = '#ffd76b'; ctx.fillRect(px - 6, py - 6, 6, 6); ctx.fillRect(px, py - 4, 10, 3); ctx.fillRect(px + 6, py - 1, 3, 3); }
+  }
+  for (const e of enemies) if (e !== boss) drawEnt(e, e.col, e.r);
+  if (boss) drawEnt(boss, boss.col, boss.r + Math.sin(gtime * 3) * 2);
+  for (const p of projectiles) { ctx.fillStyle = '#ff9a3d'; ctx.fillRect(p.x - cam.x - 4, p.y - cam.y - 4, 8, 8); }
+  const px = player.x - cam.x, py = player.y - cam.y;
+  if (player.inv <= 0 || Math.floor(gtime * 14) % 2) {
+    ctx.fillStyle = '#6bd0ff'; ctx.beginPath(); ctx.arc(px, py, player.r, 0, 7); ctx.fill();
+    ctx.fillStyle = '#0b2a3a'; ctx.fillRect(px + player.face[0] * 5 - 3, py + player.face[1] * 5 - 3, 6, 6);
+  }
+  if (player.atkT > 0) {
+    const a = Math.atan2(player.face[1], player.face[0]);
+    ctx.strokeStyle = '#e8e8ff'; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.arc(px, py, 26, a - .9, a + .9); ctx.stroke();
+  }
+  for (const q of parts) { ctx.globalAlpha = Math.max(0, q.t * 2); ctx.fillStyle = q.col; ctx.fillRect(q.x - cam.x - 2, q.y - cam.y - 2, 4, 4); }
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = '#0009'; ctx.fillRect(10, 10, 210, 66);
+  for (let i = 0; i < player.mhp; i += 2) {
+    const full = player.hp >= i + 2, half = player.hp === i + 1;
+    ctx.fillStyle = full ? '#ff5d7d' : (half ? '#a5455c' : '#3a2530');
+    ctx.fillRect(18 + (i / 2) * 22, 18, 16, 14); ctx.fillRect(22 + (i / 2) * 22, 14, 8, 4);
+  }
+  ctx.fillStyle = '#ffd76b'; ctx.font = '14px monospace';
+  ctx.fillText('coins ' + player.coins + '  keys ' + player.keys, 18, 48);
+  ctx.fillStyle = '#333'; ctx.fillRect(18, 56, 130, 8);
+  ctx.fillStyle = '#6bd0ff'; ctx.fillRect(18, 56, 130 * player.xp / player.nxp, 8);
+  ctx.fillStyle = '#8a93b0'; ctx.fillText('Lv ' + player.lvl, 156, 64);
+  if (msgT > 0) {
+    const w = ctx.measureText(msg).width + 24;
+    ctx.fillStyle = '#000b'; ctx.fillRect(cv.width / 2 - w / 2, cv.height - 74, w, 30);
+    ctx.fillStyle = '#ffe9b0'; ctx.textAlign = 'center';
+    ctx.fillText(msg, cv.width / 2, cv.height - 53); ctx.textAlign = 'left';
+  }
+  ctx.restore();
+  if (state !== 'play') overlay();
+}
+function center(txt, y, size = 42, col = '#ffe9b0') {
+  ctx.textAlign = 'center'; ctx.fillStyle = col; ctx.font = size + 'px monospace';
+  ctx.fillText(txt, cv.width / 2, y); ctx.textAlign = 'left';
+}
+function overlay() {
+  ctx.fillStyle = 'rgba(11,10,16,.8)'; ctx.fillRect(0, 0, cv.width, cv.height);
+  if (state === 'title') {
+    center('EMBER CRYPT', 240, 56, '#ff9a3d');
+    center('a tiny dungeon RPG', 286, 18, '#8a93b0');
+    center('WASD / arrows to move   -   SPACE to attack', 370, 18);
+    center('grab the key, unlock the door, slay the Ember King', 400, 18, '#8a93b0');
+    if (Math.floor(gtime * 2) % 2) center('PRESS SPACE', 490, 26, '#6bd0ff');
+    center('coins buy nothing yet - bragging rights only', 560, 15, '#555f77');
+  } else if (state === 'dead') {
+    center('YOU DIED', 280, 56, '#ff5d5d');
+    center('kills ' + stats.kills + '  -  coins ' + player.coins + '  -  level ' + player.lvl, 330, 18, '#8a93b0');
+    center('press R to try again', 400, 22, '#6bd0ff');
+  } else if (state === 'win') {
+    center('THE CRYPT IS COLD', 260, 46, '#6bd0ff');
+    center('you escaped with ' + player.coins + ' coins at level ' + player.lvl, 320, 18, '#8a93b0');
+    center('press R to dive again', 400, 22, '#6bd0ff');
+  }
+}
+
+// ---------- main loop ----------
+function loop(t) {
+  const dt = Math.min(.033, (t - tPrev) / 1000 || .016); tPrev = t;
+  if (state === 'play') update(dt); else gtime += dt;
+  if (player && state !== 'title') draw();
+  else { ctx.fillStyle = '#0b0a10'; ctx.fillRect(0, 0, cv.width, cv.height); center('EMBER CRYPT', 240, 56, '#ff9a3d'); if (Math.floor(gtime * 2) % 2) center('PRESS SPACE', 490, 26, '#6bd0ff'); }
+  requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
+window.addEventListener('error', e => { ctx.fillStyle = '#300'; ctx.fillRect(0, 0, cv.width, 30); ctx.fillStyle = '#fbb'; ctx.font = '12px monospace'; ctx.fillText('ERR: ' + e.message, 8, 20); });
+</script>
+</body>
+</html>
