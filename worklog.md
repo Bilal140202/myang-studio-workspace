@@ -104,3 +104,50 @@ Stage Summary:
 - Caption sync proof: ASR-on-final-audio == SRT text (100%)
 - Recover-after-wipe = clone Bilal140202/myang-studio-workspace
 - Pending: mascot redesign (user rejected v1), RPG game (requested next), day-2 tardigrade render
+---
+Task ID: 6
+Agent: main agent (Z.ai)
+Task: Day-2 tardigrade-space — polish, render, caption-free export, ASR proof, pack (v1.1 pipeline)
+
+Work Log:
+- Sandbox reset #3 detected (publish.git/backup.git/gh credentials/gh CLI gone; mega-shot vendor wiped). Rebootstrapped: edge-tts 7.3.1, xp setup --install chromium,huashu,fonts (--quick --no-launch). xp binary lives at mega-shot/xp (NOT mega-shot/bin/xp)
+- Draft narration was 37.1s / 5 scenes -> would fail G5 (45-120s). Expanded to 7 scenes / 93.4s narration with elaboration only: 3 sourced facts unchanged (Jonsson 2008 x2, Tsujimoto 2016), no new stats (water-bear nickname, 8 legs, tun=barrel are anatomy/common knowledge, same freedom as pilot)
+- v1.1 caption policy applied: subtitles verbatim narration, at_word cues anchor NARRATION words. New scripts/check_cue_anchors.py verifies every at_word is an exact WordBoundary token + highlight targets resolve: 21/21 PASS
+- New scripts/prep_caption_free.py: caches timeline subs -> build/subs_backup.json/.srt, emits word-timed <name>.en.srt, strips subs from timeline.json (caption-free render)
+- GOTCHA: xp render needs film.html in the project dir (new_video.py scaffold omits it) -> copied generic footage-template film.html from dolphins (handles loai:huashu scenes via build/layers). xp render 2922 frames/135s OK; art+mix cached after one 600s timeout
+- GOTCHA: xp export SIGKILLed by watchdog AFTER writing all out/ artifacts (known pattern) - artifacts valid
+- Verify: 1080x1920 h264+aac 97.3s, ebur128 -14.0 LUFS, frames t=2.5/8/15/30/44/58/75/92 word-locked, zero burned captions, out/subtitles empty
+- New scripts/asr_verify.sh: split FINAL mix at scene boundaries (<=25s chunks, 16kHz mono) -> z-ai asr -> vocab match vs SRT = 98.5% (202/205; deltas: '2007'<->'two thousand seven', tardigrades<->tardigrade, tun<->ton homophone) = sync proof
+- Thumbnail: 4 generations (2 too seal/sloth-like, 1 too zoomed portrait) -> landscape 1344x768 source with subject right + empty-left, anh_bia.yaml (mau_nhan #ff6a2b), xp thumbnail -> out/anh_bia_khong-ngu.jpg. Lesson: thumbnail source must be LANDSCAPE with subject on right third or the crop eats the subject
+- publish_pack.py --day 2; drama line de-duplicated from hook; topics.yaml day-2 status -> shipped; qa_gate full PASS
+- GitHub release NOT cut: no gh CLI, no token in env (died with sandbox). Deliverables staged in download/tardigrade-video/ awaiting token to push Bilal140202/myang-studio release v1.1.0+day2
+
+Stage Summary:
+- Day 2 shipped locally: download/tardigrade-video/ (mp4 97.3s, word-timed srt 49 cues, thumbnail, publish pack, social captions)
+- New reusable scripts: check_cue_anchors.py, prep_caption_free.py, asr_verify.sh
+- Pipeline gotchas recorded: film.html required by xp render; thumbnail source orientation; xp export SIGKILL-after-write
+- Blocked on user: fresh GitHub token (push + release) for v1.1.0+day2
+
+---
+Task ID: 7
+Agent: main agent (Z.ai)
+Task: Unblock with fresh GitHub token (Bilal140202) — cut blocked v1.1.0+day2 release, finish teaser, backup day-3 sources
+
+Work Log:
+- Context restored from worklog after session compaction; user provided new token (scopes: repo, workflow, write:packages) + reference repo links
+- Remote check: v1.2.0 (Ember Crypt RPG) had been cut in the lost session tail; v1.1.0+day2 (tardigrade) still missing = the known blocked item
+- Disk full (100%): cleared browser caches (1.9G) + released projects' build dirs (dolphins/tardigrade 479M, finals safe in download/ + Releases)
+- RELEASED v1.1.0+day2 — Tardigrade in space (id 427568198): mp4 97.3s 1080x1920 -14.0 LUFS + word-timed SRT 49 cues + thumbnail + publish pack + social captions (5 assets)
+- Day-3 procrastination-fix series found mid-production: teaser rendered-raw, tap-01..03 mixed, tap-04..06 narration only; kichban_master.py = 6 episodes + teaser, gate-tuned verbatim scripts (Steel 2007, Sirois & Pychyl 2013)
+- Workspace backup had ZERO procrastination entries -> pushed 36M of sources (7 projects: narration wav+WordBoundary json, video.yaml, film.html, research, CC licenses, imgpool manifests) via partial clone (blob:none + sparse-checkout + `git add --sparse` gotcha) -> 335513b
+- Teaser export completed via known SIGKILL-after-write pattern: 1920x1080 32.6s h264+aac; frames t=5/20 caption-free (labels only); ebur128 -14.1 LUFS
+- Built teaser.en.srt from timeline_subs_backup.json (19 cues, 0.19..30.82s); subs_backup.json must be a BARE LIST for asr_verify.sh (dict wrapper broke the merge step)
+- ASR sync proof: 97.8% vocab match (91/93; '5'<->five, isn't tokenization; chunks.json glob noise explained)
+- RELEASED v1.3.0+day3-teaser — The Loop (id 427577845): mp4 56M + SRT + thumbnail (t=5.2 title card) + publish pack + social captions + image-credits.md (6 assets)
+- Staged deliverables: download/tardigrade-video/ (already), download/teaser-video/ (new)
+
+Stage Summary:
+- All blocked releases cleared: v1.1.0+day2 + v1.3.0+day3-teaser now live on Bilal140202/myang-studio
+- Day-3 series state: teaser SHIPPED; tap-01..03 next (assets->mix->strip->render->export->srt->release), tap-04..06 need narration import + mix first
+- Scripts added: build_proc_srt.py (generic proc-series SRT from subs backup), stage_teaser.sh, cut_release_day2.sh, cut_release_teaser.sh
+- Token stored in session scripts only (never committed); releases-only delivery policy upheld

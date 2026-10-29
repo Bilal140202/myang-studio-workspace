@@ -1,0 +1,6 @@
+- Tep — CC — https://www.pexels.com/search/a%20person%20scrolling%20mobile%20phone%20at%20night/
+- Simkinseled — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Desk_Clock.jpg
+- Shixart1985 — CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Tired_businesswoman_in_a_dark_room_thinking_while_holding_glasses_near_a_laptop_and_a_notebook.jpg
+- Thamizhpparithi Maari — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Sand_Clock.jpg
+- https://wellcomeimages.org/indexplus/obf_images/38/1f/5ca4… — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Charles_Bell,_The_anatomy_of_the_brain_Wellcome_L0025507.jpg
+- Tep — CC — https://www.vecteezy.com/photo/69952253-climber-atop-mountain-peak-at-sunrise
