@@ -1,0 +1,361 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "That's",
+   "start": 0.104,
+   "end": 0.289
+  },
+  {
+   "word": "the",
+   "start": 0.301,
+   "end": 0.393
+  },
+  {
+   "word": "logic",
+   "start": 0.405,
+   "end": 0.787
+  },
+  {
+   "word": "behind",
+   "start": 0.799,
+   "end": 1.169
+  },
+  {
+   "word": "the",
+   "start": 1.181,
+   "end": 1.273
+  },
+  {
+   "word": "2-minute",
+   "start": 1.285,
+   "end": 1.794
+  },
+  {
+   "word": "rule",
+   "start": 1.806,
+   "end": 2.037
+  },
+  {
+   "word": "from",
+   "start": 2.049,
+   "end": 2.211
+  },
+  {
+   "word": "Atomic",
+   "start": 2.222,
+   "end": 2.627
+  },
+  {
+   "word": "Habits",
+   "start": 2.639,
+   "end": 3.102
+  },
+  {
+   "word": "shrink",
+   "start": 3.391,
+   "end": 3.75
+  },
+  {
+   "word": "every",
+   "start": 3.889,
+   "end": 4.12
+  },
+  {
+   "word": "task",
+   "start": 4.132,
+   "end": 4.572
+  },
+  {
+   "word": "to",
+   "start": 4.63,
+   "end": 4.769
+  },
+  {
+   "word": "a",
+   "start": 4.78,
+   "end": 4.861
+  },
+  {
+   "word": "2-minute",
+   "start": 4.873,
+   "end": 5.359
+  },
+  {
+   "word": "starter",
+   "start": 5.37,
+   "end": 5.694
+  },
+  {
+   "word": "version",
+   "start": 5.706,
+   "end": 6.053
+  },
+  {
+   "word": "Write",
+   "start": 6.435,
+   "end": 6.574
+  },
+  {
+   "word": "the",
+   "start": 6.586,
+   "end": 6.655
+  },
+  {
+   "word": "report",
+   "start": 6.667,
+   "end": 7.049
+  },
+  {
+   "word": "becomes",
+   "start": 7.06,
+   "end": 7.384
+  },
+  {
+   "word": "sit",
+   "start": 7.396,
+   "end": 7.581
+  },
+  {
+   "word": "down",
+   "start": 7.593,
+   "end": 7.928
+  },
+  {
+   "word": "and",
+   "start": 8.171,
+   "end": 8.299
+  },
+  {
+   "word": "write",
+   "start": 8.31,
+   "end": 8.507
+  },
+  {
+   "word": "one",
+   "start": 8.518,
+   "end": 8.738
+  },
+  {
+   "word": "ugly",
+   "start": 8.75,
+   "end": 8.993
+  },
+  {
+   "word": "sentence",
+   "start": 9.005,
+   "end": 9.549
+  },
+  {
+   "word": "Exercise",
+   "start": 9.931,
+   "end": 10.451
+  },
+  {
+   "word": "becomes",
+   "start": 10.463,
+   "end": 10.799
+  },
+  {
+   "word": "put",
+   "start": 10.81,
+   "end": 10.972
+  },
+  {
+   "word": "on",
+   "start": 10.984,
+   "end": 11.088
+  },
+  {
+   "word": "your",
+   "start": 11.1,
+   "end": 11.181
+  },
+  {
+   "word": "shoes",
+   "start": 11.192,
+   "end": 11.643
+  },
+  {
+   "word": "This",
+   "start": 12.037,
+   "end": 12.187
+  },
+  {
+   "word": "isn't",
+   "start": 12.199,
+   "end": 12.407
+  },
+  {
+   "word": "a",
+   "start": 12.419,
+   "end": 12.465
+  },
+  {
+   "word": "productivity",
+   "start": 12.477,
+   "end": 13.113
+  },
+  {
+   "word": "hack",
+   "start": 13.125,
+   "end": 13.507
+  },
+  {
+   "word": "it's",
+   "start": 13.762,
+   "end": 13.854
+  },
+  {
+   "word": "a",
+   "start": 13.866,
+   "end": 13.924
+  },
+  {
+   "word": "brain",
+   "start": 13.935,
+   "end": 14.282
+  },
+  {
+   "word": "hack",
+   "start": 14.294,
+   "end": 14.688
+  },
+  {
+   "word": "because",
+   "start": 14.884,
+   "end": 15.162
+  },
+  {
+   "word": "starting",
+   "start": 15.174,
+   "end": 15.59
+  },
+  {
+   "word": "is",
+   "start": 15.602,
+   "end": 15.706
+  },
+  {
+   "word": "the",
+   "start": 15.718,
+   "end": 15.787
+  },
+  {
+   "word": "expensive",
+   "start": 15.799,
+   "end": 16.389
+  },
+  {
+   "word": "part",
+   "start": 16.4,
+   "end": 16.736
+  },
+  {
+   "word": "once",
+   "start": 17.141,
+   "end": 17.338
+  },
+  {
+   "word": "the",
+   "start": 17.35,
+   "end": 17.442
+  },
+  {
+   "word": "loop",
+   "start": 17.454,
+   "end": 17.708
+  },
+  {
+   "word": "is",
+   "start": 17.928,
+   "end": 18.079
+  },
+  {
+   "word": "open",
+   "start": 18.09,
+   "end": 18.426
+  },
+  {
+   "word": "momentum",
+   "start": 18.646,
+   "end": 19.051
+  },
+  {
+   "word": "carries",
+   "start": 19.062,
+   "end": 19.444
+  },
+  {
+   "word": "it",
+   "start": 19.456,
+   "end": 19.641
+  },
+  {
+   "word": "Two",
+   "start": 20.035,
+   "end": 20.162
+  },
+  {
+   "word": "minutes",
+   "start": 20.174,
+   "end": 20.521
+  },
+  {
+   "word": "almost",
+   "start": 20.625,
+   "end": 21.007
+  },
+  {
+   "word": "always",
+   "start": 21.065,
+   "end": 21.424
+  },
+  {
+   "word": "becomes",
+   "start": 21.435,
+   "end": 21.794
+  },
+  {
+   "word": "twenty",
+   "start": 21.806,
+   "end": 22.176
+  },
+  {
+   "word": "and",
+   "start": 22.477,
+   "end": 22.569
+  },
+  {
+   "word": "yet",
+   "start": 22.581,
+   "end": 22.743
+  },
+  {
+   "word": "people",
+   "start": 22.755,
+   "end": 23.056
+  },
+  {
+   "word": "still",
+   "start": 23.067,
+   "end": 23.322
+  },
+  {
+   "word": "skip",
+   "start": 23.333,
+   "end": 23.588
+  },
+  {
+   "word": "the",
+   "start": 23.6,
+   "end": 23.657
+  },
+  {
+   "word": "start",
+   "start": 23.669,
+   "end": 24.062
+  }
+ ]
+}

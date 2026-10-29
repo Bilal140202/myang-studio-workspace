@@ -1,0 +1,286 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Even",
+   "start": 0.093,
+   "end": 0.289
+  },
+  {
+   "word": "money",
+   "start": 0.301,
+   "end": 0.509
+  },
+  {
+   "word": "compounds",
+   "start": 0.521,
+   "end": 0.995
+  },
+  {
+   "word": "against",
+   "start": 1.007,
+   "end": 1.296
+  },
+  {
+   "word": "you",
+   "start": 1.308,
+   "end": 1.482
+  },
+  {
+   "word": "Missed",
+   "start": 1.863,
+   "end": 2.141
+  },
+  {
+   "word": "fees",
+   "start": 2.153,
+   "end": 2.685
+  },
+  {
+   "word": "rushed",
+   "start": 2.882,
+   "end": 3.148
+  },
+  {
+   "word": "decisions",
+   "start": 3.16,
+   "end": 3.796
+  },
+  {
+   "word": "delayed",
+   "start": 3.97,
+   "end": 4.282
+  },
+  {
+   "word": "starts",
+   "start": 4.294,
+   "end": 4.85
+  },
+  {
+   "word": "and",
+   "start": 5.116,
+   "end": 5.197
+  },
+  {
+   "word": "the",
+   "start": 5.208,
+   "end": 5.278
+  },
+  {
+   "word": "quiet",
+   "start": 5.289,
+   "end": 5.613
+  },
+  {
+   "word": "one",
+   "start": 5.625,
+   "end": 5.891
+  },
+  {
+   "word": "investing",
+   "start": 6.169,
+   "end": 6.678
+  },
+  {
+   "word": "$50",
+   "start": 7.106,
+   "end": 7.639
+  },
+  {
+   "word": "a",
+   "start": 7.65,
+   "end": 7.674
+  },
+  {
+   "word": "month",
+   "start": 7.685,
+   "end": 8.032
+  },
+  {
+   "word": "starting",
+   "start": 8.241,
+   "end": 8.565
+  },
+  {
+   "word": "at",
+   "start": 8.576,
+   "end": 8.646
+  },
+  {
+   "word": "22",
+   "start": 8.657,
+   "end": 9.236
+  },
+  {
+   "word": "becomes",
+   "start": 9.491,
+   "end": 9.861
+  },
+  {
+   "word": "roughly",
+   "start": 9.873,
+   "end": 10.255
+  },
+  {
+   "word": "twice",
+   "start": 10.266,
+   "end": 10.66
+  },
+  {
+   "word": "the",
+   "start": 10.671,
+   "end": 10.752
+  },
+  {
+   "word": "retirement",
+   "start": 10.764,
+   "end": 11.238
+  },
+  {
+   "word": "fund",
+   "start": 11.25,
+   "end": 11.551
+  },
+  {
+   "word": "of",
+   "start": 11.562,
+   "end": 11.643
+  },
+  {
+   "word": "the",
+   "start": 11.655,
+   "end": 11.725
+  },
+  {
+   "word": "same",
+   "start": 11.736,
+   "end": 12.025
+  },
+  {
+   "word": "$50",
+   "start": 12.037,
+   "end": 12.743
+  },
+  {
+   "word": "started",
+   "start": 12.755,
+   "end": 13.102
+  },
+  {
+   "word": "at",
+   "start": 13.113,
+   "end": 13.206
+  },
+  {
+   "word": "32",
+   "start": 13.218,
+   "end": 13.808
+  },
+  {
+   "word": "Same",
+   "start": 14.19,
+   "end": 14.387
+  },
+  {
+   "word": "money",
+   "start": 14.398,
+   "end": 14.664
+  },
+  {
+   "word": "Same",
+   "start": 15.046,
+   "end": 15.243
+  },
+  {
+   "word": "market",
+   "start": 15.255,
+   "end": 15.602
+  },
+  {
+   "word": "Ten",
+   "start": 15.984,
+   "end": 16.123
+  },
+  {
+   "word": "years",
+   "start": 16.134,
+   "end": 16.343
+  },
+  {
+   "word": "of",
+   "start": 16.354,
+   "end": 16.435
+  },
+  {
+   "word": "later",
+   "start": 16.447,
+   "end": 16.782
+  },
+  {
+   "word": "Procrastination",
+   "start": 17.176,
+   "end": 18.021
+  },
+  {
+   "word": "never",
+   "start": 18.241,
+   "end": 18.484
+  },
+  {
+   "word": "sends",
+   "start": 18.495,
+   "end": 18.738
+  },
+  {
+   "word": "you",
+   "start": 18.75,
+   "end": 18.831
+  },
+  {
+   "word": "the",
+   "start": 18.843,
+   "end": 18.935
+  },
+  {
+   "word": "bill",
+   "start": 18.947,
+   "end": 19.213
+  },
+  {
+   "word": "it",
+   "start": 19.63,
+   "end": 19.699
+  },
+  {
+   "word": "just",
+   "start": 19.711,
+   "end": 19.942
+  },
+  {
+   "word": "quietly",
+   "start": 19.954,
+   "end": 20.532
+  },
+  {
+   "word": "renegotiates",
+   "start": 20.544,
+   "end": 21.354
+  },
+  {
+   "word": "your",
+   "start": 21.366,
+   "end": 21.47
+  },
+  {
+   "word": "future",
+   "start": 21.482,
+   "end": 21.852
+  },
+  {
+   "word": "downward",
+   "start": 21.863,
+   "end": 22.338
+  }
+ ]
+}

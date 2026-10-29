@@ -1,0 +1,59 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-01"
+scenes:
+  - id: e1s1
+    title: "What It Actually Is"
+    search:
+      - { file: "../_imgpool/typewriter-c5a51b-03.jpg", type: image, parallax: false, query: "typewriter vintage", author: "Sammlung der Medien und Wissenschaft", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Olympia_Simplex.jpg" }
+      - { file: "../_imgpool/paperwork-stack-84f5ae-01.jpg", type: image, parallax: false, query: "paperwork stack", author: "Jacek", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Stack_of_ringless_binders.jpg" }
+      - { file: "../_imgpool/writing-notebook-c67140-02.jpg", type: image, parallax: false, query: "writing notebook", author: "Kristin Hardwick", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Woman_writing_on_a_notebook_with_a_pen.jpg" }
+    narration: "Let's start with why most definitions get it wrong: procrastination is not doing nothing. It is voluntarily delaying something you know matters, even though you expect the delay to hurt you. You fill the time — scrolling, snacking, reorganizing your desk — anything except the task. Researchers call it quintessential self-regulatory failure. And here is the uncomfortable part. The smarter you are, the better your brain gets at justifying the delay, because rationalizing is what a good brain is built for."
+    labels:
+      - { text: "delay now, pay later", at: 0.33 }
+  - id: e1s2
+    title: "How Common It Is"
+    search:
+      - { file: "../_imgpool/students-library-cf6b64-01.jpg", type: image, parallax: false, query: "students library", author: "Linason Blessing", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Wikipedia_awareness_campaign_for_library_and_information_science_students_4.jpg" }
+      - { file: "../_imgpool/lecture-hall-719432-02.jpg", type: image, parallax: false, query: "lecture hall", author: "Harrison Keely", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:A_lecture_hall_in_a_modern_public_high_school_in_the_United_States_%E2%80%93_Hayesville_High_School_in_Clay_County,_North_Carolina_05.jpg" }
+      - { file: "../_imgpool/office-cubicles-398c92-01.jpg", type: image, parallax: false, query: "office cubicles", author: "OboeBlanket", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Messy_office_(cubicle).jpg" }
+    narration: "And it is everywhere. Depending on the study, 80 to 95 percent of college students procrastinate on academic work. That is roughly 9 in every 10 people in a lecture hall. Among adults, about 1 in 5 is a chronic procrastinator, delaying across work, money, and health, year after year. So if you do this, you are not broken. You are normal. But normal is quietly expensive, and the reason why hides inside your skull."
+    labels:
+      - { text: "1 in 5 adults: chronic", at: 0.50 }
+    graphic: { kind: "dem-so", value: 95, unit: "%", label: "of students procrastinate (Steel 2007)" }
+  - id: e1s3
+    title: "An Emotion Problem"
+    search:
+      - { file: "../_imgpool/stress-headache-desk-4f825f-03.jpg", type: image, parallax: false, query: "stress headache desk", author: "userpilot1", license: "CC BY 2.0", page: "https://www.flickr.com/photos/198537127@N06/52969400588" }
+      - { file: "../_imgpool/worried-man-office-d30b10-02.jpg", type: image, parallax: false, query: "worried man office", author: "Gunn, Thomas Butler, 1826-1903", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_5,_page_102,_December_10-11,_1852.jpg" }
+      - { file: "../_imgpool/tired-student-night-f8f1d9-03.jpg", type: image, parallax: false, query: "tired student night", author: "Sarah L. Hunt", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Sarah_L._Hunt_to_Alice_Mary_Longfellow,_31_May_1887_(420fc1b2-29c2-4973-9377-a7e37b1d03c2).jpg" }
+    narration: "Why is willpower not the fix? Here is the reframe that changes everything: procrastination is not a time-management problem. It is an emotion problem. The task doesn't threaten your schedule — it threatens your mood: boredom, self-doubt, anxiety, resentment. Why would a brain sabotage its own plans? Because to your wiring, an avoided report feels like a threat, and the brain does what brains do with danger: it removes you from it. Psychologists call it short-term mood repair — you delay, because the escape feels better now than the work does."
+    labels:
+      - { text: "“We give in to feel good.” — Pychyl", at: 0.55 }
+  - id: e1s4
+    title: "Two Systems"
+    search:
+      - { file: "../_imgpool/brain-diagram-193dd2-01.jpg", type: image, parallax: false, query: "brain diagram", author: "Alexa R. Lauinger and Joseph J. Sepe", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Simplified_diagram_of_the_heart%E2%80%93brain_axis.png" }
+      - { file: "../_imgpool/chess-strategy-e1aa6c-01.jpg", type: image, parallax: false, query: "chess strategy", author: "Wilfredor", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6.jpg" }
+      - { file: "../_imgpool/pocket-watch-1f7b43-02.jpg", type: image, parallax: false, query: "pocket watch", author: "Dietmar Rabich", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_%22What_if%22_--_2023_--_6713.jpg" }
+    narration: "Inside your head, 2 systems fight for the wheel. The limbic system is ancient, fast, and wants rewards now. The prefrontal cortex is the planner — it can see future you, tired, at midnight, still working. But the planner pays a tax called temporal discounting: rewards shrink in value the further away they sit, so $100 today feels worth more than $110 next week. Deadlines run the same way — until suddenly they don't."
+    labels:
+      - { text: "limbic: NOW", at: 0.14 }
+      - { text: "planner: later", at: 0.51 }
+  - id: e1s5
+    title: "The Habit Machine"
+    search:
+      - { file: "../_imgpool/hammock-relax-e294ed-01.jpg", type: image, parallax: false, query: "hammock relax", author: "Massimilianogalardi", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Montecuccoli_Area_relax.jpg" }
+      - { file: "../_imgpool/smartphone-hand-6d1190-01.jpg", type: image, parallax: false, query: "smartphone hand", author: "Dennis Cortés cortes", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg" }
+      - { file: "../_imgpool/coffee-morning-cup-7670ad-03.jpg", type: image, parallax: false, query: "coffee morning cup", author: "Basile Morin", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Kappabashi-dori_streetcorner_(Kitchen_town_-_southern_end)_a_sunny_morning_in_Tokyo_Japan.jpg" }
+    narration: "So when you avoid the work, your head hands you a gift: instant relief. And relief feels good. That small hit trains the habit — avoid, feel better, repeat. Every reward strengthens the loop that produced it, so avoidance slowly becomes your default response to discomfort. That is the machine running you. In the next chapter, we watch it spin, loop by loop, so you can catch it in real time."
+    labels:
+      - { text: "avoid → relief → repeat", at: 0.42 }
+  - id: e1s6
+    title: "Next: The Loop"
+    search:
+      - { file: "../_imgpool/pocket-watch-1f7b43-03.jpg", type: image, parallax: false, query: "pocket watch", author: "Dietmar Rabich", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_%22What_if%22_--_2023_--_6686.jpg" }
+      - { file: "../_imgpool/chess-strategy-e1aa6c-02.jpg", type: image, parallax: false, query: "chess strategy", author: "Wilfredor", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6_perfil_view_8.jpg" }
+    narration: "Next up: the loop itself — five steps your mind runs every single time you avoid something hard. Watch it spin."

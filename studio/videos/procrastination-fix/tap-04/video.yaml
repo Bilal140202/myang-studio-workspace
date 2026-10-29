@@ -1,0 +1,58 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-04"
+scenes:
+  - id: e4s1
+    title: "The Zeigarnik Effect"
+    search:
+      - { file: "../_imgpool/waiter-cafe-vintage-8ea71e-02.jpg", type: image, parallax: false, query: "waiter cafe vintage", author: "Free Public Domain Illustrations by rawpixel", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Viennese_Caf%C3%A9-_On_the_Terrace_(Wiener_Caf%C3%A9-_Auf_der_Terasse)_(1911)_print_in_high_resolution_by_Moriz_Jung._Original_from_the_MET_Museum._Digitally_enhanced_by_rawpixel.jpg" }
+      - { file: "../_imgpool/open-book-pages-234761-02.jpg", type: image, parallax: false, query: "open book pages", author: "HonysTorresArt", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Open_Internal_Pages_of_the_Book_Detr%C3%A1s_del_espejo_06.png" }
+    narration: "In 1927, a psychologist named Bluma Zeigarnik noticed something odd in a Vienna cafe. Waiters remembered unpaid orders perfectly — then forgot them the second the bill was settled. Her finding became the Zeigarnik effect: unfinished tasks hover in your mind, nagging, until they're started, because an open loop demands closure. Which means the hardest part of any task isn't finishing it — it's opening the loop. So don't plan to finish. Plan to begin."
+    labels:
+      - { text: "Zeigarnik effect", at: 0.49 }
+  - id: e4s2
+    title: "The 2-Minute Rule"
+    search:
+      - { file: "../_imgpool/running-shoes-lacing-c8db3c-01.jpg", type: image, parallax: false, query: "running shoes lacing", author: "Chris Hunkeler from Carlsbad, California, USA", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:The_Man_in_the_Orange_Shoes_(7123721879).jpg" }
+      - { file: "../_imgpool/laptop-blank-screen-352e2b-03.jpg", type: image, parallax: false, query: "laptop blank screen", author: "censemaker", license: "CC BY 2.0", page: "https://www.flickr.com/photos/10316646@N07/8596497440" }
+      - { file: "../_imgpool/dumbbells-home-69f111-01.jpg", type: image, parallax: false, query: "dumbbells home", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Strength_training_and_fitness_workout_in_a_home_gym_setting_with_dumbbells_and_exercise_gear.jpg" }
+    narration: "That's the logic behind the 2-minute rule from Atomic Habits: shrink every task to a 2-minute starter version. Write the report becomes sit down and write one ugly sentence. Exercise becomes put on your shoes. This isn't a productivity hack — it's a brain hack, because starting is the expensive part: once the loop is open, momentum carries it. Two minutes almost always becomes twenty — and yet people still skip the start."
+    labels:
+      - { text: "one ugly sentence", at: 0.37 }
+    graphic: { kind: "dem-so", value: 2, unit: " min", label: "starter version of any task" }
+  - id: e4s3
+    title: "Get Specific"
+    search:
+      - { file: "../_imgpool/email-laptop-office-ec0333-01.jpg", type: image, parallax: false, query: "email laptop office", author: "Courtesy of NIAID Ryan Kissinger", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Laptop_(NIH_BioArt_734_-_791286).png" }
+      - { file: "../_imgpool/whiteboard-planning-8d1ff5-02.jpg", type: image, parallax: false, query: "whiteboard planning", author: "Stevie Benton (WMUK)", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Wikimania_planning_whiteboard.jpg" }
+      - { file: "../_imgpool/checklist-clipboard-fa1f6c-01.jpg", type: image, parallax: false, query: "checklist clipboard", author: "Aaron Dodson from The Noun Project", license: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:Checklist_Noun_project_5166.png" }
+    narration: "Next, make the work embarrassingly specific. Work on presentation is a fog your brain refuses to enter. Email Mike the 3 slides by 3 p.m. is a door. David Allen built an entire system on this one move: define the next physical action. The exact verb, the exact object, the exact time — since vague tasks breed avoidance, and concrete tasks get dates."
+    labels:
+      - { text: "verb + object + time", at: 0.71 }
+  - id: e4s4
+    title: "If-Then Plans"
+    search:
+      - { file: "../_imgpool/alarm-clock-bedside-7ccd34-01.jpg", type: image, parallax: false, query: "alarm clock bedside", author: "Brad Coy", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:The_use_of_Nightstand.jpg" }
+      - { file: "../_imgpool/calendar-marked-3ed8cb-01.jpg", type: image, parallax: false, query: "calendar marked", author: "delegateconnectimages", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Event_Cancelled_Marked_On_Calendar.jpg" }
+      - { file: "../_imgpool/minimal-desk-e9c10a-01.jpg", type: image, parallax: false, query: "minimal desk", author: "Breather breather", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Minimal_desk_and_painting_(Unsplash).jpg" }
+    narration: "Then, close the escape hatch before the moment comes. Implementation intentions — if it's 3 p.m., I open the document at the desk — were tested across 94 studies. They lifted follow-through by a wide margin, because you're not deciding in the moment anymore. The moment was decided last night. And Ariely's deadline trick applies here too: set small, early, slightly painful checkpoints, and let them bite."
+    labels:
+      - { text: "if 3 p.m. → open doc", at: 0.28 }
+    graphic: { kind: "dem-so", value: 94, unit: " studies", label: "if-then plans work (Gollwitzer & Sheeran)" }
+  - id: e4s5
+    title: "Temptation Bundling"
+    search:
+      - { file: "../_imgpool/headphones-running-02f5ff-01.jpg", type: image, parallax: false, query: "headphones running", author: "Peter van der Sluijs", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Be_careful_with_headphones_during_running.JPG" }
+      - { file: "../_imgpool/gym-treadmill-bb4952-02.jpg", type: image, parallax: false, query: "gym treadmill", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Treadmill_display_in_fitness_center_features_functional_training_program_settings_and_workout_statistics_for_gym_users.jpg" }
+      - { file: "../_imgpool/coffee-book-cozy-b51ed6-01.jpg", type: image, parallax: false, query: "coffee book cozy", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Warm_cup_of_coffee_sits_on_an_open_book_on_a_wooden_table_in_a_cozy_workspace.jpg" }
+    narration: "One more spark: temptation bundling. Katherine Milkman let gym members unlock a gripping audiobook only at the gym, and attendance rose. Why? Pairing the thing you avoid with the treat you crave turns dread into pull. But feeling bad about your avoidance ends this chapter. Next: we stop fighting your brain — and start redesigning the room it lives in."
+    labels:
+      - { text: "craving + task = pull", at: 0.62 }
+  - id: e4s6
+    title: "Next: Design Beats Discipline"
+    search:
+      - { file: "../_imgpool/gym-treadmill-bb4952-03.jpg", type: image, parallax: false, query: "gym treadmill", author: "Nenad Stojkovic", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Young_man_running_on_treadmill_during_sports_training_in_a_gym.jpg" }
+      - { file: "../_imgpool/coffee-book-cozy-b51ed6-02.jpg", type: image, parallax: false, query: "coffee book cozy", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Warm_coffee_cup_on_newspaper_with_a_rose_and_a_vintage_camera_nearby_in_a_cozy_indoor_setting.jpg" }
+    narration: "Sparks fade in messy rooms. Next: design beats discipline — how to rebuild your space so focus happens by default."

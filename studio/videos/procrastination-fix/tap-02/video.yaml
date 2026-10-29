@@ -1,0 +1,61 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-02"
+scenes:
+  - id: e2s1
+    title: "Five Steps"
+    search:
+      - { file: "../_imgpool/spiral-staircase-031e49-03.jpg", type: image, parallax: false, query: "spiral staircase", author: "Wilfredor", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Spiral_staircase_in_the_Vatican_Museums_from_bottom_02.jpg" }
+      - { file: "../_imgpool/dominoes-falling-64a5b7-01.jpg", type: image, parallax: false, query: "dominoes falling", author: "Kurt:S", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Dominoes_falling.jpg" }
+      - { file: "../_imgpool/hamster-wheel-bfacfa-01.jpg", type: image, parallax: false, query: "hamster wheel", author: "Adir491", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Blue_Hamster_wheel_10.jpg" }
+    narration: "Every procrastinator runs the same 5-step loop. Step 1: a task appears — a report, a call, a workout. Step 2: it triggers a feeling — doubt, boredom, fear of doing it badly. Step 3: you escape — phone, snacks, a very sudden urge to clean the kitchen. Step 4: relief. Sweet, instant relief. Step 5: guilt — and guilt makes the thing feel even worse than before, which is why the loop is so hard to notice from the inside."
+    labels:
+      - { text: "1 task", at: 0.16 }
+      - { text: "2 anxiety", at: 0.24 }
+      - { text: "3 escape", at: 0.49 }
+      - { text: "4 relief", at: 0.67 }
+      - { text: "5 guilt", at: 0.78 }
+  - id: e2s2
+    title: "Guilt Is Fuel"
+    search:
+      - { file: "../_imgpool/window-rain-melancholy-f8d702-01.jpg", type: image, parallax: false, query: "window rain melancholy", author: "Gunn, Thomas Butler, 1826-1903", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_18,_page_7_(newspaper_clipping),_October_10,_1861_-_DPLA_-_a0179bef8e905942b29b789c75d7b411.jpg" }
+      - { file: "../_imgpool/empty-chair-office-13ef4b-01.jpg", type: image, parallax: false, query: "empty chair office", author: "Chicago Tribune", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Chicago_Tribune_illustration_of_%22the_empty_chair_in_the_mayor%27s_office%22_after_Carter_Harrison_Sr.%27s_assassination.jpg" }
+      - { file: "../_imgpool/crumpled-paper-d23672-02.jpg", type: image, parallax: false, query: "crumpled paper", author: "Photos Public Domain", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Crumpled_olive_green_paper.jpg" }
+    narration: "That is the trap: the guilt isn't just unpleasant — it's fuel. Researchers Sirois and Pychyl showed that procrastination is prioritizing short-term mood over long-term goals. The guilt after avoidance makes the next attempt heavier, because each spin of the loop adds weight. The 10th time you avoid something feels worse than the 1st — not because the task grew, but because the story around it did."
+    labels:
+      - { text: "guilt = fuel", at: 0.49 }
+  - id: e2s3
+    title: "Deadlines"
+    search:
+      - { file: "../_imgpool/calendar-dates-f0642a-01.jpg", type: image, parallax: false, query: "calendar dates", author: "Nautical almanac offices of the United Kingdom and the United States", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Table_of_equivalent_dates_in_the_Julian_and_Gregorian_calendars.JPG" }
+      - { file: "../_imgpool/alarm-clock-842374-01.jpg", type: image, parallax: false, query: "alarm clock", author: "Nenad Stojkovic", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Old_alarm_clock_on_the_bookshelf_-_50233824038.jpg" }
+      - { file: "../_imgpool/hourglass-920487-02.jpg", type: image, parallax: false, query: "hourglass", author: "John Morgan", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Hourglass_with_sand.jpg" }
+    narration: "Now add deadlines — the avoidance cycle's only real off-switch. Still, with no deadline in sight, delay costs nothing, so postponement stretches toward infinity. Psychologist Dan Ariely tested this in a real class: students forced to meet weekly deadlines made far fewer errors than students who set their own schedule. Without an external clock, the panic monster only shows up at the last possible moment — and drags your standards down with it."
+    labels:
+      - { text: "no deadline = infinite delay", at: 0.25 }
+  - id: e2s4
+    title: "The Pressure Myth"
+    search:
+      - { file: "../_imgpool/studying-night-books-0508e3-01.jpg", type: image, parallax: false, query: "studying night books", author: "Internet Archive Book Images", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:Books_and_bookmen_(1899)_(14804014193).jpg" }
+      - { file: "../_imgpool/busy-kitchen-chef-8c1ec1-02.jpg", type: image, parallax: false, query: "busy kitchen chef", author: "Erica (Thorp) de Berry (1890-1943)", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Erica_(Thorp)_de_Berry_to_Thorp_family,_30_October_1918_(0dbb0f12-729b-45f8-b990-f25d71f296ac).jpg" }
+      - { file: "../_imgpool/firefighter-training-94dc60-02.jpg", type: image, parallax: false, query: "firefighter training", author: "Forest Service Pacific Northwest Region", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:2024_Annual_Interagency_Firefighter_Training_by_Forest_Service_Pacific_Northwest_Region_-_15.jpg" }
+    narration: "Which brings us to the myth: I work better under pressure. You don't. You work faster, worse, and far more anxious. Under deadline panic you skip planning, cut corners, and hand in work you know is below you. But the pressure was never unlocking your genius — it was masking the avoidance that blocked 3 weeks of your actual genius."
+    labels:
+      - { text: "'I work better under pressure' — myth", at: 0.23 }
+  - id: e2s5
+    title: "The Interest"
+    search:
+      - { file: "../_imgpool/piggy-bank-e26c46-01.jpg", type: image, parallax: false, query: "piggy bank", author: "Noah Wulf", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:A_Model_1925_Kenworth_Collectible_piggy_bank_sitting_on_a_shelf_3.jpg" }
+      - { file: "../_imgpool/blood-pressure-monitor-47a511-02.jpg", type: image, parallax: false, query: "blood pressure monitor", author: "Marvelousola01", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:An_Omron_wrist_blood_pressure_monitor.jpg" }
+      - { file: "../_imgpool/balance-scale-272553-02.jpg", type: image, parallax: false, query: "balance scale", author: "Nikodem Nijaki", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9722.jpg" }
+    narration: "And the pattern doesn't just steal quality — it charges interest in stress, sleep, money, and health, because chronic avoiders carry higher stress and even higher blood pressure. But to see the full invoice, you need to slow down and count. That's the next chapter: what the word later actually costs, in numbers you will feel."
+    labels:
+      - { text: "stress · sleep · money · health", at: 0.47 }
+  - id: e2s6
+    title: "Next: The Price of Later"
+    search:
+      - { file: "../_imgpool/piggy-bank-e26c46-02.jpg", type: image, parallax: false, query: "piggy bank", author: "Noah Wulf", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:A_Model_1925_Kenworth_Collectible_piggy_bank_sitting_on_table.jpg" }
+      - { file: "../_imgpool/balance-scale-272553-01.jpg", type: image, parallax: false, query: "balance scale", author: "Nikodem Nijaki", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9749.jpg" }
+    narration: "Before you try to fix it, count what the pattern charges you. Next: the real price of later — in days, dollars, and sleep."

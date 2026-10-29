@@ -1,0 +1,361 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Now",
+   "start": 0.093,
+   "end": 0.324
+  },
+  {
+   "word": "add",
+   "start": 0.336,
+   "end": 0.475
+  },
+  {
+   "word": "deadlines",
+   "start": 0.486,
+   "end": 1.1
+  },
+  {
+   "word": "the",
+   "start": 1.308,
+   "end": 1.4
+  },
+  {
+   "word": "avoidance",
+   "start": 1.412,
+   "end": 1.829
+  },
+  {
+   "word": "cycle's",
+   "start": 1.84,
+   "end": 2.326
+  },
+  {
+   "word": "only",
+   "start": 2.384,
+   "end": 2.662
+  },
+  {
+   "word": "real",
+   "start": 2.674,
+   "end": 2.928
+  },
+  {
+   "word": "off-switch",
+   "start": 2.94,
+   "end": 3.565
+  },
+  {
+   "word": "Still",
+   "start": 3.958,
+   "end": 4.363
+  },
+  {
+   "word": "with",
+   "start": 4.549,
+   "end": 4.688
+  },
+  {
+   "word": "no",
+   "start": 4.699,
+   "end": 4.907
+  },
+  {
+   "word": "deadline",
+   "start": 4.919,
+   "end": 5.394
+  },
+  {
+   "word": "in",
+   "start": 5.405,
+   "end": 5.498
+  },
+  {
+   "word": "sight",
+   "start": 5.509,
+   "end": 5.914
+  },
+  {
+   "word": "delay",
+   "start": 6.134,
+   "end": 6.424
+  },
+  {
+   "word": "costs",
+   "start": 6.435,
+   "end": 6.829
+  },
+  {
+   "word": "nothing",
+   "start": 6.84,
+   "end": 7.199
+  },
+  {
+   "word": "so",
+   "start": 7.477,
+   "end": 7.639
+  },
+  {
+   "word": "postponement",
+   "start": 7.65,
+   "end": 8.31
+  },
+  {
+   "word": "stretches",
+   "start": 8.322,
+   "end": 8.808
+  },
+  {
+   "word": "toward",
+   "start": 8.819,
+   "end": 9.062
+  },
+  {
+   "word": "infinity",
+   "start": 9.074,
+   "end": 9.572
+  },
+  {
+   "word": "Psychologist",
+   "start": 9.965,
+   "end": 10.637
+  },
+  {
+   "word": "Dan",
+   "start": 10.648,
+   "end": 10.972
+  },
+  {
+   "word": "Ariely",
+   "start": 11.065,
+   "end": 11.447
+  },
+  {
+   "word": "tested",
+   "start": 11.458,
+   "end": 11.852
+  },
+  {
+   "word": "this",
+   "start": 11.863,
+   "end": 12.118
+  },
+  {
+   "word": "in",
+   "start": 12.13,
+   "end": 12.245
+  },
+  {
+   "word": "a",
+   "start": 12.257,
+   "end": 12.315
+  },
+  {
+   "word": "real",
+   "start": 12.326,
+   "end": 12.581
+  },
+  {
+   "word": "class",
+   "start": 12.593,
+   "end": 13.09
+  },
+  {
+   "word": "students",
+   "start": 13.357,
+   "end": 13.75
+  },
+  {
+   "word": "forced",
+   "start": 13.762,
+   "end": 14.097
+  },
+  {
+   "word": "to",
+   "start": 14.109,
+   "end": 14.178
+  },
+  {
+   "word": "meet",
+   "start": 14.19,
+   "end": 14.433
+  },
+  {
+   "word": "weekly",
+   "start": 14.444,
+   "end": 14.792
+  },
+  {
+   "word": "deadlines",
+   "start": 14.803,
+   "end": 15.394
+  },
+  {
+   "word": "made",
+   "start": 15.475,
+   "end": 15.66
+  },
+  {
+   "word": "far",
+   "start": 15.671,
+   "end": 15.961
+  },
+  {
+   "word": "fewer",
+   "start": 15.972,
+   "end": 16.331
+  },
+  {
+   "word": "errors",
+   "start": 16.412,
+   "end": 16.736
+  },
+  {
+   "word": "than",
+   "start": 16.748,
+   "end": 16.875
+  },
+  {
+   "word": "students",
+   "start": 16.887,
+   "end": 17.396
+  },
+  {
+   "word": "who",
+   "start": 17.5,
+   "end": 17.616
+  },
+  {
+   "word": "set",
+   "start": 17.627,
+   "end": 17.87
+  },
+  {
+   "word": "their",
+   "start": 17.882,
+   "end": 18.032
+  },
+  {
+   "word": "own",
+   "start": 18.044,
+   "end": 18.194
+  },
+  {
+   "word": "schedule",
+   "start": 18.206,
+   "end": 18.692
+  },
+  {
+   "word": "Without",
+   "start": 19.086,
+   "end": 19.375
+  },
+  {
+   "word": "an",
+   "start": 19.387,
+   "end": 19.444
+  },
+  {
+   "word": "external",
+   "start": 19.456,
+   "end": 19.931
+  },
+  {
+   "word": "clock",
+   "start": 19.942,
+   "end": 20.382
+  },
+  {
+   "word": "the",
+   "start": 20.59,
+   "end": 20.683
+  },
+  {
+   "word": "panic",
+   "start": 20.694,
+   "end": 20.995
+  },
+  {
+   "word": "monster",
+   "start": 21.007,
+   "end": 21.458
+  },
+  {
+   "word": "only",
+   "start": 21.47,
+   "end": 21.69
+  },
+  {
+   "word": "shows",
+   "start": 21.701,
+   "end": 22.025
+  },
+  {
+   "word": "up",
+   "start": 22.037,
+   "end": 22.187
+  },
+  {
+   "word": "at",
+   "start": 22.199,
+   "end": 22.28
+  },
+  {
+   "word": "the",
+   "start": 22.292,
+   "end": 22.373
+  },
+  {
+   "word": "last",
+   "start": 22.384,
+   "end": 22.743
+  },
+  {
+   "word": "possible",
+   "start": 22.755,
+   "end": 23.183
+  },
+  {
+   "word": "moment",
+   "start": 23.194,
+   "end": 23.565
+  },
+  {
+   "word": "and",
+   "start": 23.854,
+   "end": 23.924
+  },
+  {
+   "word": "drags",
+   "start": 23.935,
+   "end": 24.34
+  },
+  {
+   "word": "your",
+   "start": 24.352,
+   "end": 24.456
+  },
+  {
+   "word": "standards",
+   "start": 24.468,
+   "end": 24.942
+  },
+  {
+   "word": "down",
+   "start": 24.954,
+   "end": 25.197
+  },
+  {
+   "word": "with",
+   "start": 25.208,
+   "end": 25.37
+  },
+  {
+   "word": "it",
+   "start": 25.382,
+   "end": 25.532
+  }
+ ]
+}

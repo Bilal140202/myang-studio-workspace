@@ -1,0 +1,25 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-teaser"
+scenes:
+  - id: t1
+    title: "The Loop"
+    search:
+      - { file: "../_imgpool/scrolling-phone-night-17d98b-02.jpg", type: image, parallax: false, query: "scrolling phone night", author: "unknown", license: "CC (see source)", page: "https://www.pexels.com/search/a%20person%20scrolling%20mobile%20phone%20at%20night/" }
+      - { file: "../_imgpool/clock-night-desk-28a8c7-01.jpg", type: image, parallax: false, query: "clock night desk", author: "Simkinseled", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Desk_Clock.jpg" }
+      - { file: "../_imgpool/dark-room-laptop-9e7629-03.jpg", type: image, parallax: false, query: "dark room laptop", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Tired_businesswoman_in_a_dark_room_thinking_while_holding_glasses_near_a_laptop_and_a_notebook.jpg" }
+    narration: "Right now, there's something you're supposed to be doing. Why haven't you started? You've known it for days — maybe weeks. It sits there, quietly judging you, while you watch videos about getting things done. That is not laziness. That is your brain, running a program. And programs can be rewritten."
+    labels:
+      - { text: "not laziness — a program", at: 0.74 }
+  - id: t2
+    title: "What's Ahead"
+    search:
+      - { file: "../_imgpool/hourglass-sand-06dc67-03.jpg", type: image, parallax: false, query: "hourglass sand", author: "Thamizhpparithi Maari", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Sand_Clock.jpg" }
+      - { file: "../_imgpool/brain-anatomy-drawing-64218b-01.jpg", type: image, parallax: false, query: "brain anatomy drawing", author: "https://wellcomeimages.org/indexplus/obf_images/38/1f/5ca468960a7e1d80cd23fa656e7a.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0025507.html Wellcome Collection gallery (2018-03-27): https://wellcomecollection.org/works/b6aanhf4 CC-BY-4.0", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Charles_Bell,_The_anatomy_of_the_brain_Wellcome_L0025507.jpg" }
+      - { file: "../_imgpool/mountain-sunrise-climber-bb6f75-01.jpg", type: image, parallax: false, query: "mountain sunrise climber", author: "unknown", license: "CC (see source)", page: "https://www.vecteezy.com/photo/69952253-climber-atop-mountain-peak-at-sunrise" }
+    narration: "Over the next chapters: why procrastination is an emotion problem, not a time problem. The loop that keeps you stuck. And 5 tools, backed by real studies, that break it. Stay until the end, because the last one forgives your past failures. Literally."
+    labels:
+      - { text: "5 tools · real studies", at: 0.46 }
+target_seconds: [20, 60]   # teaser window (episodes use the series window)

@@ -1,0 +1,326 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Then",
+   "start": 0.093,
+   "end": 0.312
+  },
+  {
+   "word": "close",
+   "start": 0.59,
+   "end": 0.868
+  },
+  {
+   "word": "the",
+   "start": 0.88,
+   "end": 0.984
+  },
+  {
+   "word": "escape",
+   "start": 0.995,
+   "end": 1.354
+  },
+  {
+   "word": "hatch",
+   "start": 1.366,
+   "end": 1.69
+  },
+  {
+   "word": "before",
+   "start": 1.701,
+   "end": 1.968
+  },
+  {
+   "word": "the",
+   "start": 1.979,
+   "end": 2.037
+  },
+  {
+   "word": "moment",
+   "start": 2.049,
+   "end": 2.338
+  },
+  {
+   "word": "comes",
+   "start": 2.35,
+   "end": 2.743
+  },
+  {
+   "word": "Implementation",
+   "start": 3.125,
+   "end": 3.819
+  },
+  {
+   "word": "intentions",
+   "start": 3.831,
+   "end": 4.502
+  },
+  {
+   "word": "if",
+   "start": 4.688,
+   "end": 4.803
+  },
+  {
+   "word": "it's",
+   "start": 4.815,
+   "end": 4.977
+  },
+  {
+   "word": "3 p.m.",
+   "start": 4.988,
+   "end": 5.775
+  },
+  {
+   "word": "I",
+   "start": 6.157,
+   "end": 6.285
+  },
+  {
+   "word": "open",
+   "start": 6.296,
+   "end": 6.516
+  },
+  {
+   "word": "the",
+   "start": 6.528,
+   "end": 6.62
+  },
+  {
+   "word": "document",
+   "start": 6.632,
+   "end": 7.106
+  },
+  {
+   "word": "at",
+   "start": 7.118,
+   "end": 7.199
+  },
+  {
+   "word": "the",
+   "start": 7.211,
+   "end": 7.292
+  },
+  {
+   "word": "desk",
+   "start": 7.303,
+   "end": 7.743
+  },
+  {
+   "word": "were",
+   "start": 7.986,
+   "end": 8.09
+  },
+  {
+   "word": "tested",
+   "start": 8.102,
+   "end": 8.461
+  },
+  {
+   "word": "across",
+   "start": 8.472,
+   "end": 8.866
+  },
+  {
+   "word": "94",
+   "start": 8.877,
+   "end": 9.387
+  },
+  {
+   "word": "studies",
+   "start": 9.398,
+   "end": 9.896
+  },
+  {
+   "word": "They",
+   "start": 10.278,
+   "end": 10.347
+  },
+  {
+   "word": "lifted",
+   "start": 10.359,
+   "end": 10.671
+  },
+  {
+   "word": "follow-through",
+   "start": 10.683,
+   "end": 11.285
+  },
+  {
+   "word": "by",
+   "start": 11.296,
+   "end": 11.562
+  },
+  {
+   "word": "a",
+   "start": 11.574,
+   "end": 11.655
+  },
+  {
+   "word": "wide",
+   "start": 11.667,
+   "end": 11.956
+  },
+  {
+   "word": "margin",
+   "start": 11.968,
+   "end": 12.35
+  },
+  {
+   "word": "because",
+   "start": 12.604,
+   "end": 12.882
+  },
+  {
+   "word": "you're",
+   "start": 12.893,
+   "end": 12.998
+  },
+  {
+   "word": "not",
+   "start": 13.009,
+   "end": 13.252
+  },
+  {
+   "word": "deciding",
+   "start": 13.264,
+   "end": 13.75
+  },
+  {
+   "word": "in",
+   "start": 13.762,
+   "end": 13.831
+  },
+  {
+   "word": "the",
+   "start": 13.843,
+   "end": 13.9
+  },
+  {
+   "word": "moment",
+   "start": 13.912,
+   "end": 14.225
+  },
+  {
+   "word": "anymore",
+   "start": 14.236,
+   "end": 14.676
+  },
+  {
+   "word": "The",
+   "start": 15.069,
+   "end": 15.104
+  },
+  {
+   "word": "moment",
+   "start": 15.116,
+   "end": 15.417
+  },
+  {
+   "word": "was",
+   "start": 15.428,
+   "end": 15.544
+  },
+  {
+   "word": "decided",
+   "start": 15.556,
+   "end": 15.995
+  },
+  {
+   "word": "last",
+   "start": 16.007,
+   "end": 16.296
+  },
+  {
+   "word": "night",
+   "start": 16.308,
+   "end": 16.586
+  },
+  {
+   "word": "And",
+   "start": 16.968,
+   "end": 17.106
+  },
+  {
+   "word": "Ariely's",
+   "start": 17.118,
+   "end": 17.569
+  },
+  {
+   "word": "deadline",
+   "start": 17.581,
+   "end": 17.974
+  },
+  {
+   "word": "trick",
+   "start": 17.986,
+   "end": 18.229
+  },
+  {
+   "word": "applies",
+   "start": 18.241,
+   "end": 18.611
+  },
+  {
+   "word": "here",
+   "start": 18.623,
+   "end": 18.796
+  },
+  {
+   "word": "too",
+   "start": 18.808,
+   "end": 19.062
+  },
+  {
+   "word": "set",
+   "start": 19.502,
+   "end": 19.711
+  },
+  {
+   "word": "small",
+   "start": 19.722,
+   "end": 20.162
+  },
+  {
+   "word": "early",
+   "start": 20.544,
+   "end": 20.891
+  },
+  {
+   "word": "slightly",
+   "start": 21.123,
+   "end": 21.562
+  },
+  {
+   "word": "painful",
+   "start": 21.574,
+   "end": 21.979
+  },
+  {
+   "word": "checkpoints",
+   "start": 21.991,
+   "end": 22.627
+  },
+  {
+   "word": "and",
+   "start": 22.859,
+   "end": 22.986
+  },
+  {
+   "word": "let",
+   "start": 22.998,
+   "end": 23.148
+  },
+  {
+   "word": "them",
+   "start": 23.16,
+   "end": 23.252
+  },
+  {
+   "word": "bite",
+   "start": 23.264,
+   "end": 23.588
+  }
+ ]
+}

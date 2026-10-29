@@ -1,0 +1,101 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "One",
+   "start": 0.093,
+   "end": 0.312
+  },
+  {
+   "word": "enemy",
+   "start": 0.324,
+   "end": 0.579
+  },
+  {
+   "word": "left",
+   "start": 0.59,
+   "end": 0.972
+  },
+  {
+   "word": "and",
+   "start": 1.227,
+   "end": 1.296
+  },
+  {
+   "word": "it",
+   "start": 1.308,
+   "end": 1.377
+  },
+  {
+   "word": "isn't",
+   "start": 1.389,
+   "end": 1.562
+  },
+  {
+   "word": "your",
+   "start": 1.574,
+   "end": 1.667
+  },
+  {
+   "word": "schedule",
+   "start": 1.678,
+   "end": 2.164
+  },
+  {
+   "word": "Next",
+   "start": 2.546,
+   "end": 2.94
+  },
+  {
+   "word": "make",
+   "start": 3.218,
+   "end": 3.368
+  },
+  {
+   "word": "it",
+   "start": 3.38,
+   "end": 3.449
+  },
+  {
+   "word": "stick",
+   "start": 3.461,
+   "end": 3.866
+  },
+  {
+   "word": "forgiveness",
+   "start": 4.132,
+   "end": 4.792
+  },
+  {
+   "word": "streaks",
+   "start": 4.965,
+   "end": 5.509
+  },
+  {
+   "word": "and",
+   "start": 5.718,
+   "end": 5.81
+  },
+  {
+   "word": "the",
+   "start": 5.822,
+   "end": 5.903
+  },
+  {
+   "word": "30-day",
+   "start": 5.914,
+   "end": 6.539
+  },
+  {
+   "word": "rewiring",
+   "start": 6.551,
+   "end": 7.072
+  },
+  {
+   "word": "plan",
+   "start": 7.083,
+   "end": 7.454
+  }
+ ]
+}

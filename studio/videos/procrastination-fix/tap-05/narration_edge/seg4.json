@@ -1,0 +1,346 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Environment",
+   "start": 0.093,
+   "end": 0.602
+  },
+  {
+   "word": "beats",
+   "start": 0.613,
+   "end": 0.868
+  },
+  {
+   "word": "intention",
+   "start": 0.88,
+   "end": 1.435
+  },
+  {
+   "word": "in",
+   "start": 1.551,
+   "end": 1.667
+  },
+  {
+   "word": "one",
+   "start": 1.678,
+   "end": 1.84
+  },
+  {
+   "word": "more",
+   "start": 1.852,
+   "end": 2.072
+  },
+  {
+   "word": "way",
+   "start": 2.083,
+   "end": 2.373
+  },
+  {
+   "word": "cues",
+   "start": 2.743,
+   "end": 3.275
+  },
+  {
+   "word": "A",
+   "start": 3.657,
+   "end": 3.727
+  },
+  {
+   "word": "desk",
+   "start": 3.738,
+   "end": 4.074
+  },
+  {
+   "word": "that",
+   "start": 4.086,
+   "end": 4.225
+  },
+  {
+   "word": "only",
+   "start": 4.236,
+   "end": 4.433
+  },
+  {
+   "word": "means",
+   "start": 4.444,
+   "end": 4.676
+  },
+  {
+   "word": "work",
+   "start": 4.688,
+   "end": 5.035
+  },
+  {
+   "word": "A",
+   "start": 5.417,
+   "end": 5.475
+  },
+  {
+   "word": "playlist",
+   "start": 5.486,
+   "end": 5.868
+  },
+  {
+   "word": "that",
+   "start": 5.88,
+   "end": 6.007
+  },
+  {
+   "word": "only",
+   "start": 6.019,
+   "end": 6.238
+  },
+  {
+   "word": "means",
+   "start": 6.25,
+   "end": 6.47
+  },
+  {
+   "word": "focus",
+   "start": 6.481,
+   "end": 7.014
+  },
+  {
+   "word": "The",
+   "start": 7.407,
+   "end": 7.454
+  },
+  {
+   "word": "same",
+   "start": 7.465,
+   "end": 7.755
+  },
+  {
+   "word": "time",
+   "start": 7.766,
+   "end": 8.194
+  },
+  {
+   "word": "the",
+   "start": 8.472,
+   "end": 8.553
+  },
+  {
+   "word": "same",
+   "start": 8.565,
+   "end": 8.866
+  },
+  {
+   "word": "chair",
+   "start": 8.877,
+   "end": 9.282
+  },
+  {
+   "word": "the",
+   "start": 9.525,
+   "end": 9.606
+  },
+  {
+   "word": "same",
+   "start": 9.618,
+   "end": 9.931
+  },
+  {
+   "word": "first",
+   "start": 9.942,
+   "end": 10.347
+  },
+  {
+   "word": "action",
+   "start": 10.359,
+   "end": 10.764
+  },
+  {
+   "word": "because",
+   "start": 11.018,
+   "end": 11.308
+  },
+  {
+   "word": "repetition",
+   "start": 11.319,
+   "end": 11.875
+  },
+  {
+   "word": "turns",
+   "start": 11.887,
+   "end": 12.153
+  },
+  {
+   "word": "a",
+   "start": 12.164,
+   "end": 12.234
+  },
+  {
+   "word": "cue",
+   "start": 12.245,
+   "end": 12.581
+  },
+  {
+   "word": "into",
+   "start": 12.593,
+   "end": 12.87
+  },
+  {
+   "word": "a",
+   "start": 12.882,
+   "end": 12.928
+  },
+  {
+   "word": "trigger",
+   "start": 12.94,
+   "end": 13.403
+  },
+  {
+   "word": "and",
+   "start": 13.692,
+   "end": 13.727
+  },
+  {
+   "word": "the",
+   "start": 13.738,
+   "end": 13.808
+  },
+  {
+   "word": "trigger",
+   "start": 13.819,
+   "end": 14.213
+  },
+  {
+   "word": "into",
+   "start": 14.225,
+   "end": 14.468
+  },
+  {
+   "word": "autopilot",
+   "start": 14.479,
+   "end": 15.116
+  },
+  {
+   "word": "You've",
+   "start": 15.498,
+   "end": 15.637
+  },
+  {
+   "word": "already",
+   "start": 15.648,
+   "end": 15.972
+  },
+  {
+   "word": "seen",
+   "start": 15.984,
+   "end": 16.296
+  },
+  {
+   "word": "this",
+   "start": 16.308,
+   "end": 16.482
+  },
+  {
+   "word": "machinery",
+   "start": 16.493,
+   "end": 17.06
+  },
+  {
+   "word": "run",
+   "start": 17.072,
+   "end": 17.292
+  },
+  {
+   "word": "against",
+   "start": 17.303,
+   "end": 17.639
+  },
+  {
+   "word": "you",
+   "start": 17.65,
+   "end": 17.789
+  },
+  {
+   "word": "one",
+   "start": 18.218,
+   "end": 18.449
+  },
+  {
+   "word": "phone",
+   "start": 18.461,
+   "end": 18.738
+  },
+  {
+   "word": "buzz",
+   "start": 18.75,
+   "end": 19.097
+  },
+  {
+   "word": "dropping",
+   "start": 19.109,
+   "end": 19.537
+  },
+  {
+   "word": "you",
+   "start": 19.549,
+   "end": 19.734
+  },
+  {
+   "word": "into",
+   "start": 19.745,
+   "end": 20.023
+  },
+  {
+   "word": "an",
+   "start": 20.035,
+   "end": 20.127
+  },
+  {
+   "word": "hour",
+   "start": 20.139,
+   "end": 20.405
+  },
+  {
+   "word": "of",
+   "start": 20.417,
+   "end": 20.486
+  },
+  {
+   "word": "scrolling",
+   "start": 20.498,
+   "end": 20.961
+  },
+  {
+   "word": "Same",
+   "start": 21.343,
+   "end": 21.505
+  },
+  {
+   "word": "machinery",
+   "start": 21.516,
+   "end": 22.002
+  },
+  {
+   "word": "Point",
+   "start": 22.396,
+   "end": 22.535
+  },
+  {
+   "word": "it",
+   "start": 22.546,
+   "end": 22.593
+  },
+  {
+   "word": "at",
+   "start": 22.604,
+   "end": 22.685
+  },
+  {
+   "word": "the",
+   "start": 22.697,
+   "end": 22.766
+  },
+  {
+   "word": "work",
+   "start": 22.778,
+   "end": 23.113
+  }
+ ]
+}

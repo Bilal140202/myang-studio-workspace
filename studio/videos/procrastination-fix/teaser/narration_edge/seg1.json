@@ -1,0 +1,256 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Right",
+   "start": 0.093,
+   "end": 0.243
+  },
+  {
+   "word": "now",
+   "start": 0.255,
+   "end": 0.498
+  },
+  {
+   "word": "there's",
+   "start": 0.868,
+   "end": 1.007
+  },
+  {
+   "word": "something",
+   "start": 1.018,
+   "end": 1.319
+  },
+  {
+   "word": "you're",
+   "start": 1.331,
+   "end": 1.435
+  },
+  {
+   "word": "supposed",
+   "start": 1.447,
+   "end": 1.829
+  },
+  {
+   "word": "to",
+   "start": 1.84,
+   "end": 1.887
+  },
+  {
+   "word": "be",
+   "start": 1.898,
+   "end": 1.991
+  },
+  {
+   "word": "doing",
+   "start": 2.002,
+   "end": 2.315
+  },
+  {
+   "word": "Why",
+   "start": 2.697,
+   "end": 2.812
+  },
+  {
+   "word": "haven't",
+   "start": 2.824,
+   "end": 3.032
+  },
+  {
+   "word": "you",
+   "start": 3.044,
+   "end": 3.102
+  },
+  {
+   "word": "started",
+   "start": 3.113,
+   "end": 3.495
+  },
+  {
+   "word": "You've",
+   "start": 3.877,
+   "end": 3.993
+  },
+  {
+   "word": "known",
+   "start": 4.005,
+   "end": 4.167
+  },
+  {
+   "word": "it",
+   "start": 4.178,
+   "end": 4.236
+  },
+  {
+   "word": "for",
+   "start": 4.248,
+   "end": 4.352
+  },
+  {
+   "word": "days",
+   "start": 4.363,
+   "end": 4.792
+  },
+  {
+   "word": "maybe",
+   "start": 4.965,
+   "end": 5.208
+  },
+  {
+   "word": "weeks",
+   "start": 5.22,
+   "end": 5.706
+  },
+  {
+   "word": "It",
+   "start": 6.1,
+   "end": 6.181
+  },
+  {
+   "word": "sits",
+   "start": 6.192,
+   "end": 6.458
+  },
+  {
+   "word": "there",
+   "start": 6.47,
+   "end": 6.782
+  },
+  {
+   "word": "quietly",
+   "start": 6.979,
+   "end": 7.419
+  },
+  {
+   "word": "judging",
+   "start": 7.431,
+   "end": 7.812
+  },
+  {
+   "word": "you",
+   "start": 7.824,
+   "end": 7.975
+  },
+  {
+   "word": "while",
+   "start": 8.264,
+   "end": 8.368
+  },
+  {
+   "word": "you",
+   "start": 8.38,
+   "end": 8.472
+  },
+  {
+   "word": "watch",
+   "start": 8.484,
+   "end": 8.715
+  },
+  {
+   "word": "videos",
+   "start": 8.727,
+   "end": 9.143
+  },
+  {
+   "word": "about",
+   "start": 9.155,
+   "end": 9.41
+  },
+  {
+   "word": "getting",
+   "start": 9.421,
+   "end": 9.618
+  },
+  {
+   "word": "things",
+   "start": 9.63,
+   "end": 9.896
+  },
+  {
+   "word": "done",
+   "start": 9.907,
+   "end": 10.208
+  },
+  {
+   "word": "That",
+   "start": 10.602,
+   "end": 10.683
+  },
+  {
+   "word": "is",
+   "start": 10.694,
+   "end": 10.775
+  },
+  {
+   "word": "not",
+   "start": 10.787,
+   "end": 10.972
+  },
+  {
+   "word": "laziness",
+   "start": 10.984,
+   "end": 11.574
+  },
+  {
+   "word": "That",
+   "start": 11.968,
+   "end": 12.072
+  },
+  {
+   "word": "is",
+   "start": 12.083,
+   "end": 12.176
+  },
+  {
+   "word": "your",
+   "start": 12.188,
+   "end": 12.303
+  },
+  {
+   "word": "brain",
+   "start": 12.315,
+   "end": 12.708
+  },
+  {
+   "word": "running",
+   "start": 12.986,
+   "end": 13.16
+  },
+  {
+   "word": "a",
+   "start": 13.171,
+   "end": 13.206
+  },
+  {
+   "word": "program",
+   "start": 13.218,
+   "end": 13.704
+  },
+  {
+   "word": "And",
+   "start": 14.086,
+   "end": 14.155
+  },
+  {
+   "word": "programs",
+   "start": 14.167,
+   "end": 14.653
+  },
+  {
+   "word": "can",
+   "start": 14.664,
+   "end": 14.78
+  },
+  {
+   "word": "be",
+   "start": 14.792,
+   "end": 14.907
+  },
+  {
+   "word": "rewritten",
+   "start": 14.919,
+   "end": 15.336
+  }
+ ]
+}

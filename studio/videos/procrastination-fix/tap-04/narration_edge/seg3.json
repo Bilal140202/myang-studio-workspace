@@ -1,0 +1,311 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Next",
+   "start": 0.093,
+   "end": 0.486
+  },
+  {
+   "word": "make",
+   "start": 0.718,
+   "end": 0.891
+  },
+  {
+   "word": "the",
+   "start": 0.903,
+   "end": 0.995
+  },
+  {
+   "word": "work",
+   "start": 1.007,
+   "end": 1.215
+  },
+  {
+   "word": "embarrassingly",
+   "start": 1.227,
+   "end": 1.863
+  },
+  {
+   "word": "specific",
+   "start": 1.875,
+   "end": 2.488
+  },
+  {
+   "word": "Work",
+   "start": 2.87,
+   "end": 3.032
+  },
+  {
+   "word": "on",
+   "start": 3.044,
+   "end": 3.16
+  },
+  {
+   "word": "presentation",
+   "start": 3.171,
+   "end": 3.877
+  },
+  {
+   "word": "is",
+   "start": 3.993,
+   "end": 4.097
+  },
+  {
+   "word": "a",
+   "start": 4.109,
+   "end": 4.155
+  },
+  {
+   "word": "fog",
+   "start": 4.167,
+   "end": 4.537
+  },
+  {
+   "word": "your",
+   "start": 4.549,
+   "end": 4.664
+  },
+  {
+   "word": "brain",
+   "start": 4.676,
+   "end": 5.058
+  },
+  {
+   "word": "refuses",
+   "start": 5.069,
+   "end": 5.637
+  },
+  {
+   "word": "to",
+   "start": 5.648,
+   "end": 5.752
+  },
+  {
+   "word": "enter",
+   "start": 5.764,
+   "end": 6.134
+  },
+  {
+   "word": "Email",
+   "start": 6.516,
+   "end": 6.829
+  },
+  {
+   "word": "Mike",
+   "start": 6.84,
+   "end": 7.049
+  },
+  {
+   "word": "the",
+   "start": 7.06,
+   "end": 7.141
+  },
+  {
+   "word": "3",
+   "start": 7.153,
+   "end": 7.407
+  },
+  {
+   "word": "slides",
+   "start": 7.419,
+   "end": 7.789
+  },
+  {
+   "word": "by",
+   "start": 7.801,
+   "end": 7.963
+  },
+  {
+   "word": "3 p.m.",
+   "start": 7.975,
+   "end": 8.727
+  },
+  {
+   "word": "is",
+   "start": 8.843,
+   "end": 8.935
+  },
+  {
+   "word": "a",
+   "start": 8.947,
+   "end": 9.005
+  },
+  {
+   "word": "door",
+   "start": 9.016,
+   "end": 9.363
+  },
+  {
+   "word": "David",
+   "start": 9.745,
+   "end": 10.012
+  },
+  {
+   "word": "Allen",
+   "start": 10.023,
+   "end": 10.336
+  },
+  {
+   "word": "built",
+   "start": 10.347,
+   "end": 10.625
+  },
+  {
+   "word": "an",
+   "start": 10.694,
+   "end": 10.764
+  },
+  {
+   "word": "entire",
+   "start": 10.775,
+   "end": 11.25
+  },
+  {
+   "word": "system",
+   "start": 11.262,
+   "end": 11.667
+  },
+  {
+   "word": "on",
+   "start": 11.794,
+   "end": 11.898
+  },
+  {
+   "word": "this",
+   "start": 11.91,
+   "end": 12.072
+  },
+  {
+   "word": "one",
+   "start": 12.083,
+   "end": 12.326
+  },
+  {
+   "word": "move",
+   "start": 12.338,
+   "end": 12.72
+  },
+  {
+   "word": "define",
+   "start": 12.998,
+   "end": 13.495
+  },
+  {
+   "word": "the",
+   "start": 13.507,
+   "end": 13.576
+  },
+  {
+   "word": "next",
+   "start": 13.588,
+   "end": 13.947
+  },
+  {
+   "word": "physical",
+   "start": 13.958,
+   "end": 14.317
+  },
+  {
+   "word": "action",
+   "start": 14.329,
+   "end": 14.711
+  },
+  {
+   "word": "The",
+   "start": 15.093,
+   "end": 15.162
+  },
+  {
+   "word": "exact",
+   "start": 15.174,
+   "end": 15.648
+  },
+  {
+   "word": "verb",
+   "start": 15.66,
+   "end": 16.018
+  },
+  {
+   "word": "the",
+   "start": 16.227,
+   "end": 16.296
+  },
+  {
+   "word": "exact",
+   "start": 16.308,
+   "end": 16.771
+  },
+  {
+   "word": "object",
+   "start": 16.782,
+   "end": 17.269
+  },
+  {
+   "word": "the",
+   "start": 17.442,
+   "end": 17.512
+  },
+  {
+   "word": "exact",
+   "start": 17.523,
+   "end": 17.963
+  },
+  {
+   "word": "time",
+   "start": 17.975,
+   "end": 18.345
+  },
+  {
+   "word": "since",
+   "start": 18.704,
+   "end": 18.924
+  },
+  {
+   "word": "vague",
+   "start": 18.935,
+   "end": 19.19
+  },
+  {
+   "word": "tasks",
+   "start": 19.201,
+   "end": 19.618
+  },
+  {
+   "word": "breed",
+   "start": 19.63,
+   "end": 19.861
+  },
+  {
+   "word": "avoidance",
+   "start": 19.873,
+   "end": 20.428
+  },
+  {
+   "word": "and",
+   "start": 20.625,
+   "end": 20.729
+  },
+  {
+   "word": "concrete",
+   "start": 20.741,
+   "end": 21.227
+  },
+  {
+   "word": "tasks",
+   "start": 21.238,
+   "end": 21.667
+  },
+  {
+   "word": "get",
+   "start": 21.678,
+   "end": 21.852
+  },
+  {
+   "word": "dates",
+   "start": 21.863,
+   "end": 22.315
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Let's",
+   "start": 0.093,
+   "end": 0.231
+  },
+  {
+   "word": "do",
+   "start": 0.243,
+   "end": 0.324
+  },
+  {
+   "word": "the",
+   "start": 0.336,
+   "end": 0.417
+  },
+  {
+   "word": "time",
+   "start": 0.428,
+   "end": 0.66
+  },
+  {
+   "word": "math",
+   "start": 0.671,
+   "end": 0.903
+  },
+  {
+   "word": "first",
+   "start": 0.914,
+   "end": 1.377
+  },
+  {
+   "word": "Say",
+   "start": 1.771,
+   "end": 1.933
+  },
+  {
+   "word": "procrastination",
+   "start": 1.944,
+   "end": 2.755
+  },
+  {
+   "word": "costs",
+   "start": 2.766,
+   "end": 3.148
+  },
+  {
+   "word": "you",
+   "start": 3.16,
+   "end": 3.287
+  },
+  {
+   "word": "just",
+   "start": 3.299,
+   "end": 3.542
+  },
+  {
+   "word": "2",
+   "start": 3.553,
+   "end": 3.831
+  },
+  {
+   "word": "focused",
+   "start": 3.843,
+   "end": 4.282
+  },
+  {
+   "word": "hours",
+   "start": 4.294,
+   "end": 4.572
+  },
+  {
+   "word": "a",
+   "start": 4.583,
+   "end": 4.63
+  },
+  {
+   "word": "day",
+   "start": 4.641,
+   "end": 4.942
+  },
+  {
+   "word": "the",
+   "start": 5.22,
+   "end": 5.312
+  },
+  {
+   "word": "scrolling",
+   "start": 5.324,
+   "end": 5.856
+  },
+  {
+   "word": "the",
+   "start": 6.111,
+   "end": 6.181
+  },
+  {
+   "word": "drifting",
+   "start": 6.192,
+   "end": 6.655
+  },
+  {
+   "word": "the",
+   "start": 6.898,
+   "end": 6.979
+  },
+  {
+   "word": "I'll",
+   "start": 6.991,
+   "end": 7.13
+  },
+  {
+   "word": "start",
+   "start": 7.141,
+   "end": 7.419
+  },
+  {
+   "word": "after",
+   "start": 7.431,
+   "end": 7.685
+  },
+  {
+   "word": "this",
+   "start": 7.697,
+   "end": 7.847
+  },
+  {
+   "word": "video",
+   "start": 7.859,
+   "end": 8.218
+  },
+  {
+   "word": "Two",
+   "start": 8.611,
+   "end": 8.785
+  },
+  {
+   "word": "hours",
+   "start": 8.796,
+   "end": 9.074
+  },
+  {
+   "word": "a",
+   "start": 9.086,
+   "end": 9.132
+  },
+  {
+   "word": "day",
+   "start": 9.143,
+   "end": 9.468
+  },
+  {
+   "word": "is",
+   "start": 9.479,
+   "end": 9.63
+  },
+  {
+   "word": "730 hours",
+   "start": 9.641,
+   "end": 10.926
+  },
+  {
+   "word": "a",
+   "start": 10.938,
+   "end": 10.961
+  },
+  {
+   "word": "year",
+   "start": 10.972,
+   "end": 11.319
+  },
+  {
+   "word": "which",
+   "start": 11.609,
+   "end": 11.771
+  },
+  {
+   "word": "means",
+   "start": 11.782,
+   "end": 12.037
+  },
+  {
+   "word": "30",
+   "start": 12.049,
+   "end": 12.454
+  },
+  {
+   "word": "full",
+   "start": 12.465,
+   "end": 12.789
+  },
+  {
+   "word": "waking",
+   "start": 12.801,
+   "end": 13.137
+  },
+  {
+   "word": "days",
+   "start": 13.148,
+   "end": 13.542
+  },
+  {
+   "word": "roughly",
+   "start": 13.831,
+   "end": 14.236
+  },
+  {
+   "word": "an",
+   "start": 14.248,
+   "end": 14.317
+  },
+  {
+   "word": "entire",
+   "start": 14.329,
+   "end": 14.792
+  },
+  {
+   "word": "month",
+   "start": 14.803,
+   "end": 15.081
+  },
+  {
+   "word": "of",
+   "start": 15.093,
+   "end": 15.15
+  },
+  {
+   "word": "your",
+   "start": 15.162,
+   "end": 15.289
+  },
+  {
+   "word": "life",
+   "start": 15.301,
+   "end": 15.671
+  },
+  {
+   "word": "deleted",
+   "start": 15.88,
+   "end": 16.308
+  },
+  {
+   "word": "every",
+   "start": 16.458,
+   "end": 16.69
+  },
+  {
+   "word": "year",
+   "start": 16.701,
+   "end": 17.025
+  },
+  {
+   "word": "Not",
+   "start": 17.407,
+   "end": 17.535
+  },
+  {
+   "word": "on",
+   "start": 17.546,
+   "end": 17.616
+  },
+  {
+   "word": "a",
+   "start": 17.627,
+   "end": 17.65
+  },
+  {
+   "word": "vacation",
+   "start": 17.662,
+   "end": 18.194
+  },
+  {
+   "word": "On",
+   "start": 18.576,
+   "end": 18.669
+  },
+  {
+   "word": "nothing",
+   "start": 18.681,
+   "end": 18.981
+  }
+ ]
+}

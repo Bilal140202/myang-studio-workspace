@@ -1,0 +1,301 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "One",
+   "start": 0.104,
+   "end": 0.243
+  },
+  {
+   "word": "more",
+   "start": 0.255,
+   "end": 0.405
+  },
+  {
+   "word": "spark",
+   "start": 0.417,
+   "end": 0.856
+  },
+  {
+   "word": "temptation",
+   "start": 1.123,
+   "end": 1.655
+  },
+  {
+   "word": "bundling",
+   "start": 1.667,
+   "end": 2.106
+  },
+  {
+   "word": "Katherine",
+   "start": 2.488,
+   "end": 2.801
+  },
+  {
+   "word": "Milkman",
+   "start": 2.812,
+   "end": 3.322
+  },
+  {
+   "word": "let",
+   "start": 3.333,
+   "end": 3.518
+  },
+  {
+   "word": "gym",
+   "start": 3.53,
+   "end": 3.796
+  },
+  {
+   "word": "members",
+   "start": 3.808,
+   "end": 4.248
+  },
+  {
+   "word": "unlock",
+   "start": 4.259,
+   "end": 4.688
+  },
+  {
+   "word": "a",
+   "start": 4.734,
+   "end": 4.803
+  },
+  {
+   "word": "gripping",
+   "start": 4.815,
+   "end": 5.22
+  },
+  {
+   "word": "audiobook",
+   "start": 5.231,
+   "end": 5.822
+  },
+  {
+   "word": "only",
+   "start": 5.903,
+   "end": 6.192
+  },
+  {
+   "word": "at",
+   "start": 6.204,
+   "end": 6.285
+  },
+  {
+   "word": "the",
+   "start": 6.296,
+   "end": 6.366
+  },
+  {
+   "word": "gym",
+   "start": 6.377,
+   "end": 6.736
+  },
+  {
+   "word": "and",
+   "start": 7.025,
+   "end": 7.095
+  },
+  {
+   "word": "attendance",
+   "start": 7.106,
+   "end": 7.581
+  },
+  {
+   "word": "rose",
+   "start": 7.593,
+   "end": 7.998
+  },
+  {
+   "word": "Why",
+   "start": 8.38,
+   "end": 8.634
+  },
+  {
+   "word": "Pairing",
+   "start": 9.016,
+   "end": 9.282
+  },
+  {
+   "word": "the",
+   "start": 9.294,
+   "end": 9.375
+  },
+  {
+   "word": "thing",
+   "start": 9.387,
+   "end": 9.618
+  },
+  {
+   "word": "you",
+   "start": 9.63,
+   "end": 9.745
+  },
+  {
+   "word": "avoid",
+   "start": 9.757,
+   "end": 10.162
+  },
+  {
+   "word": "with",
+   "start": 10.174,
+   "end": 10.289
+  },
+  {
+   "word": "the",
+   "start": 10.301,
+   "end": 10.37
+  },
+  {
+   "word": "treat",
+   "start": 10.382,
+   "end": 10.729
+  },
+  {
+   "word": "you",
+   "start": 10.741,
+   "end": 10.845
+  },
+  {
+   "word": "crave",
+   "start": 10.857,
+   "end": 11.331
+  },
+  {
+   "word": "turns",
+   "start": 11.447,
+   "end": 11.794
+  },
+  {
+   "word": "dread",
+   "start": 11.806,
+   "end": 12.187
+  },
+  {
+   "word": "into",
+   "start": 12.199,
+   "end": 12.373
+  },
+  {
+   "word": "pull",
+   "start": 12.384,
+   "end": 12.731
+  },
+  {
+   "word": "But",
+   "start": 13.125,
+   "end": 13.206
+  },
+  {
+   "word": "feeling",
+   "start": 13.218,
+   "end": 13.565
+  },
+  {
+   "word": "bad",
+   "start": 13.576,
+   "end": 13.843
+  },
+  {
+   "word": "about",
+   "start": 13.854,
+   "end": 14.074
+  },
+  {
+   "word": "your",
+   "start": 14.086,
+   "end": 14.225
+  },
+  {
+   "word": "avoidance",
+   "start": 14.236,
+   "end": 14.745
+  },
+  {
+   "word": "ends",
+   "start": 14.884,
+   "end": 15.023
+  },
+  {
+   "word": "this",
+   "start": 15.035,
+   "end": 15.174
+  },
+  {
+   "word": "chapter",
+   "start": 15.185,
+   "end": 15.671
+  },
+  {
+   "word": "Next",
+   "start": 16.065,
+   "end": 16.458
+  },
+  {
+   "word": "we",
+   "start": 16.713,
+   "end": 16.829
+  },
+  {
+   "word": "stop",
+   "start": 16.84,
+   "end": 17.083
+  },
+  {
+   "word": "fighting",
+   "start": 17.095,
+   "end": 17.431
+  },
+  {
+   "word": "your",
+   "start": 17.442,
+   "end": 17.546
+  },
+  {
+   "word": "brain",
+   "start": 17.558,
+   "end": 17.894
+  },
+  {
+   "word": "and",
+   "start": 18.171,
+   "end": 18.229
+  },
+  {
+   "word": "start",
+   "start": 18.241,
+   "end": 18.553
+  },
+  {
+   "word": "redesigning",
+   "start": 18.565,
+   "end": 19.167
+  },
+  {
+   "word": "the",
+   "start": 19.178,
+   "end": 19.248
+  },
+  {
+   "word": "room",
+   "start": 19.259,
+   "end": 19.502
+  },
+  {
+   "word": "it",
+   "start": 19.514,
+   "end": 19.606
+  },
+  {
+   "word": "lives",
+   "start": 19.618,
+   "end": 19.884
+  },
+  {
+   "word": "in",
+   "start": 19.896,
+   "end": 20.069
+  }
+ ]
+}

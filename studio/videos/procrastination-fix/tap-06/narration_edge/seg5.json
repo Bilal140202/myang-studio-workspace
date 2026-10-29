@@ -1,0 +1,341 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "One",
+   "start": 0.093,
+   "end": 0.208
+  },
+  {
+   "word": "last",
+   "start": 0.22,
+   "end": 0.463
+  },
+  {
+   "word": "thing",
+   "start": 0.475,
+   "end": 0.66
+  },
+  {
+   "word": "The",
+   "start": 1.053,
+   "end": 1.1
+  },
+  {
+   "word": "task",
+   "start": 1.111,
+   "end": 1.412
+  },
+  {
+   "word": "you've",
+   "start": 1.424,
+   "end": 1.539
+  },
+  {
+   "word": "been",
+   "start": 1.551,
+   "end": 1.655
+  },
+  {
+   "word": "avoiding",
+   "start": 1.667,
+   "end": 2.037
+  },
+  {
+   "word": "while",
+   "start": 2.049,
+   "end": 2.211
+  },
+  {
+   "word": "watching",
+   "start": 2.222,
+   "end": 2.569
+  },
+  {
+   "word": "this",
+   "start": 2.581,
+   "end": 2.905
+  },
+  {
+   "word": "It's",
+   "start": 3.287,
+   "end": 3.414
+  },
+  {
+   "word": "still",
+   "start": 3.426,
+   "end": 3.692
+  },
+  {
+   "word": "there",
+   "start": 3.704,
+   "end": 3.97
+  },
+  {
+   "word": "and",
+   "start": 4.248,
+   "end": 4.352
+  },
+  {
+   "word": "now",
+   "start": 4.363,
+   "end": 4.549
+  },
+  {
+   "word": "it's",
+   "start": 4.56,
+   "end": 4.676
+  },
+  {
+   "word": "the",
+   "start": 4.688,
+   "end": 4.78
+  },
+  {
+   "word": "perfect",
+   "start": 4.792,
+   "end": 5.231
+  },
+  {
+   "word": "first",
+   "start": 5.243,
+   "end": 5.498
+  },
+  {
+   "word": "target",
+   "start": 5.509,
+   "end": 5.891
+  },
+  {
+   "word": "2",
+   "start": 6.273,
+   "end": 6.377
+  },
+  {
+   "word": "minutes",
+   "start": 6.389,
+   "end": 6.817
+  },
+  {
+   "word": "1",
+   "start": 7.211,
+   "end": 7.384
+  },
+  {
+   "word": "ugly",
+   "start": 7.396,
+   "end": 7.593
+  },
+  {
+   "word": "sentence",
+   "start": 7.604,
+   "end": 8.183
+  },
+  {
+   "word": "1",
+   "start": 8.565,
+   "end": 8.715
+  },
+  {
+   "word": "open",
+   "start": 8.727,
+   "end": 8.9
+  },
+  {
+   "word": "document",
+   "start": 8.912,
+   "end": 9.41
+  },
+  {
+   "word": "That's",
+   "start": 9.803,
+   "end": 9.965
+  },
+  {
+   "word": "the",
+   "start": 9.977,
+   "end": 10.058
+  },
+  {
+   "word": "whole",
+   "start": 10.069,
+   "end": 10.312
+  },
+  {
+   "word": "ask",
+   "start": 10.324,
+   "end": 10.718
+  },
+  {
+   "word": "because",
+   "start": 10.903,
+   "end": 11.181
+  },
+  {
+   "word": "the",
+   "start": 11.192,
+   "end": 11.285
+  },
+  {
+   "word": "secret",
+   "start": 11.296,
+   "end": 11.655
+  },
+  {
+   "word": "of",
+   "start": 11.667,
+   "end": 11.736
+  },
+  {
+   "word": "how",
+   "start": 11.748,
+   "end": 11.852
+  },
+  {
+   "word": "to",
+   "start": 11.863,
+   "end": 11.944
+  },
+  {
+   "word": "stop",
+   "start": 11.956,
+   "end": 12.245
+  },
+  {
+   "word": "procrastinating",
+   "start": 12.257,
+   "end": 13.067
+  },
+  {
+   "word": "was",
+   "start": 13.079,
+   "end": 13.218
+  },
+  {
+   "word": "never",
+   "start": 13.229,
+   "end": 13.6
+  },
+  {
+   "word": "about",
+   "start": 13.611,
+   "end": 13.889
+  },
+  {
+   "word": "doing",
+   "start": 13.9,
+   "end": 14.143
+  },
+  {
+   "word": "more",
+   "start": 14.155,
+   "end": 14.479
+  },
+  {
+   "word": "it's",
+   "start": 14.838,
+   "end": 14.919
+  },
+  {
+   "word": "about",
+   "start": 14.931,
+   "end": 15.15
+  },
+  {
+   "word": "starting",
+   "start": 15.162,
+   "end": 15.498
+  },
+  {
+   "word": "smaller",
+   "start": 15.509,
+   "end": 15.961
+  },
+  {
+   "word": "today",
+   "start": 16.238,
+   "end": 16.586
+  },
+  {
+   "word": "not",
+   "start": 16.806,
+   "end": 17.002
+  },
+  {
+   "word": "Monday",
+   "start": 17.014,
+   "end": 17.465
+  },
+  {
+   "word": "If",
+   "start": 17.847,
+   "end": 17.963
+  },
+  {
+   "word": "this",
+   "start": 17.975,
+   "end": 18.125
+  },
+  {
+   "word": "helped",
+   "start": 18.137,
+   "end": 18.449
+  },
+  {
+   "word": "subscribe",
+   "start": 18.681,
+   "end": 19.143
+  },
+  {
+   "word": "for",
+   "start": 19.155,
+   "end": 19.236
+  },
+  {
+   "word": "the",
+   "start": 19.248,
+   "end": 19.317
+  },
+  {
+   "word": "next",
+   "start": 19.329,
+   "end": 19.595
+  },
+  {
+   "word": "deep",
+   "start": 19.607,
+   "end": 19.815
+  },
+  {
+   "word": "dive",
+   "start": 19.826,
+   "end": 20.197
+  },
+  {
+   "word": "Now",
+   "start": 20.579,
+   "end": 20.741
+  },
+  {
+   "word": "go",
+   "start": 20.752,
+   "end": 20.937
+  },
+  {
+   "word": "open",
+   "start": 20.949,
+   "end": 21.146
+  },
+  {
+   "word": "the",
+   "start": 21.157,
+   "end": 21.227
+  },
+  {
+   "word": "loop",
+   "start": 21.238,
+   "end": 21.528
+  }
+ ]
+}

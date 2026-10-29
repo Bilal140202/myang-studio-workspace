@@ -1,0 +1,106 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Next",
+   "start": 0.093,
+   "end": 0.324
+  },
+  {
+   "word": "up",
+   "start": 0.336,
+   "end": 0.509
+  },
+  {
+   "word": "the",
+   "start": 0.961,
+   "end": 1.053
+  },
+  {
+   "word": "loop",
+   "start": 1.065,
+   "end": 1.262
+  },
+  {
+   "word": "itself",
+   "start": 1.273,
+   "end": 1.759
+  },
+  {
+   "word": "five",
+   "start": 2.049,
+   "end": 2.361
+  },
+  {
+   "word": "steps",
+   "start": 2.373,
+   "end": 2.639
+  },
+  {
+   "word": "your",
+   "start": 2.65,
+   "end": 2.743
+  },
+  {
+   "word": "mind",
+   "start": 2.755,
+   "end": 3.079
+  },
+  {
+   "word": "runs",
+   "start": 3.09,
+   "end": 3.414
+  },
+  {
+   "word": "every",
+   "start": 3.553,
+   "end": 3.831
+  },
+  {
+   "word": "single",
+   "start": 3.843,
+   "end": 4.19
+  },
+  {
+   "word": "time",
+   "start": 4.201,
+   "end": 4.433
+  },
+  {
+   "word": "you",
+   "start": 4.444,
+   "end": 4.549
+  },
+  {
+   "word": "avoid",
+   "start": 4.56,
+   "end": 4.896
+  },
+  {
+   "word": "something",
+   "start": 4.907,
+   "end": 5.197
+  },
+  {
+   "word": "hard",
+   "start": 5.208,
+   "end": 5.567
+  },
+  {
+   "word": "Watch",
+   "start": 5.949,
+   "end": 6.111
+  },
+  {
+   "word": "it",
+   "start": 6.123,
+   "end": 6.192
+  },
+  {
+   "word": "spin",
+   "start": 6.204,
+   "end": 6.528
+  }
+ ]
+}

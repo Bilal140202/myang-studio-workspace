@@ -1,0 +1,356 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "So",
+   "start": 0.093,
+   "end": 0.208
+  },
+  {
+   "word": "when",
+   "start": 0.22,
+   "end": 0.347
+  },
+  {
+   "word": "you",
+   "start": 0.359,
+   "end": 0.463
+  },
+  {
+   "word": "avoid",
+   "start": 0.475,
+   "end": 0.81
+  },
+  {
+   "word": "the",
+   "start": 0.822,
+   "end": 0.891
+  },
+  {
+   "word": "work",
+   "start": 0.903,
+   "end": 1.215
+  },
+  {
+   "word": "your",
+   "start": 1.493,
+   "end": 1.586
+  },
+  {
+   "word": "head",
+   "start": 1.597,
+   "end": 1.84
+  },
+  {
+   "word": "hands",
+   "start": 1.852,
+   "end": 2.141
+  },
+  {
+   "word": "you",
+   "start": 2.153,
+   "end": 2.28
+  },
+  {
+   "word": "a",
+   "start": 2.292,
+   "end": 2.35
+  },
+  {
+   "word": "gift",
+   "start": 2.361,
+   "end": 2.766
+  },
+  {
+   "word": "instant",
+   "start": 3.16,
+   "end": 3.461
+  },
+  {
+   "word": "relief",
+   "start": 3.472,
+   "end": 3.935
+  },
+  {
+   "word": "And",
+   "start": 4.317,
+   "end": 4.41
+  },
+  {
+   "word": "relief",
+   "start": 4.421,
+   "end": 4.757
+  },
+  {
+   "word": "feels",
+   "start": 4.769,
+   "end": 5.046
+  },
+  {
+   "word": "good",
+   "start": 5.058,
+   "end": 5.324
+  },
+  {
+   "word": "That",
+   "start": 5.718,
+   "end": 5.833
+  },
+  {
+   "word": "small",
+   "start": 5.845,
+   "end": 6.134
+  },
+  {
+   "word": "hit",
+   "start": 6.146,
+   "end": 6.424
+  },
+  {
+   "word": "trains",
+   "start": 6.435,
+   "end": 6.771
+  },
+  {
+   "word": "the",
+   "start": 6.782,
+   "end": 6.852
+  },
+  {
+   "word": "habit",
+   "start": 6.863,
+   "end": 7.222
+  },
+  {
+   "word": "avoid",
+   "start": 7.593,
+   "end": 8.044
+  },
+  {
+   "word": "feel",
+   "start": 8.31,
+   "end": 8.576
+  },
+  {
+   "word": "better",
+   "start": 8.588,
+   "end": 8.947
+  },
+  {
+   "word": "repeat",
+   "start": 9.132,
+   "end": 9.583
+  },
+  {
+   "word": "Every",
+   "start": 9.965,
+   "end": 10.231
+  },
+  {
+   "word": "reward",
+   "start": 10.243,
+   "end": 10.694
+  },
+  {
+   "word": "strengthens",
+   "start": 10.706,
+   "end": 11.308
+  },
+  {
+   "word": "the",
+   "start": 11.319,
+   "end": 11.424
+  },
+  {
+   "word": "loop",
+   "start": 11.435,
+   "end": 11.736
+  },
+  {
+   "word": "that",
+   "start": 11.748,
+   "end": 11.887
+  },
+  {
+   "word": "produced",
+   "start": 11.898,
+   "end": 12.292
+  },
+  {
+   "word": "it",
+   "start": 12.303,
+   "end": 12.431
+  },
+  {
+   "word": "so",
+   "start": 12.87,
+   "end": 13.044
+  },
+  {
+   "word": "avoidance",
+   "start": 13.056,
+   "end": 13.495
+  },
+  {
+   "word": "slowly",
+   "start": 13.507,
+   "end": 13.912
+  },
+  {
+   "word": "becomes",
+   "start": 13.924,
+   "end": 14.294
+  },
+  {
+   "word": "your",
+   "start": 14.306,
+   "end": 14.41
+  },
+  {
+   "word": "default",
+   "start": 14.421,
+   "end": 14.861
+  },
+  {
+   "word": "response",
+   "start": 14.873,
+   "end": 15.405
+  },
+  {
+   "word": "to",
+   "start": 15.417,
+   "end": 15.498
+  },
+  {
+   "word": "discomfort",
+   "start": 15.509,
+   "end": 16.088
+  },
+  {
+   "word": "That",
+   "start": 16.47,
+   "end": 16.562
+  },
+  {
+   "word": "is",
+   "start": 16.574,
+   "end": 16.655
+  },
+  {
+   "word": "the",
+   "start": 16.667,
+   "end": 16.748
+  },
+  {
+   "word": "machine",
+   "start": 16.759,
+   "end": 17.211
+  },
+  {
+   "word": "running",
+   "start": 17.222,
+   "end": 17.477
+  },
+  {
+   "word": "you",
+   "start": 17.488,
+   "end": 17.685
+  },
+  {
+   "word": "In",
+   "start": 18.067,
+   "end": 18.125
+  },
+  {
+   "word": "the",
+   "start": 18.137,
+   "end": 18.194
+  },
+  {
+   "word": "next",
+   "start": 18.206,
+   "end": 18.426
+  },
+  {
+   "word": "chapter",
+   "start": 18.438,
+   "end": 18.866
+  },
+  {
+   "word": "we",
+   "start": 19.12,
+   "end": 19.213
+  },
+  {
+   "word": "watch",
+   "start": 19.225,
+   "end": 19.468
+  },
+  {
+   "word": "it",
+   "start": 19.479,
+   "end": 19.549
+  },
+  {
+   "word": "spin",
+   "start": 19.56,
+   "end": 19.965
+  },
+  {
+   "word": "loop",
+   "start": 20.266,
+   "end": 20.451
+  },
+  {
+   "word": "by",
+   "start": 20.463,
+   "end": 20.602
+  },
+  {
+   "word": "loop",
+   "start": 20.613,
+   "end": 20.914
+  },
+  {
+   "word": "so",
+   "start": 21.204,
+   "end": 21.319
+  },
+  {
+   "word": "you",
+   "start": 21.331,
+   "end": 21.412
+  },
+  {
+   "word": "can",
+   "start": 21.424,
+   "end": 21.539
+  },
+  {
+   "word": "catch",
+   "start": 21.551,
+   "end": 21.794
+  },
+  {
+   "word": "it",
+   "start": 21.806,
+   "end": 21.863
+  },
+  {
+   "word": "in",
+   "start": 21.875,
+   "end": 21.979
+  },
+  {
+   "word": "real",
+   "start": 21.991,
+   "end": 22.176
+  },
+  {
+   "word": "time",
+   "start": 22.188,
+   "end": 22.512
+  }
+ ]
+}

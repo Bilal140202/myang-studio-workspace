@@ -1,0 +1,301 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Then",
+   "start": 0.104,
+   "end": 0.197
+  },
+  {
+   "word": "there's",
+   "start": 0.208,
+   "end": 0.347
+  },
+  {
+   "word": "the",
+   "start": 0.359,
+   "end": 0.428
+  },
+  {
+   "word": "health",
+   "start": 0.44,
+   "end": 0.683
+  },
+  {
+   "word": "bill",
+   "start": 0.694,
+   "end": 0.961
+  },
+  {
+   "word": "Psychologist",
+   "start": 1.354,
+   "end": 2.002
+  },
+  {
+   "word": "Fuschia",
+   "start": 2.014,
+   "end": 2.407
+  },
+  {
+   "word": "Sirois",
+   "start": 2.419,
+   "end": 2.882
+  },
+  {
+   "word": "tracked",
+   "start": 2.893,
+   "end": 3.229
+  },
+  {
+   "word": "procrastination",
+   "start": 3.241,
+   "end": 3.97
+  },
+  {
+   "word": "across",
+   "start": 3.982,
+   "end": 4.352
+  },
+  {
+   "word": "age",
+   "start": 4.363,
+   "end": 4.56
+  },
+  {
+   "word": "groups",
+   "start": 4.572,
+   "end": 4.965
+  },
+  {
+   "word": "and",
+   "start": 5.127,
+   "end": 5.255
+  },
+  {
+   "word": "found",
+   "start": 5.266,
+   "end": 5.544
+  },
+  {
+   "word": "chronic",
+   "start": 5.556,
+   "end": 5.868
+  },
+  {
+   "word": "procrastinators",
+   "start": 5.88,
+   "end": 6.644
+  },
+  {
+   "word": "report",
+   "start": 6.655,
+   "end": 7.014
+  },
+  {
+   "word": "higher",
+   "start": 7.025,
+   "end": 7.315
+  },
+  {
+   "word": "stress",
+   "start": 7.326,
+   "end": 7.801
+  },
+  {
+   "word": "sleep",
+   "start": 8.044,
+   "end": 8.345
+  },
+  {
+   "word": "worse",
+   "start": 8.357,
+   "end": 8.727
+  },
+  {
+   "word": "and",
+   "start": 8.947,
+   "end": 9.039
+  },
+  {
+   "word": "put",
+   "start": 9.051,
+   "end": 9.225
+  },
+  {
+   "word": "off",
+   "start": 9.236,
+   "end": 9.468
+  },
+  {
+   "word": "doctor",
+   "start": 9.479,
+   "end": 9.768
+  },
+  {
+   "word": "visits",
+   "start": 9.78,
+   "end": 10.243
+  },
+  {
+   "word": "In",
+   "start": 10.625,
+   "end": 10.752
+  },
+  {
+   "word": "older",
+   "start": 10.764,
+   "end": 11.053
+  },
+  {
+   "word": "adults",
+   "start": 11.065,
+   "end": 11.586
+  },
+  {
+   "word": "trait",
+   "start": 11.782,
+   "end": 12.037
+  },
+  {
+   "word": "procrastination",
+   "start": 12.049,
+   "end": 12.87
+  },
+  {
+   "word": "was",
+   "start": 12.882,
+   "end": 13.044
+  },
+  {
+   "word": "even",
+   "start": 13.171,
+   "end": 13.472
+  },
+  {
+   "word": "linked",
+   "start": 13.484,
+   "end": 13.715
+  },
+  {
+   "word": "to",
+   "start": 13.727,
+   "end": 13.843
+  },
+  {
+   "word": "cardiovascular",
+   "start": 13.854,
+   "end": 14.757
+  },
+  {
+   "word": "disease",
+   "start": 14.768,
+   "end": 15.278
+  },
+  {
+   "word": "and",
+   "start": 15.405,
+   "end": 15.521
+  },
+  {
+   "word": "hypertension",
+   "start": 15.532,
+   "end": 16.157
+  },
+  {
+   "word": "Why",
+   "start": 16.539,
+   "end": 16.794
+  },
+  {
+   "word": "Your",
+   "start": 17.176,
+   "end": 17.338
+  },
+  {
+   "word": "body",
+   "start": 17.35,
+   "end": 17.685
+  },
+  {
+   "word": "treats",
+   "start": 17.697,
+   "end": 18.125
+  },
+  {
+   "word": "every",
+   "start": 18.275,
+   "end": 18.553
+  },
+  {
+   "word": "looming",
+   "start": 18.565,
+   "end": 18.981
+  },
+  {
+   "word": "avoided",
+   "start": 19.306,
+   "end": 19.722
+  },
+  {
+   "word": "task",
+   "start": 19.734,
+   "end": 20.162
+  },
+  {
+   "word": "as",
+   "start": 20.232,
+   "end": 20.336
+  },
+  {
+   "word": "an",
+   "start": 20.347,
+   "end": 20.451
+  },
+  {
+   "word": "open",
+   "start": 20.556,
+   "end": 20.81
+  },
+  {
+   "word": "threat",
+   "start": 20.822,
+   "end": 21.227
+  },
+  {
+   "word": "and",
+   "start": 21.62,
+   "end": 21.69
+  },
+  {
+   "word": "threats",
+   "start": 21.701,
+   "end": 22.234
+  },
+  {
+   "word": "held",
+   "start": 22.593,
+   "end": 22.812
+  },
+  {
+   "word": "long",
+   "start": 22.824,
+   "end": 23.137
+  },
+  {
+   "word": "enough",
+   "start": 23.148,
+   "end": 23.542
+  },
+  {
+   "word": "become",
+   "start": 23.738,
+   "end": 24.051
+  },
+  {
+   "word": "symptoms",
+   "start": 24.062,
+   "end": 24.664
+  }
+ ]
+}

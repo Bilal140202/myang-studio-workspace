@@ -1,0 +1,621 @@
+{
+ "e1s1": {
+  "nguon": "tep",
+  "id": "typewriter-c5a51b-03.jpg",
+  "url": "",
+  "tags": "typewriter vintage",
+  "tac_gia": "Sammlung der Medien und Wissenschaft",
+  "giay_phep": "CC BY 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Olympia_Simplex.jpg",
+  "file": "tainguyen/e1s1.jpg",
+  "mb": 0,
+  "q": "typewriter vintage",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/typewriter-c5a51b-03.jpg|1793186355.7913682|None",
+  "ngay": "2026-10-28",
+  "w": 6000,
+  "h": 4000,
+  "phong": 0.35,
+  "diem": [
+   [
+    0.479,
+    0.508
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   9.901,
+   19.801
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 9.901,
+    "id": "e1s1"
+   },
+   {
+    "k": "a",
+    "t0": 9.901,
+    "t1": 19.801,
+    "id": "e1s1~2"
+   },
+   {
+    "k": "a",
+    "t0": 19.801,
+    "t1": 29.702,
+    "id": "e1s1~3"
+   }
+  ]
+ },
+ "e1s1~2": {
+  "nguon": "tep",
+  "id": "paperwork-stack-84f5ae-01.jpg",
+  "url": "",
+  "tags": "paperwork stack",
+  "tac_gia": "Jacek",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Stack_of_ringless_binders.jpg",
+  "file": "tainguyen/e1s1~2.jpg",
+  "mb": 0,
+  "q": "paperwork stack",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/paperwork-stack-84f5ae-01.jpg|1793186235.0757346|None",
+  "ngay": "2026-10-28",
+  "w": 3419,
+  "h": 1962,
+  "phong": 0.62,
+  "diem": [
+   [
+    0.268,
+    0.796
+   ],
+   [
+    0.384,
+    0.259
+   ]
+  ]
+ },
+ "e1s1~3": {
+  "nguon": "tep",
+  "id": "writing-notebook-c67140-02.jpg",
+  "url": "",
+  "tags": "writing notebook",
+  "tac_gia": "Kristin Hardwick",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Woman_writing_on_a_notebook_with_a_pen.jpg",
+  "file": "tainguyen/e1s1~3.jpg",
+  "mb": 0,
+  "q": "writing notebook",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/writing-notebook-c67140-02.jpg|1793186190.963481|None",
+  "ngay": "2026-10-28",
+  "w": 5760,
+  "h": 3840,
+  "phong": 0.37,
+  "diem": [
+   [
+    0.637,
+    0.524
+   ],
+   [
+    0.216,
+    0.714
+   ]
+  ]
+ },
+ "e1s2": {
+  "nguon": "tep",
+  "id": "students-library-cf6b64-01.jpg",
+  "url": "",
+  "tags": "students library",
+  "tac_gia": "Linason Blessing",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Wikipedia_awareness_campaign_for_library_and_information_science_students_4.jpg",
+  "file": "tainguyen/e1s2.jpg",
+  "mb": 0,
+  "q": "students library",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/students-library-cf6b64-01.jpg|1793186318.6071727|None",
+  "ngay": "2026-10-28",
+  "w": 4928,
+  "h": 3264,
+  "phong": 0.43,
+  "diem": [
+   [
+    0.247,
+    0.476
+   ],
+   [
+    0.7,
+    0.635
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   8.893,
+   17.787
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 8.893,
+    "id": "e1s2"
+   },
+   {
+    "k": "a",
+    "t0": 8.893,
+    "t1": 17.787,
+    "id": "e1s2~2"
+   },
+   {
+    "k": "a",
+    "t0": 17.787,
+    "t1": 26.68,
+    "id": "e1s2~3"
+   }
+  ]
+ },
+ "e1s2~2": {
+  "nguon": "tep",
+  "id": "lecture-hall-719432-02.jpg",
+  "url": "",
+  "tags": "lecture hall",
+  "tac_gia": "Harrison Keely",
+  "giay_phep": "CC BY 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:A_lecture_hall_in_a_modern_public_high_school_in_the_United_States_%E2%80%93_Hayesville_High_School_in_Clay_County,_North_Carolina_05.jpg",
+  "file": "tainguyen/e1s2~2.jpg",
+  "mb": 0,
+  "q": "lecture hall",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/lecture-hall-719432-02.jpg|1793186178.7024088|None",
+  "ngay": "2026-10-28",
+  "w": 4032,
+  "h": 3024,
+  "phong": 0.52,
+  "diem": [
+   [
+    0.626,
+    0.697
+   ],
+   [
+    0.205,
+    0.57
+   ]
+  ]
+ },
+ "e1s2~3": {
+  "nguon": "tep",
+  "id": "office-cubicles-398c92-01.jpg",
+  "url": "",
+  "tags": "office cubicles",
+  "tac_gia": "OboeBlanket",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Messy_office_(cubicle).jpg",
+  "file": "tainguyen/e1s2~3.jpg",
+  "mb": 0,
+  "q": "office cubicles",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/office-cubicles-398c92-01.jpg|1793186150.5262418|None",
+  "ngay": "2026-10-28",
+  "w": 4160,
+  "h": 3120,
+  "phong": 0.51,
+  "diem": [
+   [
+    0.416,
+    0.204
+   ],
+   [
+    0.795,
+    0.754
+   ]
+  ]
+ },
+ "e1s3": {
+  "nguon": "tep",
+  "id": "stress-headache-desk-4f825f-03.jpg",
+  "url": "",
+  "tags": "stress headache desk",
+  "tac_gia": "userpilot1",
+  "giay_phep": "CC BY 2.0",
+  "trang": "https://www.flickr.com/photos/198537127@N06/52969400588",
+  "file": "tainguyen/e1s3.jpg",
+  "mb": 0,
+  "q": "stress headache desk",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/stress-headache-desk-4f825f-03.jpg|1793186151.264246|None",
+  "ngay": "2026-10-28",
+  "w": 1024,
+  "h": 725,
+  "phong": 2.06,
+  "diem": [
+   [
+    0.563,
+    0.269
+   ],
+   [
+    0.795,
+    0.687
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   11.173,
+   22.347
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 11.173,
+    "id": "e1s3"
+   },
+   {
+    "k": "a",
+    "t0": 11.173,
+    "t1": 22.347,
+    "id": "e1s3~2"
+   },
+   {
+    "k": "a",
+    "t0": 22.347,
+    "t1": 33.52,
+    "id": "e1s3~3"
+   }
+  ]
+ },
+ "e1s3~2": {
+  "nguon": "tep",
+  "id": "worried-man-office-d30b10-02.jpg",
+  "url": "",
+  "tags": "worried man office",
+  "tac_gia": "Gunn, Thomas Butler, 1826-1903",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_5,_page_102,_December_10-11,_1852.jpg",
+  "file": "tainguyen/e1s3~2.jpg",
+  "mb": 0,
+  "q": "worried man office",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/worried-man-office-d30b10-02.jpg|1793186166.6223373|None",
+  "ngay": "2026-10-28",
+  "w": 2770,
+  "h": 4202,
+  "phong": 0.76,
+  "diem": [
+   [
+    0.242,
+    0.237
+   ],
+   [
+    0.742,
+    0.447
+   ]
+  ]
+ },
+ "e1s3~3": {
+  "nguon": "tep",
+  "id": "tired-student-night-f8f1d9-03.jpg",
+  "url": "",
+  "tags": "tired student night",
+  "tac_gia": "Sarah L. Hunt",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Sarah_L._Hunt_to_Alice_Mary_Longfellow,_31_May_1887_(420fc1b2-29c2-4973-9377-a7e37b1d03c2).jpg",
+  "file": "tainguyen/e1s3~3.jpg",
+  "mb": 0,
+  "q": "tired student night",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/tired-student-night-f8f1d9-03.jpg|1793186306.1221073|None",
+  "ngay": "2026-10-28",
+  "w": 3729,
+  "h": 4738,
+  "phong": 0.57,
+  "diem": [
+   [
+    0.753,
+    0.774
+   ],
+   [
+    0.233,
+    0.774
+   ]
+  ]
+ },
+ "e1s4": {
+  "nguon": "tep",
+  "id": "brain-diagram-193dd2-01.jpg",
+  "url": "",
+  "tags": "brain diagram",
+  "tac_gia": "Alexa R. Lauinger and Joseph J. Sepe",
+  "giay_phep": "CC BY 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Simplified_diagram_of_the_heart%E2%80%93brain_axis.png",
+  "file": "tainguyen/e1s4.jpg",
+  "mb": 0,
+  "q": "brain diagram",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/brain-diagram-193dd2-01.jpg|1793186230.940711|None",
+  "ngay": "2026-10-28",
+  "w": 2242,
+  "h": 1337,
+  "phong": 0.94,
+  "diem": [
+   [
+    0.226,
+    0.598
+   ],
+   [
+    0.774,
+    0.491
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   9.413,
+   18.827
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 9.413,
+    "id": "e1s4"
+   },
+   {
+    "k": "a",
+    "t0": 9.413,
+    "t1": 18.827,
+    "id": "e1s4~2"
+   },
+   {
+    "k": "a",
+    "t0": 18.827,
+    "t1": 28.24,
+    "id": "e1s4~3"
+   }
+  ]
+ },
+ "e1s4~2": {
+  "nguon": "tep",
+  "id": "chess-strategy-e1aa6c-01.jpg",
+  "url": "",
+  "tags": "chess strategy",
+  "tac_gia": "Wilfredor",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6.jpg",
+  "file": "tainguyen/e1s4~2.jpg",
+  "mb": 0,
+  "q": "chess strategy",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/chess-strategy-e1aa6c-01.jpg|1793186319.8601792|None",
+  "ngay": "2026-10-28",
+  "w": 7743,
+  "h": 4762,
+  "phong": 0.27,
+  "diem": [
+   [
+    0.458,
+    0.31
+   ],
+   [
+    0.458,
+    0.759
+   ]
+  ]
+ },
+ "e1s4~3": {
+  "nguon": "tep",
+  "id": "pocket-watch-1f7b43-02.jpg",
+  "url": "",
+  "tags": "pocket watch",
+  "tac_gia": "Dietmar Rabich",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_%22What_if%22_--_2023_--_6713.jpg",
+  "file": "tainguyen/e1s4~3.jpg",
+  "mb": 0,
+  "q": "pocket watch",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/pocket-watch-1f7b43-02.jpg|1793186259.855865|None",
+  "ngay": "2026-10-28",
+  "w": 5973,
+  "h": 4480,
+  "phong": 0.35,
+  "diem": [
+   [
+    0.7,
+    0.613
+   ],
+   [
+    0.279,
+    0.458
+   ]
+  ]
+ },
+ "e1s5": {
+  "nguon": "tep",
+  "id": "hammock-relax-e294ed-01.jpg",
+  "url": "",
+  "tags": "hammock relax",
+  "tac_gia": "Massimilianogalardi",
+  "giay_phep": "CC BY-SA 3.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Montecuccoli_Area_relax.jpg",
+  "file": "tainguyen/e1s5.jpg",
+  "mb": 0,
+  "q": "hammock relax",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/hammock-relax-e294ed-01.jpg|1793186271.5989268|None",
+  "ngay": "2026-10-28",
+  "w": 3648,
+  "h": 2736,
+  "phong": 0.58,
+  "diem": [
+   [
+    0.7,
+    0.627
+   ],
+   [
+    0.205,
+    0.444
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   8.149,
+   16.299
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 8.149,
+    "id": "e1s5"
+   },
+   {
+    "k": "a",
+    "t0": 8.149,
+    "t1": 16.299,
+    "id": "e1s5~2"
+   },
+   {
+    "k": "a",
+    "t0": 16.299,
+    "t1": 24.448,
+    "id": "e1s5~3"
+   }
+  ]
+ },
+ "e1s5~2": {
+  "nguon": "tep",
+  "id": "smartphone-hand-6d1190-01.jpg",
+  "url": "",
+  "tags": "smartphone hand",
+  "tac_gia": "Dennis Cortés cortes",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+  "file": "tainguyen/e1s5~2.jpg",
+  "mb": 0,
+  "q": "smartphone hand",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/smartphone-hand-6d1190-01.jpg|1793186293.9830434|None",
+  "ngay": "2026-10-28",
+  "w": 6000,
+  "h": 4000,
+  "phong": 0.35,
+  "diem": [
+   [
+    0.511,
+    0.46
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ]
+ },
+ "e1s5~3": {
+  "nguon": "tep",
+  "id": "coffee-morning-cup-7670ad-03.jpg",
+  "url": "",
+  "tags": "coffee morning cup",
+  "tac_gia": "Basile Morin",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Kappabashi-dori_streetcorner_(Kitchen_town_-_southern_end)_a_sunny_morning_in_Tokyo_Japan.jpg",
+  "file": "tainguyen/e1s5~3.jpg",
+  "mb": 0,
+  "q": "coffee morning cup",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/coffee-morning-cup-7670ad-03.jpg|1793186318.1571703|None",
+  "ngay": "2026-10-28",
+  "w": 4488,
+  "h": 3572,
+  "phong": 0.47,
+  "diem": [
+   [
+    0.395,
+    0.74
+   ],
+   [
+    0.205,
+    0.313
+   ]
+  ]
+ },
+ "e1s6": {
+  "nguon": "tep",
+  "id": "pocket-watch-1f7b43-03.jpg",
+  "url": "",
+  "tags": "pocket watch",
+  "tac_gia": "Dietmar Rabich",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Kirchspiel,_ehem._Sondermunitionslager_Visbeck,_%22What_if%22_--_2023_--_6686.jpg",
+  "file": "tainguyen/e1s6.jpg",
+  "mb": 0,
+  "q": "pocket watch",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/pocket-watch-1f7b43-03.jpg|1793186259.859865|None",
+  "ngay": "2026-10-28",
+  "w": 4318,
+  "h": 4318,
+  "phong": 0.49,
+  "diem": [
+   [
+    0.689,
+    0.658
+   ],
+   [
+    0.205,
+    0.763
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   4.857
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 4.857,
+    "id": "e1s6"
+   },
+   {
+    "k": "a",
+    "t0": 4.857,
+    "t1": 9.714,
+    "id": "e1s6~2"
+   }
+  ]
+ },
+ "e1s6~2": {
+  "nguon": "tep",
+  "id": "chess-strategy-e1aa6c-02.jpg",
+  "url": "",
+  "tags": "chess strategy",
+  "tac_gia": "Wilfredor",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6_perfil_view_8.jpg",
+  "file": "tainguyen/e1s6~2.jpg",
+  "mb": 0,
+  "q": "chess strategy",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/chess-strategy-e1aa6c-02.jpg|1793186319.8721793|None",
+  "ngay": "2026-10-28",
+  "w": 7118,
+  "h": 4671,
+  "phong": 0.3,
+  "diem": [
+   [
+    0.468,
+    0.306
+   ],
+   [
+    0.468,
+    0.758
+   ]
+  ]
+ }
+}

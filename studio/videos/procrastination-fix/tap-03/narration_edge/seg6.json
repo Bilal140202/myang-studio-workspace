@@ -1,0 +1,111 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "The",
+   "start": 0.104,
+   "end": 0.15
+  },
+  {
+   "word": "price",
+   "start": 0.162,
+   "end": 0.463
+  },
+  {
+   "word": "was",
+   "start": 0.475,
+   "end": 0.602
+  },
+  {
+   "word": "the",
+   "start": 0.613,
+   "end": 0.694
+  },
+  {
+   "word": "bad",
+   "start": 0.706,
+   "end": 0.961
+  },
+  {
+   "word": "news",
+   "start": 0.972,
+   "end": 1.377
+  },
+  {
+   "word": "the",
+   "start": 1.586,
+   "end": 1.678
+  },
+  {
+   "word": "fix",
+   "start": 1.69,
+   "end": 1.991
+  },
+  {
+   "word": "is",
+   "start": 2.002,
+   "end": 2.106
+  },
+  {
+   "word": "small",
+   "start": 2.118,
+   "end": 2.5
+  },
+  {
+   "word": "Next",
+   "start": 2.882,
+   "end": 3.275
+  },
+  {
+   "word": "the",
+   "start": 3.542,
+   "end": 3.623
+  },
+  {
+   "word": "2-minute",
+   "start": 3.634,
+   "end": 4.051
+  },
+  {
+   "word": "spark",
+   "start": 4.062,
+   "end": 4.491
+  },
+  {
+   "word": "the",
+   "start": 4.757,
+   "end": 4.838
+  },
+  {
+   "word": "smallest",
+   "start": 4.85,
+   "end": 5.312
+  },
+  {
+   "word": "rule",
+   "start": 5.324,
+   "end": 5.579
+  },
+  {
+   "word": "that",
+   "start": 5.59,
+   "end": 5.787
+  },
+  {
+   "word": "restarts",
+   "start": 5.799,
+   "end": 6.343
+  },
+  {
+   "word": "any",
+   "start": 6.481,
+   "end": 6.644
+  },
+  {
+   "word": "task",
+   "start": 6.655,
+   "end": 7.118
+  }
+ ]
+}

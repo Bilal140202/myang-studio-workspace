@@ -1,0 +1,281 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "And",
+   "start": 0.093,
+   "end": 0.15
+  },
+  {
+   "word": "the",
+   "start": 0.162,
+   "end": 0.243
+  },
+  {
+   "word": "pattern",
+   "start": 0.255,
+   "end": 0.671
+  },
+  {
+   "word": "doesn't",
+   "start": 0.775,
+   "end": 1.134
+  },
+  {
+   "word": "just",
+   "start": 1.146,
+   "end": 1.424
+  },
+  {
+   "word": "steal",
+   "start": 1.435,
+   "end": 1.713
+  },
+  {
+   "word": "quality",
+   "start": 1.725,
+   "end": 2.187
+  },
+  {
+   "word": "it",
+   "start": 2.477,
+   "end": 2.569
+  },
+  {
+   "word": "charges",
+   "start": 2.581,
+   "end": 3.021
+  },
+  {
+   "word": "interest",
+   "start": 3.032,
+   "end": 3.519
+  },
+  {
+   "word": "in",
+   "start": 3.53,
+   "end": 3.634
+  },
+  {
+   "word": "stress",
+   "start": 3.646,
+   "end": 4.225
+  },
+  {
+   "word": "sleep",
+   "start": 4.433,
+   "end": 4.803
+  },
+  {
+   "word": "money",
+   "start": 5.15,
+   "end": 5.509
+  },
+  {
+   "word": "and",
+   "start": 5.694,
+   "end": 5.799
+  },
+  {
+   "word": "health",
+   "start": 5.81,
+   "end": 6.204
+  },
+  {
+   "word": "because",
+   "start": 6.447,
+   "end": 6.736
+  },
+  {
+   "word": "chronic",
+   "start": 6.748,
+   "end": 7.106
+  },
+  {
+   "word": "avoiders",
+   "start": 7.118,
+   "end": 7.558
+  },
+  {
+   "word": "carry",
+   "start": 7.569,
+   "end": 7.882
+  },
+  {
+   "word": "higher",
+   "start": 7.894,
+   "end": 8.194
+  },
+  {
+   "word": "stress",
+   "start": 8.206,
+   "end": 8.715
+  },
+  {
+   "word": "and",
+   "start": 8.97,
+   "end": 9.086
+  },
+  {
+   "word": "even",
+   "start": 9.097,
+   "end": 9.271
+  },
+  {
+   "word": "higher",
+   "start": 9.282,
+   "end": 9.595
+  },
+  {
+   "word": "blood",
+   "start": 9.607,
+   "end": 9.815
+  },
+  {
+   "word": "pressure",
+   "start": 9.826,
+   "end": 10.266
+  },
+  {
+   "word": "But",
+   "start": 10.648,
+   "end": 10.718
+  },
+  {
+   "word": "to",
+   "start": 10.729,
+   "end": 10.787
+  },
+  {
+   "word": "see",
+   "start": 10.799,
+   "end": 10.972
+  },
+  {
+   "word": "the",
+   "start": 10.984,
+   "end": 11.076
+  },
+  {
+   "word": "full",
+   "start": 11.088,
+   "end": 11.319
+  },
+  {
+   "word": "invoice",
+   "start": 11.331,
+   "end": 11.852
+  },
+  {
+   "word": "you",
+   "start": 12.037,
+   "end": 12.106
+  },
+  {
+   "word": "need",
+   "start": 12.118,
+   "end": 12.257
+  },
+  {
+   "word": "to",
+   "start": 12.268,
+   "end": 12.326
+  },
+  {
+   "word": "slow",
+   "start": 12.338,
+   "end": 12.65
+  },
+  {
+   "word": "down",
+   "start": 12.662,
+   "end": 13.009
+  },
+  {
+   "word": "and",
+   "start": 13.021,
+   "end": 13.113
+  },
+  {
+   "word": "count",
+   "start": 13.125,
+   "end": 13.518
+  },
+  {
+   "word": "That's",
+   "start": 13.912,
+   "end": 14.062
+  },
+  {
+   "word": "the",
+   "start": 14.074,
+   "end": 14.167
+  },
+  {
+   "word": "next",
+   "start": 14.178,
+   "end": 14.444
+  },
+  {
+   "word": "chapter",
+   "start": 14.456,
+   "end": 14.85
+  },
+  {
+   "word": "what",
+   "start": 15.243,
+   "end": 15.359
+  },
+  {
+   "word": "the",
+   "start": 15.37,
+   "end": 15.44
+  },
+  {
+   "word": "word",
+   "start": 15.451,
+   "end": 15.66
+  },
+  {
+   "word": "later",
+   "start": 15.671,
+   "end": 15.984
+  },
+  {
+   "word": "actually",
+   "start": 15.995,
+   "end": 16.354
+  },
+  {
+   "word": "costs",
+   "start": 16.366,
+   "end": 16.933
+  },
+  {
+   "word": "in",
+   "start": 17.13,
+   "end": 17.245
+  },
+  {
+   "word": "numbers",
+   "start": 17.257,
+   "end": 17.569
+  },
+  {
+   "word": "you",
+   "start": 17.581,
+   "end": 17.662
+  },
+  {
+   "word": "will",
+   "start": 17.674,
+   "end": 17.789
+  },
+  {
+   "word": "feel",
+   "start": 17.801,
+   "end": 18.16
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Before",
+   "start": 0.104,
+   "end": 0.324
+  },
+  {
+   "word": "you",
+   "start": 0.336,
+   "end": 0.394
+  },
+  {
+   "word": "try",
+   "start": 0.405,
+   "end": 0.567
+  },
+  {
+   "word": "to",
+   "start": 0.579,
+   "end": 0.648
+  },
+  {
+   "word": "fix",
+   "start": 0.66,
+   "end": 0.972
+  },
+  {
+   "word": "it",
+   "start": 0.984,
+   "end": 1.134
+  },
+  {
+   "word": "count",
+   "start": 1.424,
+   "end": 1.644
+  },
+  {
+   "word": "what",
+   "start": 1.655,
+   "end": 1.748
+  },
+  {
+   "word": "the",
+   "start": 1.759,
+   "end": 1.829
+  },
+  {
+   "word": "pattern",
+   "start": 1.84,
+   "end": 2.164
+  },
+  {
+   "word": "charges",
+   "start": 2.176,
+   "end": 2.558
+  },
+  {
+   "word": "you",
+   "start": 2.569,
+   "end": 2.766
+  },
+  {
+   "word": "Next",
+   "start": 3.148,
+   "end": 3.553
+  },
+  {
+   "word": "the",
+   "start": 3.796,
+   "end": 3.889
+  },
+  {
+   "word": "real",
+   "start": 3.9,
+   "end": 4.132
+  },
+  {
+   "word": "price",
+   "start": 4.144,
+   "end": 4.491
+  },
+  {
+   "word": "of",
+   "start": 4.502,
+   "end": 4.595
+  },
+  {
+   "word": "later",
+   "start": 4.606,
+   "end": 4.954
+  },
+  {
+   "word": "in",
+   "start": 5.312,
+   "end": 5.394
+  },
+  {
+   "word": "days",
+   "start": 5.405,
+   "end": 5.914
+  },
+  {
+   "word": "dollars",
+   "start": 6.076,
+   "end": 6.62
+  },
+  {
+   "word": "and",
+   "start": 6.782,
+   "end": 6.875
+  },
+  {
+   "word": "sleep",
+   "start": 6.887,
+   "end": 7.303
+  }
+ ]
+}

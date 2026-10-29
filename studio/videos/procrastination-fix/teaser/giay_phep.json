@@ -1,0 +1,220 @@
+{
+ "t1": {
+  "nguon": "tep",
+  "id": "scrolling-phone-night-17d98b-02.jpg",
+  "url": "",
+  "tags": "scrolling phone night",
+  "tac_gia": "unknown",
+  "giay_phep": "CC (see source)",
+  "trang": "https://www.pexels.com/search/a%20person%20scrolling%20mobile%20phone%20at%20night/",
+  "file": "tainguyen/t1.jpg",
+  "mb": 0,
+  "q": "scrolling phone night",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/scrolling-phone-night-17d98b-02.jpg|1793188068.754382|None",
+  "ngay": "2026-10-28",
+  "w": 6720,
+  "h": 4480,
+  "phong": 0.31,
+  "diem": [
+   [
+    0.795,
+    0.349
+   ],
+   [
+    0.374,
+    0.571
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   5.741,
+   11.481
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 5.741,
+    "id": "t1"
+   },
+   {
+    "k": "a",
+    "t0": 5.741,
+    "t1": 11.481,
+    "id": "t1~2"
+   },
+   {
+    "k": "a",
+    "t0": 11.481,
+    "t1": 17.222,
+    "id": "t1~3"
+   }
+  ]
+ },
+ "t1~2": {
+  "nguon": "tep",
+  "id": "clock-night-desk-28a8c7-01.jpg",
+  "url": "",
+  "tags": "clock night desk",
+  "tac_gia": "Simkinseled",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Desk_Clock.jpg",
+  "file": "tainguyen/t1~2.jpg",
+  "mb": 0,
+  "q": "clock night desk",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/clock-night-desk-28a8c7-01.jpg|1793188063.5263543|None",
+  "ngay": "2026-10-28",
+  "w": 3264,
+  "h": 2448,
+  "phong": 0.65,
+  "diem": [
+   [
+    0.479,
+    0.472
+   ],
+   [
+    0.205,
+    0.204
+   ]
+  ]
+ },
+ "t1~3": {
+  "nguon": "tep",
+  "id": "dark-room-laptop-9e7629-03.jpg",
+  "url": "",
+  "tags": "dark room laptop",
+  "tac_gia": "Shixart1985",
+  "giay_phep": "CC BY 2.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Tired_businesswoman_in_a_dark_room_thinking_while_holding_glasses_near_a_laptop_and_a_notebook.jpg",
+  "file": "tainguyen/t1~3.jpg",
+  "mb": 0,
+  "q": "dark room laptop",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/dark-room-laptop-9e7629-03.jpg|1793188116.7376347|None",
+  "ngay": "2026-10-28",
+  "w": 4032,
+  "h": 6048,
+  "phong": 0.52,
+  "diem": [
+   [
+    0.698,
+    0.437
+   ],
+   [
+    0.27,
+    0.458
+   ]
+  ]
+ },
+ "t2": {
+  "nguon": "tep",
+  "id": "hourglass-sand-06dc67-03.jpg",
+  "url": "",
+  "tags": "hourglass sand",
+  "tac_gia": "Thamizhpparithi Maari",
+  "giay_phep": "CC BY-SA 3.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Sand_Clock.jpg",
+  "file": "tainguyen/t2.jpg",
+  "mb": 0,
+  "q": "hourglass sand",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/hourglass-sand-06dc67-03.jpg|1793188219.0521784|None",
+  "ngay": "2026-10-28",
+  "w": 3000,
+  "h": 4000,
+  "phong": 0.7,
+  "diem": [
+   [
+    0.768,
+    0.279
+   ],
+   [
+    0.204,
+    0.205
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   5.95,
+   11.9
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 5.95,
+    "id": "t2"
+   },
+   {
+    "k": "a",
+    "t0": 5.95,
+    "t1": 11.9,
+    "id": "t2~2"
+   },
+   {
+    "k": "a",
+    "t0": 11.9,
+    "t1": 17.85,
+    "id": "t2~3"
+   }
+  ]
+ },
+ "t2~2": {
+  "nguon": "tep",
+  "id": "brain-anatomy-drawing-64218b-01.jpg",
+  "url": "",
+  "tags": "brain anatomy drawing",
+  "tac_gia": "https://wellcomeimages.org/indexplus/obf_images/38/1f/5ca468960a7e1d80cd23fa656e7a.jpg Gallery: https://wellcomeimages.org/indexplus/image/L0025507.html Wellcome Collection gallery (2018-03-27): https://wellcomecollection.org/works/b6aanhf4 CC-BY-4.0",
+  "giay_phep": "CC BY 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Charles_Bell,_The_anatomy_of_the_brain_Wellcome_L0025507.jpg",
+  "file": "tainguyen/t2~2.jpg",
+  "mb": 0,
+  "q": "brain anatomy drawing",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/brain-anatomy-drawing-64218b-01.jpg|1793188127.331691|None",
+  "ngay": "2026-10-28",
+  "w": 3734,
+  "h": 4661,
+  "phong": 0.57,
+  "diem": [
+   [
+    0.638,
+    0.521
+   ],
+   [
+    0.217,
+    0.447
+   ]
+  ]
+ },
+ "t2~3": {
+  "nguon": "tep",
+  "id": "mountain-sunrise-climber-bb6f75-01.jpg",
+  "url": "",
+  "tags": "mountain sunrise climber",
+  "tac_gia": "unknown",
+  "giay_phep": "CC (see source)",
+  "trang": "https://www.vecteezy.com/photo/69952253-climber-atop-mountain-peak-at-sunrise",
+  "file": "tainguyen/t2~3.jpg",
+  "mb": 0,
+  "q": "mountain sunrise climber",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/mountain-sunrise-climber-bb6f75-01.jpg|1793188161.6178734|None",
+  "ngay": "2026-10-28",
+  "w": 2940,
+  "h": 1960,
+  "phong": 0.72,
+  "diem": [
+   [
+    0.268,
+    0.349
+   ],
+   [
+    0.595,
+    0.762
+   ]
+  ]
+ }
+}

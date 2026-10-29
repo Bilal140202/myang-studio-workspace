@@ -1,0 +1,388 @@
+{
+ "tap-01": {
+  "e1s1": [
+   {
+    "text": "delay now, pay later",
+    "at": 0.55,
+    "anchor": [
+     "delay"
+    ]
+   }
+  ],
+  "e1s2": [
+   {
+    "text": "1 in 5 adults: chronic",
+    "at": 0.55,
+    "anchor": [
+     "1",
+     "5",
+     "adults",
+     "chronic"
+    ]
+   }
+  ],
+  "e1s3": [
+   {
+    "text": "“We give in to feel good.” — Pychyl",
+    "at": 0.55,
+    "anchor": "feel"
+   }
+  ],
+  "e1s4": [
+   {
+    "text": "limbic: NOW",
+    "at": 0.3,
+    "anchor": [
+     "limbic"
+    ]
+   },
+   {
+    "text": "planner: later",
+    "at": 0.6,
+    "anchor": [
+     "planner"
+    ]
+   }
+  ],
+  "e1s5": [
+   {
+    "text": "avoid → relief → repeat",
+    "at": 0.5,
+    "anchor": [
+     "avoid",
+     "relief",
+     "repeat"
+    ]
+   }
+  ]
+ },
+ "tap-02": {
+  "e2s1": [
+   {
+    "text": "1 task",
+    "at": 0.08,
+    "anchor": [
+     "1",
+     "task"
+    ]
+   },
+   {
+    "text": "2 anxiety",
+    "at": 0.24,
+    "anchor": [
+     "2"
+    ]
+   },
+   {
+    "text": "3 escape",
+    "at": 0.42,
+    "anchor": [
+     "3",
+     "escape"
+    ]
+   },
+   {
+    "text": "4 relief",
+    "at": 0.58,
+    "anchor": [
+     "4",
+     "relief"
+    ]
+   },
+   {
+    "text": "5 guilt",
+    "at": 0.78,
+    "anchor": [
+     "5",
+     "guilt"
+    ]
+   }
+  ],
+  "e2s2": [
+   {
+    "text": "guilt = fuel",
+    "at": 0.4,
+    "anchor": [
+     "guilt",
+     "fuel"
+    ]
+   }
+  ],
+  "e2s3": [
+   {
+    "text": "no deadline = infinite delay",
+    "at": 0.35,
+    "anchor": [
+     "deadline",
+     "delay"
+    ]
+   }
+  ],
+  "e2s4": [
+   {
+    "text": "'I work better under pressure' — myth",
+    "at": 0.3,
+    "anchor": [
+     "work",
+     "better",
+     "under",
+     "pressure",
+     "myth"
+    ]
+   }
+  ],
+  "e2s5": [
+   {
+    "text": "stress · sleep · money · health",
+    "at": 0.5,
+    "anchor": [
+     "stress",
+     "sleep",
+     "money",
+     "health"
+    ]
+   }
+  ]
+ },
+ "tap-03": {
+  "e3s1": [
+   {
+    "text": "2 h/day = 730 h/year",
+    "at": 0.35,
+    "anchor": [
+     "2",
+     "730",
+     "year"
+    ]
+   }
+  ],
+  "e3s2": [
+   {
+    "text": "avoided task = open threat",
+    "at": 0.55,
+    "anchor": [
+     "avoided",
+     "task",
+     "open",
+     "threat"
+    ]
+   }
+  ],
+  "e3s3": [
+   {
+    "text": "interruption → speed → stress",
+    "at": 0.4,
+    "anchor": [
+     "speed",
+     "stress"
+    ]
+   }
+  ],
+  "e3s4": [
+   {
+    "text": "$50/mo at 22 ≈ 2× at 67 vs 32",
+    "at": 0.45,
+    "anchor": [
+     "50",
+     "22",
+     "2",
+     "32"
+    ]
+   }
+  ],
+  "e3s5": [
+   {
+    "text": "loop → trainable",
+    "at": 0.4,
+    "anchor": [
+     "loop"
+    ]
+   }
+  ]
+ },
+ "tap-04": {
+  "e4s1": [
+   {
+    "text": "Zeigarnik effect",
+    "at": 0.45,
+    "anchor": [
+     "zeigarnik",
+     "effect"
+    ]
+   }
+  ],
+  "e4s2": [
+   {
+    "text": "one ugly sentence",
+    "at": 0.4,
+    "anchor": [
+     "ugly",
+     "sentence"
+    ]
+   }
+  ],
+  "e4s3": [
+   {
+    "text": "verb + object + time",
+    "at": 0.5,
+    "anchor": [
+     "verb",
+     "object",
+     "time"
+    ]
+   }
+  ],
+  "e4s4": [
+   {
+    "text": "if 3 p.m. → open doc",
+    "at": 0.4,
+    "anchor": [
+     "3",
+     "open"
+    ]
+   }
+  ],
+  "e4s5": [
+   {
+    "text": "craving + task = pull",
+    "at": 0.5,
+    "anchor": [
+     "pull"
+    ]
+   }
+  ]
+ },
+ "tap-05": {
+  "e5s1": [
+   {
+    "text": "presence of phone = brain drain",
+    "at": 0.45,
+    "anchor": [
+     "presence",
+     "phone",
+     "drain"
+    ]
+   }
+  ],
+  "e5s2": [
+   {
+    "text": "deadline ×4 per hour",
+    "at": 0.5,
+    "anchor": [
+     "deadline",
+     "4",
+     "hour"
+    ]
+   }
+  ],
+  "e5s3": [
+   {
+    "text": "next landmark: tomorrow at 9",
+    "at": 0.55,
+    "anchor": [
+     "next",
+     "landmark",
+     "tomorrow",
+     "9"
+    ]
+   }
+  ],
+  "e5s4": [
+   {
+    "text": "cue → trigger → autopilot",
+    "at": 0.4,
+    "anchor": [
+     "trigger",
+     "autopilot"
+    ]
+   }
+  ],
+  "e5s5": [
+   {
+    "text": "be the architect",
+    "at": 0.35,
+    "anchor": [
+     "architect"
+    ]
+   }
+  ]
+ },
+ "tap-06": {
+  "e6s1": [
+   {
+    "text": "“I forgive myself, now I can study.” — Wohl 2010",
+    "at": 0.5,
+    "anchor": "forgave"
+   }
+  ],
+  "e6s2": [
+   {
+    "text": "track days started",
+    "at": 0.4,
+    "anchor": [
+     "track",
+     "days",
+     "started"
+    ]
+   }
+  ],
+  "e6s3": [
+   {
+    "text": "never miss twice",
+    "at": 0.3,
+    "anchor": [
+     "never",
+     "miss",
+     "twice"
+    ]
+   }
+  ],
+  "e6s4": [
+   {
+    "text": "wk1 start · wk2 room · wk3 calendar · wk4 chain",
+    "at": 0.6,
+    "anchor": [
+     "start",
+     "room",
+     "calendar",
+     "chain"
+    ]
+   }
+  ],
+  "e6s5": [
+   {
+    "text": "start smaller — today",
+    "at": 0.45,
+    "anchor": [
+     "start",
+     "smaller",
+     "today"
+    ]
+   }
+  ]
+ },
+ "teaser": {
+  "t1": [
+   {
+    "text": "not laziness — a program",
+    "at": 0.62,
+    "anchor": [
+     "laziness",
+     "program"
+    ]
+   }
+  ],
+  "t2": [
+   {
+    "text": "5 tools · real studies",
+    "at": 0.55,
+    "anchor": [
+     "5",
+     "tools",
+     "real",
+     "studies"
+    ]
+   }
+  ]
+ }
+}

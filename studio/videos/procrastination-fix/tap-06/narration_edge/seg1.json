@@ -1,0 +1,356 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Carleton",
+   "start": 0.093,
+   "end": 0.405
+  },
+  {
+   "word": "University",
+   "start": 0.417,
+   "end": 1.03
+  },
+  {
+   "word": "tested",
+   "start": 1.088,
+   "end": 1.47
+  },
+  {
+   "word": "something",
+   "start": 1.482,
+   "end": 1.84
+  },
+  {
+   "word": "strange",
+   "start": 1.852,
+   "end": 2.349
+  },
+  {
+   "word": "on",
+   "start": 2.361,
+   "end": 2.454
+  },
+  {
+   "word": "students",
+   "start": 2.465,
+   "end": 3.009
+  },
+  {
+   "word": "Those",
+   "start": 3.403,
+   "end": 3.6
+  },
+  {
+   "word": "who",
+   "start": 3.611,
+   "end": 3.715
+  },
+  {
+   "word": "forgave",
+   "start": 3.727,
+   "end": 4.132
+  },
+  {
+   "word": "themselves",
+   "start": 4.144,
+   "end": 4.618
+  },
+  {
+   "word": "for",
+   "start": 4.63,
+   "end": 4.757
+  },
+  {
+   "word": "procrastinating",
+   "start": 4.769,
+   "end": 5.579
+  },
+  {
+   "word": "on",
+   "start": 5.59,
+   "end": 5.683
+  },
+  {
+   "word": "their",
+   "start": 5.694,
+   "end": 5.833
+  },
+  {
+   "word": "first",
+   "start": 5.845,
+   "end": 6.285
+  },
+  {
+   "word": "midterm",
+   "start": 6.296,
+   "end": 6.736
+  },
+  {
+   "word": "procrastinated",
+   "start": 6.748,
+   "end": 7.593
+  },
+  {
+   "word": "less",
+   "start": 7.604,
+   "end": 7.986
+  },
+  {
+   "word": "on",
+   "start": 8.125,
+   "end": 8.229
+  },
+  {
+   "word": "the",
+   "start": 8.241,
+   "end": 8.31
+  },
+  {
+   "word": "second",
+   "start": 8.322,
+   "end": 8.646
+  },
+  {
+   "word": "one",
+   "start": 8.657,
+   "end": 8.854
+  },
+  {
+   "word": "Read",
+   "start": 9.236,
+   "end": 9.456
+  },
+  {
+   "word": "that",
+   "start": 9.468,
+   "end": 9.595
+  },
+  {
+   "word": "again",
+   "start": 9.607,
+   "end": 9.954
+  },
+  {
+   "word": "self-forgiveness",
+   "start": 10.243,
+   "end": 11.053
+  },
+  {
+   "word": "didn't",
+   "start": 11.111,
+   "end": 11.343
+  },
+  {
+   "word": "excuse",
+   "start": 11.354,
+   "end": 11.863
+  },
+  {
+   "word": "the",
+   "start": 11.875,
+   "end": 11.968
+  },
+  {
+   "word": "delay",
+   "start": 11.979,
+   "end": 12.35
+  },
+  {
+   "word": "it",
+   "start": 12.697,
+   "end": 12.824
+  },
+  {
+   "word": "removed",
+   "start": 12.836,
+   "end": 13.275
+  },
+  {
+   "word": "the",
+   "start": 13.287,
+   "end": 13.38
+  },
+  {
+   "word": "guilt",
+   "start": 13.391,
+   "end": 13.669
+  },
+  {
+   "word": "tax",
+   "start": 13.681,
+   "end": 14.062
+  },
+  {
+   "word": "that",
+   "start": 14.074,
+   "end": 14.201
+  },
+  {
+   "word": "made",
+   "start": 14.213,
+   "end": 14.421
+  },
+  {
+   "word": "the",
+   "start": 14.433,
+   "end": 14.502
+  },
+  {
+   "word": "next",
+   "start": 14.514,
+   "end": 14.907
+  },
+  {
+   "word": "start",
+   "start": 14.919,
+   "end": 15.174
+  },
+  {
+   "word": "heavier",
+   "start": 15.185,
+   "end": 15.625
+  },
+  {
+   "word": "Beating",
+   "start": 16.007,
+   "end": 16.25
+  },
+  {
+   "word": "yourself",
+   "start": 16.262,
+   "end": 16.725
+  },
+  {
+   "word": "up",
+   "start": 16.736,
+   "end": 16.898
+  },
+  {
+   "word": "feels",
+   "start": 16.91,
+   "end": 17.211
+  },
+  {
+   "word": "productive",
+   "start": 17.222,
+   "end": 17.778
+  },
+  {
+   "word": "but",
+   "start": 18.044,
+   "end": 18.16
+  },
+  {
+   "word": "it",
+   "start": 18.171,
+   "end": 18.241
+  },
+  {
+   "word": "is",
+   "start": 18.252,
+   "end": 18.368
+  },
+  {
+   "word": "actually",
+   "start": 18.38,
+   "end": 18.785
+  },
+  {
+   "word": "the",
+   "start": 18.796,
+   "end": 18.9
+  },
+  {
+   "word": "loop's",
+   "start": 18.912,
+   "end": 19.213
+  },
+  {
+   "word": "final",
+   "start": 19.225,
+   "end": 19.491
+  },
+  {
+   "word": "defense",
+   "start": 19.502,
+   "end": 20.104
+  },
+  {
+   "word": "You",
+   "start": 20.486,
+   "end": 20.556
+  },
+  {
+   "word": "can",
+   "start": 20.567,
+   "end": 20.671
+  },
+  {
+   "word": "be",
+   "start": 20.683,
+   "end": 20.775
+  },
+  {
+   "word": "disappointed",
+   "start": 20.787,
+   "end": 21.412
+  },
+  {
+   "word": "and",
+   "start": 21.643,
+   "end": 21.748
+  },
+  {
+   "word": "still",
+   "start": 21.759,
+   "end": 21.956
+  },
+  {
+   "word": "be",
+   "start": 21.968,
+   "end": 22.06
+  },
+  {
+   "word": "kind",
+   "start": 22.072,
+   "end": 22.315
+  },
+  {
+   "word": "to",
+   "start": 22.326,
+   "end": 22.384
+  },
+  {
+   "word": "yourself",
+   "start": 22.396,
+   "end": 22.905
+  },
+  {
+   "word": "That",
+   "start": 23.299,
+   "end": 23.403
+  },
+  {
+   "word": "combination",
+   "start": 23.414,
+   "end": 24.016
+  },
+  {
+   "word": "starts",
+   "start": 24.028,
+   "end": 24.306
+  },
+  {
+   "word": "tomorrow's",
+   "start": 24.317,
+   "end": 24.734
+  },
+  {
+   "word": "work",
+   "start": 24.745,
+   "end": 25.116
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-03"
+scenes:
+  - id: e3s1
+    title: "The Time Math"
+    search:
+      - { file: "../_imgpool/wall-clock-fb10b5-01.jpg", type: image, parallax: false, query: "wall clock", author: ".mw-parser-output .messagebox{margin:4px 0;width:auto;border-collapse:collapse;border:2px solid var(--border-color-progressive,#6485d1);background-color:var(--background-color-neutral-subtle,#fbfcff);color:var(--color-base,#202122);box-sizing:border-box;border-inline-start-width:8px}.mw-parser-output .messagebox.mbox-small{font-size:88%;line-height:1.25em}.mw-parser-output .mbox-warning,.mw-parser-output .mbox-speedy{border:2px solid var(--border-color-error,#b22222);background:var(--background-color-error-subtle,#ffdbdb);border-inline-start-width:8px}.mw-parser-output .mbox-serious,.mw-parser-output .mbox-delete,.mw-parser-output .mbox-stop{border:2px solid var(--border-color-error,#b22222);border-inline-start-width:8px}.mw-parser-output .mbox-issue,.mw-parser-output .mbox-content{border:2px solid #f28500;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-query,.mw-parser-output .mbox-style{border:2px solid #f4c430;background:var(--background-color-warning-subtle,#ffe);border-inline-start-width:8px}.mw-parser-output .mbox-shit{border:2px solid #960;border-inline-start-width:8px}.mw-parser-output .mbox-license{border:2px solid #88a;border-inline-start-width:initial}.mw-parser-output .mbox-legal{border:2px solid var(--border-color-notice,#666);background:var(--background-color-base,#fff);border-inline-start-width:8px}.mw-parser-output .mbox-honor{border:2px solid #ca3;background:var(--background-color-warning-subtle,#fcf4db);border-inline-start-width:8px}.mw-parser-output .mbox-growth{border:2px solid #8d4;background:var(--background-color-success-subtle,#d5fdf4);border-inline-start-width:8px}.mw-parser-output .mbox-move{border:2px solid #93c;border-inline-start-width:8px}.mw-parser-output .mbox-protection,.mw-parser-output .mbox-message{border:2px solid var(--border-color-base,#aaa);border-inline-start-width:8px}.mw-parser-output .messagebox .mbox-text{border:none;padding:0.25em 0.9em;width:100%}.mw-parser-output .messagebox .mbox-image{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0.9em;padding-inline-end:0;text-align:center}.mw-parser-output .messagebox .mbox-imageright{border:none;padding-top:2px;padding-bottom:2px;padding-inline-start:0;padding-inline-end:0.9em;text-align:center}.mw-parser-output .messagebox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output .messagebox .mbox-invalid-type{text-align:center}@media(min-width:720px){.mw-parser-output .messagebox{margin:4px 10%}.mw-parser-output .messagebox.mbox-small{clear:right;float:right;margin:4px 0 4px 1em;width:238px}}body.skin--responsive .mw-parser-output table.messagebox img{max-width:none!important} Please respect the Creative Commons Attribution-ShareAlike license that this image is released under. You must use the same license if you share this image and include this credit line wherever you use this image: Y.ssk / Wikimedia Commons / CC BY-SA 4.0 While not required, if you use this image outside of the Wikimedia projects , I would appreciate it if you could leave a quick message on my talk page .", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Clock,_Cremyll_Quay_Landing.jpg" }
+      - { file: "../_imgpool/planner-calendar-507074-01.jpg", type: image, parallax: false, query: "planner calendar", author: "Viajaste", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Icons8_flat_planner_green_calendar.png" }
+      - { file: "../_imgpool/old-books-stack-c275fa-02.jpg", type: image, parallax: false, query: "old books stack", author: "Ch. Maderthoner", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Old_Books_06.JPG" }
+    narration: "Let's do the time math first. Say procrastination costs you just 2 focused hours a day — the scrolling, the drifting, the I'll start after this video. Two hours a day is 730 hours a year, which means 30 full waking days — roughly an entire month of your life, deleted every year. Not on a vacation. On nothing."
+    labels:
+      - { text: "2 h/day = 730 h/year", at: 0.46 }
+    graphic: { kind: "dem-so", value: 30, unit: " days", label: "lost per year at 2 h/day" }
+  - id: e3s2
+    title: "The Health Bill"
+    search:
+      - { file: "../_imgpool/blood-pressure-measurement-beef4b-02.jpg", type: image, parallax: false, query: "blood pressure measurement", author: "Confidence24", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Blood_pressure_measurement_using_an_aneroid_sphygmomanometer.jpg" }
+      - { file: "../_imgpool/insomnia-night-bed-652f7a-01.jpg", type: image, parallax: false, query: "insomnia night bed", author: "Internet Archive Book Images", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:Dr._Evans%27_How_to_keep_well;_(1917)_(14790045783).jpg" }
+    narration: "Then there's the health bill. Psychologist Fuschia Sirois tracked procrastination across age groups and found chronic procrastinators report higher stress, sleep worse, and put off doctor visits. In older adults, trait procrastination was even linked to cardiovascular disease and hypertension. Why? Your body treats every looming, avoided task as an open threat — and threats, held long enough, become symptoms."
+    labels:
+      - { text: "avoided task = open threat", at: 0.79 }
+  - id: e3s3
+    title: "The Work Bill"
+    search:
+      - { file: "../_imgpool/sticky-notes-wall-b0caad-03.jpg", type: image, parallax: false, query: "sticky notes wall", author: "Aaron Zhu", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Sticky_Notes_Wall_outside_Hong_Kong_Government_Building,_during_2014_Occupy_Central_-_panoramio.jpg" }
+      - { file: "../_imgpool/laptop-night-work-69d6e6-01.jpg", type: image, parallax: false, query: "laptop night work", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Depressed_middle-aged_businesswoman_working_late_at_night_struggles_with_tasks_in_front_of_laptop_while_holding_head_with_hands.jpg" }
+      - { file: "../_imgpool/office-desks-de1ee4-01.jpg", type: image, parallax: false, query: "office desks", author: "Linktech Australia", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Office_desks_overview.jpg" }
+    narration: "Work pays too. Gloria Mark's research inside real offices found workers get interrupted roughly every 11 minutes. After each one, people speed up to compensate — and go home with more stress and more overtime. Rushed work hides more errors. Corrected errors eat the evening, and the eaten evening pushes tomorrow's task, so the loop tightens. But pressure feels productive — the data says it's a loan with brutal interest."
+    labels:
+      - { text: "interruption → speed → stress", at: 0.36 }
+  - id: e3s4
+    title: "The Money Bill"
+    search:
+      - { file: "../_imgpool/calculator-finance-fd247a-01.jpg", type: image, parallax: false, query: "calculator finance", author: "U.S. Space Force photo by Airman Collin Wesson", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:45th_CPTS_photos_(8046916).jpg" }
+      - { file: "../_imgpool/stock-chart-7746f4-01.jpg", type: image, parallax: false, query: "stock chart", author: "Wes97", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Fingerprint_Cards_Stock_Chart.png" }
+      - { file: "../_imgpool/coins-stacks-4b39ac-01.jpg", type: image, parallax: false, query: "coins stacks", author: "Kevin Schneider", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Stacks_of_Coins.jpg" }
+    narration: "Even money compounds against you. Missed fees, rushed decisions, delayed starts — and the quiet one: investing. $50 a month, starting at 22, becomes roughly twice the retirement fund of the same $50 started at 32. Same money. Same market. Ten years of later. Procrastination never sends you the bill — it just quietly renegotiates your future downward."
+    labels:
+      - { text: "$50/mo at 22 ≈ 2× at 67 vs 32", at: 0.45 }
+  - id: e3s5
+    title: "Retrainable"
+    search:
+      - { file: "../_imgpool/city-sunrise-c903ff-01.jpg", type: image, parallax: false, query: "city sunrise", author: "LTreadwell", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:City_of_Sunrise_Florida_City_Hall.jpg" }
+      - { file: "../_imgpool/running-track-athlete-51c5c4-01.jpg", type: image, parallax: false, query: "running track athlete", author: "Charlyneros", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:South_African_athlete_20.jpg" }
+      - { file: "../_imgpool/window-plants-0f9c27-03.jpg", type: image, parallax: false, query: "window plants", author: "Tangopaso", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Plants_on_window_A_D2207.jpg" }
+    narration: "Here's the good news, and it's real: procrastination is not a character flaw. It is a trained loop — and loops can be retrained with tools far easier than try harder. But the first tool is the smallest one: a rule so small it feels stupid. That is exactly why it works."
+    labels:
+      - { text: "loop → trainable", at: 0.37 }
+  - id: e3s6
+    title: "Next: The 2-Minute Spark"
+    search:
+      - { file: "../_imgpool/city-sunrise-c903ff-02.jpg", type: image, parallax: false, query: "city sunrise", author: "ChefWard", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Looking_south_from_island_at_Sunrise_City.jpg" }
+      - { file: "../_imgpool/running-track-athlete-51c5c4-02.jpg", type: image, parallax: false, query: "running track athlete", author: "USSR Post", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:The_Soviet_Union_1988_CPA_5928_stamp_(Centenary_of_Russian_athletics._Track_and_athlete._Jumping,_running,_and_throwing._The_spit_of_Vasilyevsky_Island).png" }
+    narration: "The price was the bad news; the fix is small. Next: the 2-minute spark — the smallest rule that restarts any task."

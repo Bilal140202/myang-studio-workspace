@@ -1,0 +1,326 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "And",
+   "start": 0.093,
+   "end": 0.162
+  },
+  {
+   "word": "when",
+   "start": 0.174,
+   "end": 0.301
+  },
+  {
+   "word": "you",
+   "start": 0.312,
+   "end": 0.405
+  },
+  {
+   "word": "break",
+   "start": 0.417,
+   "end": 0.683
+  },
+  {
+   "word": "the",
+   "start": 0.694,
+   "end": 0.775
+  },
+  {
+   "word": "streak",
+   "start": 0.787,
+   "end": 1.192
+  },
+  {
+   "word": "you",
+   "start": 1.62,
+   "end": 1.759
+  },
+  {
+   "word": "will",
+   "start": 1.771,
+   "end": 2.095
+  },
+  {
+   "word": "everyone",
+   "start": 2.431,
+   "end": 2.789
+  },
+  {
+   "word": "does",
+   "start": 2.801,
+   "end": 3.171
+  },
+  {
+   "word": "follow",
+   "start": 3.414,
+   "end": 3.738
+  },
+  {
+   "word": "1",
+   "start": 3.75,
+   "end": 4.028
+  },
+  {
+   "word": "rule",
+   "start": 4.039,
+   "end": 4.282
+  },
+  {
+   "word": "never",
+   "start": 4.688,
+   "end": 4.896
+  },
+  {
+   "word": "miss",
+   "start": 4.907,
+   "end": 5.081
+  },
+  {
+   "word": "twice",
+   "start": 5.093,
+   "end": 5.648
+  },
+  {
+   "word": "One",
+   "start": 6.03,
+   "end": 6.192
+  },
+  {
+   "word": "missed",
+   "start": 6.204,
+   "end": 6.435
+  },
+  {
+   "word": "day",
+   "start": 6.447,
+   "end": 6.794
+  },
+  {
+   "word": "is",
+   "start": 6.887,
+   "end": 7.014
+  },
+  {
+   "word": "an",
+   "start": 7.025,
+   "end": 7.095
+  },
+  {
+   "word": "accident",
+   "start": 7.106,
+   "end": 7.639
+  },
+  {
+   "word": "Two",
+   "start": 8.032,
+   "end": 8.194
+  },
+  {
+   "word": "is",
+   "start": 8.206,
+   "end": 8.31
+  },
+  {
+   "word": "the",
+   "start": 8.322,
+   "end": 8.426
+  },
+  {
+   "word": "old",
+   "start": 8.507,
+   "end": 8.715
+  },
+  {
+   "word": "loop",
+   "start": 8.727,
+   "end": 8.889
+  },
+  {
+   "word": "knocking",
+   "start": 8.9,
+   "end": 9.271
+  },
+  {
+   "word": "But",
+   "start": 9.664,
+   "end": 9.792
+  },
+  {
+   "word": "recovery",
+   "start": 9.803,
+   "end": 10.289
+  },
+  {
+   "word": "speed",
+   "start": 10.301,
+   "end": 10.625
+  },
+  {
+   "word": "matters",
+   "start": 10.637,
+   "end": 11.019
+  },
+  {
+   "word": "more",
+   "start": 11.03,
+   "end": 11.366
+  },
+  {
+   "word": "than",
+   "start": 11.377,
+   "end": 11.481
+  },
+  {
+   "word": "perfection",
+   "start": 11.493,
+   "end": 12.06
+  },
+  {
+   "word": "because",
+   "start": 12.338,
+   "end": 12.639
+  },
+  {
+   "word": "every",
+   "start": 12.732,
+   "end": 12.986
+  },
+  {
+   "word": "fast",
+   "start": 12.998,
+   "end": 13.368
+  },
+  {
+   "word": "restart",
+   "start": 13.38,
+   "end": 13.808
+  },
+  {
+   "word": "casts",
+   "start": 13.819,
+   "end": 14.201
+  },
+  {
+   "word": "a",
+   "start": 14.213,
+   "end": 14.259
+  },
+  {
+   "word": "vote",
+   "start": 14.271,
+   "end": 14.595
+  },
+  {
+   "word": "for",
+   "start": 14.607,
+   "end": 14.803
+  },
+  {
+   "word": "a",
+   "start": 14.815,
+   "end": 14.838
+  },
+  {
+   "word": "new",
+   "start": 14.85,
+   "end": 15.116
+  },
+  {
+   "word": "identity",
+   "start": 15.127,
+   "end": 15.613
+  },
+  {
+   "word": "I'm",
+   "start": 15.972,
+   "end": 16.088
+  },
+  {
+   "word": "a",
+   "start": 16.1,
+   "end": 16.157
+  },
+  {
+   "word": "person",
+   "start": 16.169,
+   "end": 16.551
+  },
+  {
+   "word": "who",
+   "start": 16.562,
+   "end": 16.643
+  },
+  {
+   "word": "starts",
+   "start": 16.655,
+   "end": 17.199
+  },
+  {
+   "word": "Identity",
+   "start": 17.593,
+   "end": 18.067
+  },
+  {
+   "word": "outlasts",
+   "start": 18.079,
+   "end": 18.588
+  },
+  {
+   "word": "motivation",
+   "start": 18.6,
+   "end": 19.178
+  },
+  {
+   "word": "Motivation",
+   "start": 19.56,
+   "end": 20.081
+  },
+  {
+   "word": "shows",
+   "start": 20.093,
+   "end": 20.382
+  },
+  {
+   "word": "up",
+   "start": 20.393,
+   "end": 20.521
+  },
+  {
+   "word": "late",
+   "start": 20.532,
+   "end": 20.822
+  },
+  {
+   "word": "Identity",
+   "start": 21.204,
+   "end": 21.759
+  },
+  {
+   "word": "is",
+   "start": 21.887,
+   "end": 22.014
+  },
+  {
+   "word": "already",
+   "start": 22.025,
+   "end": 22.431
+  },
+  {
+   "word": "in",
+   "start": 22.442,
+   "end": 22.512
+  },
+  {
+   "word": "the",
+   "start": 22.523,
+   "end": 22.581
+  },
+  {
+   "word": "chair",
+   "start": 22.593,
+   "end": 22.986
+  }
+ ]
+}

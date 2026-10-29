@@ -1,0 +1,316 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Then",
+   "start": 0.093,
+   "end": 0.243
+  },
+  {
+   "word": "borrow",
+   "start": 0.255,
+   "end": 0.556
+  },
+  {
+   "word": "a",
+   "start": 0.567,
+   "end": 0.613
+  },
+  {
+   "word": "timer",
+   "start": 0.625,
+   "end": 1.03
+  },
+  {
+   "word": "The",
+   "start": 1.435,
+   "end": 1.481
+  },
+  {
+   "word": "Pomodoro",
+   "start": 1.493,
+   "end": 1.991
+  },
+  {
+   "word": "technique",
+   "start": 2.002,
+   "end": 2.523
+  },
+  {
+   "word": "runs",
+   "start": 2.535,
+   "end": 2.836
+  },
+  {
+   "word": "25",
+   "start": 2.847,
+   "end": 3.414
+  },
+  {
+   "word": "minutes",
+   "start": 3.426,
+   "end": 3.704
+  },
+  {
+   "word": "of",
+   "start": 3.715,
+   "end": 3.819
+  },
+  {
+   "word": "work",
+   "start": 3.831,
+   "end": 4.155
+  },
+  {
+   "word": "5",
+   "start": 4.398,
+   "end": 4.699
+  },
+  {
+   "word": "minutes",
+   "start": 4.711,
+   "end": 4.965
+  },
+  {
+   "word": "of",
+   "start": 4.977,
+   "end": 5.069
+  },
+  {
+   "word": "break",
+   "start": 5.081,
+   "end": 5.44
+  },
+  {
+   "word": "That",
+   "start": 5.833,
+   "end": 5.914
+  },
+  {
+   "word": "is",
+   "start": 5.926,
+   "end": 6.007
+  },
+  {
+   "word": "a",
+   "start": 6.019,
+   "end": 6.111
+  },
+  {
+   "word": "deadline",
+   "start": 6.123,
+   "end": 6.539
+  },
+  {
+   "word": "small",
+   "start": 6.551,
+   "end": 6.898
+  },
+  {
+   "word": "enough",
+   "start": 6.91,
+   "end": 7.176
+  },
+  {
+   "word": "to",
+   "start": 7.188,
+   "end": 7.292
+  },
+  {
+   "word": "beat",
+   "start": 7.303,
+   "end": 7.662
+  },
+  {
+   "word": "4",
+   "start": 7.894,
+   "end": 8.032
+  },
+  {
+   "word": "times",
+   "start": 8.044,
+   "end": 8.333
+  },
+  {
+   "word": "an",
+   "start": 8.345,
+   "end": 8.414
+  },
+  {
+   "word": "hour",
+   "start": 8.426,
+   "end": 8.738
+  },
+  {
+   "word": "which",
+   "start": 9.016,
+   "end": 9.167
+  },
+  {
+   "word": "means",
+   "start": 9.178,
+   "end": 9.387
+  },
+  {
+   "word": "an",
+   "start": 9.398,
+   "end": 9.502
+  },
+  {
+   "word": "endless",
+   "start": 9.618,
+   "end": 9.931
+  },
+  {
+   "word": "job",
+   "start": 9.942,
+   "end": 10.255
+  },
+  {
+   "word": "becomes",
+   "start": 10.266,
+   "end": 10.625
+  },
+  {
+   "word": "work",
+   "start": 10.637,
+   "end": 10.914
+  },
+  {
+   "word": "for",
+   "start": 10.926,
+   "end": 11.053
+  },
+  {
+   "word": "25",
+   "start": 11.065,
+   "end": 11.667
+  },
+  {
+   "word": "The",
+   "start": 12.06,
+   "end": 12.13
+  },
+  {
+   "word": "break",
+   "start": 12.141,
+   "end": 12.488
+  },
+  {
+   "word": "is",
+   "start": 12.558,
+   "end": 12.662
+  },
+  {
+   "word": "not",
+   "start": 12.674,
+   "end": 12.905
+  },
+  {
+   "word": "a",
+   "start": 12.917,
+   "end": 12.951
+  },
+  {
+   "word": "reward",
+   "start": 12.963,
+   "end": 13.414
+  },
+  {
+   "word": "for",
+   "start": 13.426,
+   "end": 13.6
+  },
+  {
+   "word": "weakness",
+   "start": 13.611,
+   "end": 14.144
+  },
+  {
+   "word": "it's",
+   "start": 14.514,
+   "end": 14.606
+  },
+  {
+   "word": "part",
+   "start": 14.618,
+   "end": 14.85
+  },
+  {
+   "word": "of",
+   "start": 14.861,
+   "end": 14.919
+  },
+  {
+   "word": "the",
+   "start": 14.931,
+   "end": 15.0
+  },
+  {
+   "word": "machine",
+   "start": 15.012,
+   "end": 15.428
+  },
+  {
+   "word": "Set",
+   "start": 15.81,
+   "end": 15.984
+  },
+  {
+   "word": "the",
+   "start": 15.995,
+   "end": 16.065
+  },
+  {
+   "word": "timer",
+   "start": 16.076,
+   "end": 16.447
+  },
+  {
+   "word": "and",
+   "start": 16.725,
+   "end": 16.794
+  },
+  {
+   "word": "let",
+   "start": 16.806,
+   "end": 16.956
+  },
+  {
+   "word": "the",
+   "start": 16.968,
+   "end": 17.06
+  },
+  {
+   "word": "ticking",
+   "start": 17.072,
+   "end": 17.384
+  },
+  {
+   "word": "start",
+   "start": 17.396,
+   "end": 17.65
+  },
+  {
+   "word": "the",
+   "start": 17.662,
+   "end": 17.731
+  },
+  {
+   "word": "task",
+   "start": 17.743,
+   "end": 18.056
+  },
+  {
+   "word": "for",
+   "start": 18.067,
+   "end": 18.206
+  },
+  {
+   "word": "you",
+   "start": 18.218,
+   "end": 18.368
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "In 1927",
+   "start": 0.093,
+   "end": 1.157
+  },
+  {
+   "word": "a",
+   "start": 1.516,
+   "end": 1.551
+  },
+  {
+   "word": "psychologist",
+   "start": 1.562,
+   "end": 2.326
+  },
+  {
+   "word": "named",
+   "start": 2.338,
+   "end": 2.604
+  },
+  {
+   "word": "Bluma",
+   "start": 2.674,
+   "end": 3.044
+  },
+  {
+   "word": "Zeigarnik",
+   "start": 3.056,
+   "end": 3.634
+  },
+  {
+   "word": "noticed",
+   "start": 3.646,
+   "end": 4.005
+  },
+  {
+   "word": "something",
+   "start": 4.016,
+   "end": 4.41
+  },
+  {
+   "word": "odd",
+   "start": 4.468,
+   "end": 4.792
+  },
+  {
+   "word": "in",
+   "start": 4.896,
+   "end": 5.0
+  },
+  {
+   "word": "a",
+   "start": 5.012,
+   "end": 5.058
+  },
+  {
+   "word": "Vienna",
+   "start": 5.069,
+   "end": 5.347
+  },
+  {
+   "word": "cafe",
+   "start": 5.359,
+   "end": 5.856
+  },
+  {
+   "word": "Waiters",
+   "start": 6.238,
+   "end": 6.597
+  },
+  {
+   "word": "remembered",
+   "start": 6.609,
+   "end": 7.095
+  },
+  {
+   "word": "unpaid",
+   "start": 7.164,
+   "end": 7.778
+  },
+  {
+   "word": "orders",
+   "start": 7.789,
+   "end": 8.125
+  },
+  {
+   "word": "perfectly",
+   "start": 8.137,
+   "end": 8.727
+  },
+  {
+   "word": "then",
+   "start": 9.143,
+   "end": 9.306
+  },
+  {
+   "word": "forgot",
+   "start": 9.317,
+   "end": 9.688
+  },
+  {
+   "word": "them",
+   "start": 9.699,
+   "end": 9.85
+  },
+  {
+   "word": "the",
+   "start": 9.861,
+   "end": 9.942
+  },
+  {
+   "word": "second",
+   "start": 9.954,
+   "end": 10.324
+  },
+  {
+   "word": "the",
+   "start": 10.336,
+   "end": 10.417
+  },
+  {
+   "word": "bill",
+   "start": 10.428,
+   "end": 10.66
+  },
+  {
+   "word": "was",
+   "start": 10.671,
+   "end": 10.787
+  },
+  {
+   "word": "settled",
+   "start": 10.799,
+   "end": 11.204
+  },
+  {
+   "word": "Her",
+   "start": 11.597,
+   "end": 11.69
+  },
+  {
+   "word": "finding",
+   "start": 11.701,
+   "end": 12.106
+  },
+  {
+   "word": "became",
+   "start": 12.118,
+   "end": 12.5
+  },
+  {
+   "word": "the",
+   "start": 12.512,
+   "end": 12.593
+  },
+  {
+   "word": "Zeigarnik",
+   "start": 12.604,
+   "end": 13.16
+  },
+  {
+   "word": "effect",
+   "start": 13.171,
+   "end": 13.6
+  },
+  {
+   "word": "unfinished",
+   "start": 14.039,
+   "end": 14.595
+  },
+  {
+   "word": "tasks",
+   "start": 14.607,
+   "end": 14.988
+  },
+  {
+   "word": "hover",
+   "start": 15.0,
+   "end": 15.301
+  },
+  {
+   "word": "in",
+   "start": 15.312,
+   "end": 15.382
+  },
+  {
+   "word": "your",
+   "start": 15.393,
+   "end": 15.498
+  },
+  {
+   "word": "mind",
+   "start": 15.509,
+   "end": 15.891
+  },
+  {
+   "word": "nagging",
+   "start": 16.25,
+   "end": 16.69
+  },
+  {
+   "word": "until",
+   "start": 17.025,
+   "end": 17.245
+  },
+  {
+   "word": "they're",
+   "start": 17.257,
+   "end": 17.384
+  },
+  {
+   "word": "started",
+   "start": 17.396,
+   "end": 17.812
+  },
+  {
+   "word": "because",
+   "start": 18.079,
+   "end": 18.345
+  },
+  {
+   "word": "an",
+   "start": 18.357,
+   "end": 18.472
+  },
+  {
+   "word": "open",
+   "start": 18.576,
+   "end": 18.9
+  },
+  {
+   "word": "loop",
+   "start": 18.912,
+   "end": 19.167
+  },
+  {
+   "word": "demands",
+   "start": 19.225,
+   "end": 19.676
+  },
+  {
+   "word": "closure",
+   "start": 19.688,
+   "end": 20.208
+  },
+  {
+   "word": "Which",
+   "start": 20.602,
+   "end": 20.752
+  },
+  {
+   "word": "means",
+   "start": 20.764,
+   "end": 20.972
+  },
+  {
+   "word": "the",
+   "start": 20.984,
+   "end": 21.065
+  },
+  {
+   "word": "hardest",
+   "start": 21.076,
+   "end": 21.528
+  },
+  {
+   "word": "part",
+   "start": 21.539,
+   "end": 21.748
+  },
+  {
+   "word": "of",
+   "start": 21.759,
+   "end": 21.84
+  },
+  {
+   "word": "any",
+   "start": 21.852,
+   "end": 22.025
+  },
+  {
+   "word": "task",
+   "start": 22.037,
+   "end": 22.442
+  },
+  {
+   "word": "isn't",
+   "start": 22.512,
+   "end": 22.708
+  },
+  {
+   "word": "finishing",
+   "start": 22.72,
+   "end": 23.148
+  },
+  {
+   "word": "it",
+   "start": 23.16,
+   "end": 23.275
+  },
+  {
+   "word": "it's",
+   "start": 23.669,
+   "end": 23.773
+  },
+  {
+   "word": "opening",
+   "start": 23.785,
+   "end": 24.086
+  },
+  {
+   "word": "the",
+   "start": 24.097,
+   "end": 24.178
+  },
+  {
+   "word": "loop",
+   "start": 24.19,
+   "end": 24.525
+  },
+  {
+   "word": "So",
+   "start": 24.919,
+   "end": 25.012
+  },
+  {
+   "word": "don't",
+   "start": 25.023,
+   "end": 25.185
+  },
+  {
+   "word": "plan",
+   "start": 25.197,
+   "end": 25.382
+  },
+  {
+   "word": "to",
+   "start": 25.393,
+   "end": 25.451
+  },
+  {
+   "word": "finish",
+   "start": 25.463,
+   "end": 25.914
+  },
+  {
+   "word": "Plan",
+   "start": 26.343,
+   "end": 26.47
+  },
+  {
+   "word": "to",
+   "start": 26.482,
+   "end": 26.551
+  },
+  {
+   "word": "begin",
+   "start": 26.562,
+   "end": 26.921
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-06"
+scenes:
+  - id: e6s1
+    title: "Self-Forgiveness"
+    search:
+      - { file: "../_imgpool/university-campus-students-e86f33-02.jpg", type: image, parallax: false, query: "university campus students", author: "unknown", license: "CC (see source)", page: "https://www.pexels.com/photo/college-students-in-a-university-campus-7683694/" }
+      - { file: "../_imgpool/lecture-hall-empty-9d8b9f-02.jpg", type: image, parallax: false, query: "lecture hall empty", author: "Paul The Writer", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Empty_Lecture_Room_Interior.jpg" }
+      - { file: "../_imgpool/classroom-sunlight-74743b-01.jpg", type: image, parallax: false, query: "classroom sunlight", author: "Warren LeMay from Cincinnati, OH, United States", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Classroom,_Log_Cabin_Association_Elementary_School,_Barkers_Creek,_NC_(46649210201).jpg" }
+    narration: "Carleton University tested something strange on students. Those who forgave themselves for procrastinating on their first midterm procrastinated less on the second one. Read that again: self-forgiveness didn't excuse the delay — it removed the guilt tax that made the next start heavier. Beating yourself up feels productive, but it is actually the loop's final defense. You can be disappointed and still be kind to yourself. That combination starts tomorrow's work."
+    labels:
+      - { text: "“I forgive myself, now I can study.” — Wohl 2010", at: 0.17 }
+  - id: e6s2
+    title: "The Chain"
+    search:
+      - { file: "../_imgpool/calendar-crossed-days-1aa3f1-02.jpg", type: image, parallax: false, query: "calendar crossed days", author: "Bowditch, Charles P. (Charles Pickering), 1842-1921; Seler, Eduard, 1849-1922; Förstemann, Ernst Wilhelm, 1822-1906; Schellhas, Paul, b. 1859; Sapper, Karl, 1866-1945; Dieseldorff, Erwin Paul, 1868-1940; Wesselhoeft, Selma; Parker, Alberta M; Thomas, Cyrus, 1825-1910", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:Mexican_and_Central_American_antiquities,_calendar_systems,_and_history;_(1904)_(14779242854).jpg" }
+      - { file: "../_imgpool/checklist-checkmarks-13bd0f-01.jpg", type: image, parallax: false, query: "checklist checkmarks", author: "Charles Moss Duke Jr. (photograph by Steve Jurvetson, 2022)", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:The_Apollo_16_Moon_Rock_Manifest_(1972).jpg" }
+      - { file: "../_imgpool/running-road-morning-ca0254-01.jpg", type: image, parallax: false, query: "running road morning", author: "Chris Denny", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Frosty_morning,_Pant-y-dwn_-_geograph.org.uk_-_1692318.jpg" }
+    narration: "Then make progress visible. Hang a calendar, and mark an X for every day you did the 2-minute start. After a week, the chain itself becomes the motivator — you're no longer chasing the report; you're protecting the streak. Track days started, not days perfected, because started is a bar every human can clear, and cleared bars compound into finished work."
+    labels:
+      - { text: "track days started", at: 0.27 }
+  - id: e6s3
+    title: "Never Miss Twice"
+    search:
+      - { file: "../_imgpool/hiking-boots-trail-2aedd8-03.jpg", type: image, parallax: false, query: "hiking boots trail", author: "Coconino National Forest", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Fossil_Springs_Trail_(November_13,_2017)_(38451792131).jpg" }
+      - { file: "../_imgpool/meditation-morning-da4eaf-03.jpg", type: image, parallax: false, query: "meditation morning", author: "Jeroen Komen", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:This_bell_would_sound_very_early_every_morning_for_morning_meditation.jpg" }
+      - { file: "../_imgpool/swimming-pool-lane-899ccc-01.jpg", type: image, parallax: false, query: "swimming pool lane", author: "8MAN42", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Pool_with_lane_lines_and_a_boy_and_girl_standing_next_to_each_other_on_swimsuits_with_a_girl_peeking_over_the_other_girls_shoulder_and_one_with_a_swim_cap_on.jpg" }
+    narration: "And when you break the streak — you will, everyone does — follow 1 rule: never miss twice. One missed day is an accident. Two is the old loop knocking. But recovery speed matters more than perfection, because every fast restart casts a vote for a new identity: I'm a person who starts. Identity outlasts motivation. Motivation shows up late. Identity is already in the chair."
+    labels:
+      - { text: "never miss twice", at: 0.25 }
+  - id: e6s4
+    title: "Thirty Days"
+    search:
+      - { file: "../_imgpool/planner-month-85bc1b-01.jpg", type: image, parallax: false, query: "planner month", author: "Fred Tucker", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Nashville_District_announces_employee_of_the_month_for_July_2012_120912-A-HL948-001.jpg" }
+      - { file: "../_imgpool/seedling-soil-hands-4777e2-03.jpg", type: image, parallax: false, query: "seedling soil hands", author: "B.K. Bliss & Sons; Henry G. Gilbert Nursery and Seed Trade Catalog Collection", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:B.K._Bliss_and_Sons%27_illustrated_hand-book_for_the_farm_and_garden_for_1881_-_containing_a_list_of_the_best_known_and_most_poplular_varieties_of_garden,_field_and_flower_seeds,_selected_from_our_large_(20199107869).jpg" }
+      - { file: "../_imgpool/mountain-trail-b7a92e-02.jpg", type: image, parallax: false, query: "mountain trail", author: "The Cosmonaut", license: "CC BY-SA 2.5 ca", page: "https://commons.wikimedia.org/wiki/File:Cheops_Mountain_seen_the_Sir_Donald_Trail.jpg" }
+    narration: "So here is your 30 days. Week 1: the 2-minute rule and Pomodoros — start stupidly small, every day. Week 2: redesign the room — phone out of reach, one workspace, if-then plans written down. Week 3: sharpen the calendar — early checkpoints, a fresh-start date, temptation bundling for your worst task. Week 4: track the chain, forgive the misses, and never miss twice. Thirty days. One loop, rewired."
+    labels:
+      - { text: "wk1 start · wk2 room · wk3 calendar · wk4 chain", at: 0.55 }
+    graphic: { kind: "dem-so", value: 30, unit: " days", label: "one loop, rewired" }
+  - id: e6s5
+    title: "Open The Loop"
+    search:
+      - { file: "../_imgpool/summit-sunrise-hiker-b33b1b-01.jpg", type: image, parallax: false, query: "summit sunrise hiker", author: "unknown", license: "CC (see source)", page: "https://unsplash.com/photos/hiker-walks-on-mountain-summit-at-sunrise-hycORWHgfo4" }
+      - { file: "../_imgpool/open-door-light-10e89a-01.jpg", type: image, parallax: false, query: "open door light", author: "LN9267", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Macau_Light_Rapid_Transit_Taipa_Line_train_door_open_11-12-2019.jpg" }
+      - { file: "../_imgpool/typing-keyboard-morning-5c1a18-01.jpg", type: image, parallax: false, query: "typing keyboard morning", author: "tsuacctnt", license: "CC BY 2.0", page: "https://www.flickr.com/photos/8842985@N03/4179761302" }
+    narration: "One last thing. The task you've been avoiding while watching this? It's still there — and now it's the perfect first target. 2 minutes. 1 ugly sentence. 1 open document. That's the whole ask, because the secret of how to stop procrastinating was never about doing more — it's about starting smaller: today, not Monday. If this helped, subscribe for the next deep dive. Now go open the loop."
+    labels:
+      - { text: "start smaller — today", at: 0.67 }

@@ -1,0 +1,376 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "And",
+   "start": 0.093,
+   "end": 0.15
+  },
+  {
+   "word": "it",
+   "start": 0.162,
+   "end": 0.231
+  },
+  {
+   "word": "is",
+   "start": 0.243,
+   "end": 0.37
+  },
+  {
+   "word": "everywhere",
+   "start": 0.382,
+   "end": 0.914
+  },
+  {
+   "word": "Depending",
+   "start": 1.296,
+   "end": 1.62
+  },
+  {
+   "word": "on",
+   "start": 1.632,
+   "end": 1.701
+  },
+  {
+   "word": "the",
+   "start": 1.713,
+   "end": 1.771
+  },
+  {
+   "word": "study",
+   "start": 1.782,
+   "end": 2.141
+  },
+  {
+   "word": "80",
+   "start": 2.477,
+   "end": 2.708
+  },
+  {
+   "word": "to",
+   "start": 2.72,
+   "end": 2.836
+  },
+  {
+   "word": "95 percent",
+   "start": 2.847,
+   "end": 3.877
+  },
+  {
+   "word": "of",
+   "start": 3.889,
+   "end": 3.97
+  },
+  {
+   "word": "college",
+   "start": 3.982,
+   "end": 4.387
+  },
+  {
+   "word": "students",
+   "start": 4.398,
+   "end": 4.745
+  },
+  {
+   "word": "procrastinate",
+   "start": 4.757,
+   "end": 5.486
+  },
+  {
+   "word": "on",
+   "start": 5.498,
+   "end": 5.637
+  },
+  {
+   "word": "academic",
+   "start": 5.648,
+   "end": 6.1
+  },
+  {
+   "word": "work",
+   "start": 6.111,
+   "end": 6.447
+  },
+  {
+   "word": "That",
+   "start": 6.829,
+   "end": 6.921
+  },
+  {
+   "word": "is",
+   "start": 6.933,
+   "end": 7.049
+  },
+  {
+   "word": "roughly",
+   "start": 7.06,
+   "end": 7.349
+  },
+  {
+   "word": "9",
+   "start": 7.361,
+   "end": 7.755
+  },
+  {
+   "word": "in",
+   "start": 7.847,
+   "end": 7.986
+  },
+  {
+   "word": "every",
+   "start": 8.113,
+   "end": 8.38
+  },
+  {
+   "word": "10",
+   "start": 8.391,
+   "end": 8.576
+  },
+  {
+   "word": "people",
+   "start": 8.588,
+   "end": 8.912
+  },
+  {
+   "word": "in",
+   "start": 8.924,
+   "end": 8.993
+  },
+  {
+   "word": "a",
+   "start": 9.005,
+   "end": 9.051
+  },
+  {
+   "word": "lecture",
+   "start": 9.062,
+   "end": 9.352
+  },
+  {
+   "word": "hall",
+   "start": 9.363,
+   "end": 9.653
+  },
+  {
+   "word": "Among",
+   "start": 10.035,
+   "end": 10.266
+  },
+  {
+   "word": "adults",
+   "start": 10.278,
+   "end": 10.741
+  },
+  {
+   "word": "about",
+   "start": 10.949,
+   "end": 11.238
+  },
+  {
+   "word": "1",
+   "start": 11.25,
+   "end": 11.424
+  },
+  {
+   "word": "in",
+   "start": 11.435,
+   "end": 11.516
+  },
+  {
+   "word": "5",
+   "start": 11.528,
+   "end": 11.91
+  },
+  {
+   "word": "is",
+   "start": 11.921,
+   "end": 12.014
+  },
+  {
+   "word": "a",
+   "start": 12.025,
+   "end": 12.083
+  },
+  {
+   "word": "chronic",
+   "start": 12.095,
+   "end": 12.5
+  },
+  {
+   "word": "procrastinator",
+   "start": 12.512,
+   "end": 13.368
+  },
+  {
+   "word": "delaying",
+   "start": 13.588,
+   "end": 13.97
+  },
+  {
+   "word": "across",
+   "start": 13.982,
+   "end": 14.363
+  },
+  {
+   "word": "work",
+   "start": 14.375,
+   "end": 14.711
+  },
+  {
+   "word": "money",
+   "start": 14.988,
+   "end": 15.359
+  },
+  {
+   "word": "and",
+   "start": 15.544,
+   "end": 15.637
+  },
+  {
+   "word": "health",
+   "start": 15.648,
+   "end": 16.03
+  },
+  {
+   "word": "year",
+   "start": 16.262,
+   "end": 16.528
+  },
+  {
+   "word": "after",
+   "start": 16.539,
+   "end": 16.794
+  },
+  {
+   "word": "year",
+   "start": 16.806,
+   "end": 17.106
+  },
+  {
+   "word": "So",
+   "start": 17.488,
+   "end": 17.639
+  },
+  {
+   "word": "if",
+   "start": 17.65,
+   "end": 17.743
+  },
+  {
+   "word": "you",
+   "start": 17.755,
+   "end": 17.847
+  },
+  {
+   "word": "do",
+   "start": 17.859,
+   "end": 18.044
+  },
+  {
+   "word": "this",
+   "start": 18.056,
+   "end": 18.391
+  },
+  {
+   "word": "you",
+   "start": 18.611,
+   "end": 18.681
+  },
+  {
+   "word": "are",
+   "start": 18.692,
+   "end": 18.773
+  },
+  {
+   "word": "not",
+   "start": 18.785,
+   "end": 19.005
+  },
+  {
+   "word": "broken",
+   "start": 19.016,
+   "end": 19.352
+  },
+  {
+   "word": "You",
+   "start": 19.734,
+   "end": 19.826
+  },
+  {
+   "word": "are",
+   "start": 19.838,
+   "end": 19.907
+  },
+  {
+   "word": "normal",
+   "start": 19.919,
+   "end": 20.301
+  },
+  {
+   "word": "But",
+   "start": 20.694,
+   "end": 20.81
+  },
+  {
+   "word": "normal",
+   "start": 20.822,
+   "end": 21.204
+  },
+  {
+   "word": "is",
+   "start": 21.215,
+   "end": 21.319
+  },
+  {
+   "word": "quietly",
+   "start": 21.331,
+   "end": 21.829
+  },
+  {
+   "word": "expensive",
+   "start": 21.84,
+   "end": 22.407
+  },
+  {
+   "word": "and",
+   "start": 22.789,
+   "end": 22.836
+  },
+  {
+   "word": "the",
+   "start": 22.847,
+   "end": 22.917
+  },
+  {
+   "word": "reason",
+   "start": 22.928,
+   "end": 23.252
+  },
+  {
+   "word": "why",
+   "start": 23.264,
+   "end": 23.461
+  },
+  {
+   "word": "hides",
+   "start": 23.472,
+   "end": 23.843
+  },
+  {
+   "word": "inside",
+   "start": 23.854,
+   "end": 24.225
+  },
+  {
+   "word": "your",
+   "start": 24.236,
+   "end": 24.317
+  },
+  {
+   "word": "skull",
+   "start": 24.329,
+   "end": 24.722
+  }
+ ]
+}

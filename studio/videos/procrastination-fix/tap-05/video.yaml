@@ -1,0 +1,58 @@
+# Generated from kichban_master.py (edit there, then re-run scripts/gen_proc_yaml.py).
+# Local CC images: ../_imgpool (license book -> giay_phep.json via xp assets). Caption-free master:
+# no subtitle keys — the SRT deliverable is ASR on the final audio (see issue #9).
+
+name: "procrastination-fix-tap-05"
+scenes:
+  - id: e5s1
+    title: "Make It Physical"
+    search:
+      - { file: "../_imgpool/smartphone-table-21c288-02.jpg", type: image, parallax: false, query: "smartphone table", author: "Alejandro Escamilla alejandroescamilla", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Iphone,_macbook_and_smartphone_on_a_table_(Unsplash).jpg" }
+      - { file: "../_imgpool/clean-desk-workspace-1f572e-03.jpg", type: image, parallax: false, query: "clean desk workspace", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Desk_workspace_featuring_coffee_cup,_laptop,_and_plant_with_artwork_in_background_during_a_sunny_day.jpg" }
+      - { file: "../_imgpool/desk-lamp-dark-f7f5c8-01.jpg", type: image, parallax: false, query: "desk lamp dark", author: "Brackett, J. Raymond", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Pres._Baker%27s_Den_(face)_-_DPLA_-_3f04700c854e49170593832c55a411b7.jpg" }
+    narration: "Willpower is a terrible business plan. Every app on your home screen is a candy bar for your thumb. In 2017, researchers found that your phone drains your focus even when it's off and face-down. Its mere presence consumes attention, because part of your mind is spent not grabbing it. So make the fix physical: phone in another room, door closed, 1 tab open. You don't need more discipline. You need fewer decisions."
+    labels:
+      - { text: "presence of phone = brain drain", at: 0.53 }
+  - id: e5s2
+    title: "The Pomodoro"
+    search:
+      - { file: "../_imgpool/kitchen-timer-08d09b-01.jpg", type: image, parallax: false, query: "kitchen timer", author: "Agilix", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Kitchen_timer_in_a_oven.jpg" }
+      - { file: "../_imgpool/stopwatch-8a8ef3-01.jpg", type: image, parallax: false, query: "stopwatch", author: "Ikonicstopwatch", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Caliber_7700_running_a_401.204_HEUER_stopwatch.jpg" }
+      - { file: "../_imgpool/writing-desk-focused-832c6d-01.jpg", type: image, parallax: false, query: "writing desk focused", author: "brewbooks from near Seattle, USA", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:New_Desk_in_use_(15550685686).jpg" }
+    narration: "Then borrow a timer. The Pomodoro technique runs 25 minutes of work, 5 minutes of break. That is a deadline small enough to beat, 4 times an hour, which means an endless job becomes work for 25. The break is not a reward for weakness; it's part of the machine. Set the timer, and let the ticking start the task for you."
+    labels:
+      - { text: "deadline ×4 per hour", at: 0.47 }
+    graphic: { kind: "dem-so", value: 25, unit: "/5", label: "minutes focus / minutes rest" }
+  - id: e5s3
+    title: "Fresh-Start Dates"
+    search:
+      - { file: "../_imgpool/wall-calendar-73b363-01.jpg", type: image, parallax: false, query: "wall calendar", author: "Sanromá, John B., 1900-1997", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Calendar_on_wall_-_DPLA_-_1b7b70c03a8e3a49d7c74ceab6396d5d.jpg" }
+      - { file: "../_imgpool/coffee-sunrise-window-2399c0-01.jpg", type: image, parallax: false, query: "coffee sunrise window", author: "Internet Archive Book Images", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:Etna_-_a_history_of_the_mountain_and_of_its_eruptions_(1878)_(14782040302).jpg" }
+      - { file: "../_imgpool/journal-weekly-226418-01.jpg", type: image, parallax: false, query: "journal weekly", author: "Internet Archive Book Images", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:The_American_florist_-_a_weekly_journal_for_the_trade_(1905)_(17513423054).jpg" }
+    narration: "Now wire your calendar the way researchers do. The fresh-start effect shows motivation spikes at temporal landmarks — a new week, a new month, the first of the season. But don't wait for January: Friday afternoon is a landmark, and so is tomorrow at 9. Pick the next one, schedule the 2-minute start, and let the date do the pushing."
+    labels:
+      - { text: "next landmark: tomorrow at 9", at: 0.67 }
+  - id: e5s4
+    title: "Cues"
+    search:
+      - { file: "../_imgpool/workspace-desk-plant-31623a-02.jpg", type: image, parallax: false, query: "workspace desk plant", author: "Shixart1985", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Working_at_a_desk_with_a_laptop_coffee_cup_and_a_plant_on_a_white_surface.jpg" }
+      - { file: "../_imgpool/headphones-desk-ef69cc-02.jpg", type: image, parallax: false, query: "headphones desk", author: "www.Pixel.la Free Stock Photos", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Desk-music-headphones-earphones_(24243083451).jpg" }
+      - { file: "../_imgpool/library-study-lamp-aae790-01.jpg", type: image, parallax: false, query: "library study lamp", author: "Sabatheus (Jim Mills)", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Thompson_Library_SouthWing_Study.jpg" }
+    narration: "Environment beats intention in one more way: cues. A desk that only means work. A playlist that only means focus. The same time, the same chair, the same first action — because repetition turns a cue into a trigger, and the trigger into autopilot. You've already seen this machinery run against you: one phone buzz dropping you into an hour of scrolling. Same machinery. Point it at the work."
+    labels:
+      - { text: "cue → trigger → autopilot", at: 0.57 }
+  - id: e5s5
+    title: "Be The Architect"
+    search:
+      - { file: "../_imgpool/architect-blueprint-04d153-01.jpg", type: image, parallax: false, query: "architect blueprint", author: "Daderot", license: "Public domain", page: "https://commons.wikimedia.org/wiki/File:Blueprint_of_east_elevation_of_the_Harvard_Semitic_Museum,_reproduction,_A._W._Longfellow,_Jr.,_architect,_c._1902_-_Harvard_Semitic_Museum_-_Cambridge,_MA_-_DSC06066.jpg" }
+      - { file: "../_imgpool/workbench-tools-d66884-02.jpg", type: image, parallax: false, query: "workbench tools", author: "Nemracc", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Shoemaker%27s_workbench_and_tools_in_the_local_museum_Bodenfelde_01.jpg" }
+      - { file: "../_imgpool/garden-path-31b9b8-03.jpg", type: image, parallax: false, query: "garden path", author: "Acabashi", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_path_to_the_Millenium_Garden_2.jpg" }
+    narration: "Notice what all of this really is. You're not the soldier fighting distractions anymore; you're the architect laying out the room so the soldier can't lose. Discipline still matters — but only at design time, once a week, with a calendar in front of you. That leaves one final enemy: the voice that says you've already failed too many times to start. We end that voice next."
+    labels:
+      - { text: "be the architect", at: 0.26 }
+  - id: e5s6
+    title: "Next: Make It Stick"
+    search:
+      - { file: "../_imgpool/architect-blueprint-04d153-02.jpg", type: image, parallax: false, query: "architect blueprint", author: "Internet Archive Book Images", license: "No restrictions", page: "https://commons.wikimedia.org/wiki/File:Architect_and_engineer_(1947)_(14785350933).jpg" }
+      - { file: "../_imgpool/garden-path-31b9b8-02.jpg", type: image, parallax: false, query: "garden path", author: "Acabashi", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Highdown_Gardens,_Worthing,_path_to_the_Millenium_Garden_1.jpg" }
+    narration: "One enemy left, and it isn't your schedule. Next: make it stick — forgiveness, streaks, and the 30-day rewiring plan."

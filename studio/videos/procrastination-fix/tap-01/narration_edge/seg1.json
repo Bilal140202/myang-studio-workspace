@@ -1,0 +1,401 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Let's",
+   "start": 0.093,
+   "end": 0.208
+  },
+  {
+   "word": "start",
+   "start": 0.22,
+   "end": 0.463
+  },
+  {
+   "word": "with",
+   "start": 0.475,
+   "end": 0.613
+  },
+  {
+   "word": "why",
+   "start": 0.625,
+   "end": 0.799
+  },
+  {
+   "word": "most",
+   "start": 0.81,
+   "end": 1.111
+  },
+  {
+   "word": "definitions",
+   "start": 1.123,
+   "end": 1.69
+  },
+  {
+   "word": "get",
+   "start": 1.701,
+   "end": 1.817
+  },
+  {
+   "word": "it",
+   "start": 1.829,
+   "end": 1.933
+  },
+  {
+   "word": "wrong",
+   "start": 1.944,
+   "end": 2.245
+  },
+  {
+   "word": "procrastination",
+   "start": 2.65,
+   "end": 3.472
+  },
+  {
+   "word": "is",
+   "start": 3.588,
+   "end": 3.704
+  },
+  {
+   "word": "not",
+   "start": 3.715,
+   "end": 4.028
+  },
+  {
+   "word": "doing",
+   "start": 4.039,
+   "end": 4.271
+  },
+  {
+   "word": "nothing",
+   "start": 4.282,
+   "end": 4.618
+  },
+  {
+   "word": "It",
+   "start": 5.0,
+   "end": 5.069
+  },
+  {
+   "word": "is",
+   "start": 5.081,
+   "end": 5.185
+  },
+  {
+   "word": "voluntarily",
+   "start": 5.197,
+   "end": 5.926
+  },
+  {
+   "word": "delaying",
+   "start": 5.938,
+   "end": 6.412
+  },
+  {
+   "word": "something",
+   "start": 6.424,
+   "end": 6.794
+  },
+  {
+   "word": "you",
+   "start": 6.806,
+   "end": 6.898
+  },
+  {
+   "word": "know",
+   "start": 6.91,
+   "end": 7.049
+  },
+  {
+   "word": "matters",
+   "start": 7.06,
+   "end": 7.523
+  },
+  {
+   "word": "even",
+   "start": 7.905,
+   "end": 8.09
+  },
+  {
+   "word": "though",
+   "start": 8.102,
+   "end": 8.218
+  },
+  {
+   "word": "you",
+   "start": 8.229,
+   "end": 8.368
+  },
+  {
+   "word": "expect",
+   "start": 8.38,
+   "end": 8.773
+  },
+  {
+   "word": "the",
+   "start": 8.785,
+   "end": 8.866
+  },
+  {
+   "word": "delay",
+   "start": 8.877,
+   "end": 9.201
+  },
+  {
+   "word": "to",
+   "start": 9.213,
+   "end": 9.352
+  },
+  {
+   "word": "hurt",
+   "start": 9.363,
+   "end": 9.63
+  },
+  {
+   "word": "you",
+   "start": 9.641,
+   "end": 9.85
+  },
+  {
+   "word": "You",
+   "start": 10.232,
+   "end": 10.359
+  },
+  {
+   "word": "fill",
+   "start": 10.37,
+   "end": 10.544
+  },
+  {
+   "word": "the",
+   "start": 10.556,
+   "end": 10.637
+  },
+  {
+   "word": "time",
+   "start": 10.648,
+   "end": 10.972
+  },
+  {
+   "word": "scrolling",
+   "start": 11.319,
+   "end": 11.829
+  },
+  {
+   "word": "snacking",
+   "start": 12.083,
+   "end": 12.616
+  },
+  {
+   "word": "reorganizing",
+   "start": 12.905,
+   "end": 13.565
+  },
+  {
+   "word": "your",
+   "start": 13.576,
+   "end": 13.681
+  },
+  {
+   "word": "desk",
+   "start": 13.692,
+   "end": 14.109
+  },
+  {
+   "word": "anything",
+   "start": 14.398,
+   "end": 14.769
+  },
+  {
+   "word": "except",
+   "start": 14.78,
+   "end": 15.185
+  },
+  {
+   "word": "the",
+   "start": 15.197,
+   "end": 15.278
+  },
+  {
+   "word": "task",
+   "start": 15.289,
+   "end": 15.752
+  },
+  {
+   "word": "Researchers",
+   "start": 16.134,
+   "end": 16.609
+  },
+  {
+   "word": "call",
+   "start": 16.62,
+   "end": 16.852
+  },
+  {
+   "word": "it",
+   "start": 16.863,
+   "end": 16.956
+  },
+  {
+   "word": "quintessential",
+   "start": 16.968,
+   "end": 17.743
+  },
+  {
+   "word": "self-regulatory",
+   "start": 17.755,
+   "end": 18.681
+  },
+  {
+   "word": "failure",
+   "start": 18.692,
+   "end": 19.132
+  },
+  {
+   "word": "And",
+   "start": 19.514,
+   "end": 19.595
+  },
+  {
+   "word": "here",
+   "start": 19.607,
+   "end": 19.78
+  },
+  {
+   "word": "is",
+   "start": 19.792,
+   "end": 19.884
+  },
+  {
+   "word": "the",
+   "start": 19.896,
+   "end": 20.0
+  },
+  {
+   "word": "uncomfortable",
+   "start": 20.058,
+   "end": 20.694
+  },
+  {
+   "word": "part",
+   "start": 20.706,
+   "end": 21.053
+  },
+  {
+   "word": "The",
+   "start": 21.447,
+   "end": 21.505
+  },
+  {
+   "word": "smarter",
+   "start": 21.516,
+   "end": 21.898
+  },
+  {
+   "word": "you",
+   "start": 21.91,
+   "end": 22.049
+  },
+  {
+   "word": "are",
+   "start": 22.06,
+   "end": 22.315
+  },
+  {
+   "word": "the",
+   "start": 22.535,
+   "end": 22.627
+  },
+  {
+   "word": "better",
+   "start": 22.639,
+   "end": 22.87
+  },
+  {
+   "word": "your",
+   "start": 22.882,
+   "end": 23.009
+  },
+  {
+   "word": "brain",
+   "start": 23.021,
+   "end": 23.345
+  },
+  {
+   "word": "gets",
+   "start": 23.357,
+   "end": 23.565
+  },
+  {
+   "word": "at",
+   "start": 23.576,
+   "end": 23.692
+  },
+  {
+   "word": "justifying",
+   "start": 23.704,
+   "end": 24.306
+  },
+  {
+   "word": "the",
+   "start": 24.317,
+   "end": 24.398
+  },
+  {
+   "word": "delay",
+   "start": 24.41,
+   "end": 24.78
+  },
+  {
+   "word": "because",
+   "start": 25.058,
+   "end": 25.336
+  },
+  {
+   "word": "rationalizing",
+   "start": 25.347,
+   "end": 26.134
+  },
+  {
+   "word": "is",
+   "start": 26.146,
+   "end": 26.25
+  },
+  {
+   "word": "what",
+   "start": 26.262,
+   "end": 26.4
+  },
+  {
+   "word": "a",
+   "start": 26.412,
+   "end": 26.481
+  },
+  {
+   "word": "good",
+   "start": 26.493,
+   "end": 26.725
+  },
+  {
+   "word": "brain",
+   "start": 26.736,
+   "end": 27.083
+  },
+  {
+   "word": "is",
+   "start": 27.095,
+   "end": 27.199
+  },
+  {
+   "word": "built",
+   "start": 27.211,
+   "end": 27.442
+  },
+  {
+   "word": "for",
+   "start": 27.454,
+   "end": 27.801
+  }
+ ]
+}

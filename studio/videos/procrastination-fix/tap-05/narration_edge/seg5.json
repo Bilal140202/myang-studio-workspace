@@ -1,0 +1,336 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Notice",
+   "start": 0.093,
+   "end": 0.324
+  },
+  {
+   "word": "what",
+   "start": 0.336,
+   "end": 0.451
+  },
+  {
+   "word": "all",
+   "start": 0.463,
+   "end": 0.66
+  },
+  {
+   "word": "of",
+   "start": 0.671,
+   "end": 0.752
+  },
+  {
+   "word": "this",
+   "start": 0.764,
+   "end": 0.914
+  },
+  {
+   "word": "really",
+   "start": 0.926,
+   "end": 1.204
+  },
+  {
+   "word": "is",
+   "start": 1.215,
+   "end": 1.551
+  },
+  {
+   "word": "You're",
+   "start": 1.944,
+   "end": 2.014
+  },
+  {
+   "word": "not",
+   "start": 2.025,
+   "end": 2.187
+  },
+  {
+   "word": "the",
+   "start": 2.199,
+   "end": 2.28
+  },
+  {
+   "word": "soldier",
+   "start": 2.292,
+   "end": 2.731
+  },
+  {
+   "word": "fighting",
+   "start": 2.743,
+   "end": 3.09
+  },
+  {
+   "word": "distractions",
+   "start": 3.102,
+   "end": 3.738
+  },
+  {
+   "word": "anymore",
+   "start": 3.75,
+   "end": 4.155
+  },
+  {
+   "word": "you're",
+   "start": 4.514,
+   "end": 4.595
+  },
+  {
+   "word": "the",
+   "start": 4.606,
+   "end": 4.699
+  },
+  {
+   "word": "architect",
+   "start": 4.711,
+   "end": 5.266
+  },
+  {
+   "word": "laying",
+   "start": 5.278,
+   "end": 5.532
+  },
+  {
+   "word": "out",
+   "start": 5.544,
+   "end": 5.671
+  },
+  {
+   "word": "the",
+   "start": 5.683,
+   "end": 5.741
+  },
+  {
+   "word": "room",
+   "start": 5.752,
+   "end": 6.123
+  },
+  {
+   "word": "so",
+   "start": 6.285,
+   "end": 6.4
+  },
+  {
+   "word": "the",
+   "start": 6.412,
+   "end": 6.493
+  },
+  {
+   "word": "soldier",
+   "start": 6.505,
+   "end": 6.91
+  },
+  {
+   "word": "can't",
+   "start": 6.921,
+   "end": 7.176
+  },
+  {
+   "word": "lose",
+   "start": 7.188,
+   "end": 7.604
+  },
+  {
+   "word": "Discipline",
+   "start": 7.986,
+   "end": 8.438
+  },
+  {
+   "word": "still",
+   "start": 8.449,
+   "end": 8.727
+  },
+  {
+   "word": "matters",
+   "start": 8.738,
+   "end": 9.306
+  },
+  {
+   "word": "but",
+   "start": 9.502,
+   "end": 9.653
+  },
+  {
+   "word": "only",
+   "start": 9.664,
+   "end": 9.965
+  },
+  {
+   "word": "at",
+   "start": 9.977,
+   "end": 10.069
+  },
+  {
+   "word": "design",
+   "start": 10.081,
+   "end": 10.451
+  },
+  {
+   "word": "time",
+   "start": 10.463,
+   "end": 10.845
+  },
+  {
+   "word": "once",
+   "start": 11.192,
+   "end": 11.377
+  },
+  {
+   "word": "a",
+   "start": 11.389,
+   "end": 11.447
+  },
+  {
+   "word": "week",
+   "start": 11.458,
+   "end": 11.806
+  },
+  {
+   "word": "with",
+   "start": 12.06,
+   "end": 12.187
+  },
+  {
+   "word": "a",
+   "start": 12.199,
+   "end": 12.245
+  },
+  {
+   "word": "calendar",
+   "start": 12.257,
+   "end": 12.708
+  },
+  {
+   "word": "in",
+   "start": 12.72,
+   "end": 12.789
+  },
+  {
+   "word": "front",
+   "start": 12.801,
+   "end": 13.021
+  },
+  {
+   "word": "of",
+   "start": 13.032,
+   "end": 13.09
+  },
+  {
+   "word": "you",
+   "start": 13.102,
+   "end": 13.287
+  },
+  {
+   "word": "That",
+   "start": 13.681,
+   "end": 13.831
+  },
+  {
+   "word": "leaves",
+   "start": 13.843,
+   "end": 14.12
+  },
+  {
+   "word": "one",
+   "start": 14.132,
+   "end": 14.41
+  },
+  {
+   "word": "final",
+   "start": 14.421,
+   "end": 14.803
+  },
+  {
+   "word": "enemy",
+   "start": 14.815,
+   "end": 15.081
+  },
+  {
+   "word": "the",
+   "start": 15.428,
+   "end": 15.498
+  },
+  {
+   "word": "voice",
+   "start": 15.509,
+   "end": 15.81
+  },
+  {
+   "word": "that",
+   "start": 15.822,
+   "end": 15.949
+  },
+  {
+   "word": "says",
+   "start": 15.961,
+   "end": 16.181
+  },
+  {
+   "word": "you've",
+   "start": 16.192,
+   "end": 16.389
+  },
+  {
+   "word": "already",
+   "start": 16.447,
+   "end": 16.794
+  },
+  {
+   "word": "failed",
+   "start": 16.806,
+   "end": 17.257
+  },
+  {
+   "word": "too",
+   "start": 17.326,
+   "end": 17.558
+  },
+  {
+   "word": "many",
+   "start": 17.569,
+   "end": 17.801
+  },
+  {
+   "word": "times",
+   "start": 17.812,
+   "end": 18.137
+  },
+  {
+   "word": "to",
+   "start": 18.148,
+   "end": 18.218
+  },
+  {
+   "word": "start",
+   "start": 18.229,
+   "end": 18.646
+  },
+  {
+   "word": "We",
+   "start": 19.028,
+   "end": 19.12
+  },
+  {
+   "word": "end",
+   "start": 19.132,
+   "end": 19.213
+  },
+  {
+   "word": "that",
+   "start": 19.225,
+   "end": 19.352
+  },
+  {
+   "word": "voice",
+   "start": 19.363,
+   "end": 19.641
+  },
+  {
+   "word": "next",
+   "start": 19.653,
+   "end": 20.093
+  }
+ ]
+}

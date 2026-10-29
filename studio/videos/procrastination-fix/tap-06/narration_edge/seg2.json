@@ -1,0 +1,306 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Then",
+   "start": 0.104,
+   "end": 0.208
+  },
+  {
+   "word": "make",
+   "start": 0.22,
+   "end": 0.428
+  },
+  {
+   "word": "progress",
+   "start": 0.44,
+   "end": 0.903
+  },
+  {
+   "word": "visible",
+   "start": 0.914,
+   "end": 1.377
+  },
+  {
+   "word": "Hang",
+   "start": 1.771,
+   "end": 1.898
+  },
+  {
+   "word": "a",
+   "start": 1.91,
+   "end": 1.944
+  },
+  {
+   "word": "calendar",
+   "start": 1.956,
+   "end": 2.454
+  },
+  {
+   "word": "and",
+   "start": 2.824,
+   "end": 2.882
+  },
+  {
+   "word": "mark",
+   "start": 2.893,
+   "end": 3.125
+  },
+  {
+   "word": "an",
+   "start": 3.137,
+   "end": 3.218
+  },
+  {
+   "word": "X",
+   "start": 3.229,
+   "end": 3.426
+  },
+  {
+   "word": "for",
+   "start": 3.438,
+   "end": 3.611
+  },
+  {
+   "word": "every",
+   "start": 3.715,
+   "end": 3.947
+  },
+  {
+   "word": "day",
+   "start": 3.958,
+   "end": 4.248
+  },
+  {
+   "word": "you",
+   "start": 4.259,
+   "end": 4.398
+  },
+  {
+   "word": "did",
+   "start": 4.41,
+   "end": 4.525
+  },
+  {
+   "word": "the",
+   "start": 4.537,
+   "end": 4.618
+  },
+  {
+   "word": "2-minute",
+   "start": 4.63,
+   "end": 5.035
+  },
+  {
+   "word": "start",
+   "start": 5.046,
+   "end": 5.451
+  },
+  {
+   "word": "After",
+   "start": 5.833,
+   "end": 6.123
+  },
+  {
+   "word": "a",
+   "start": 6.134,
+   "end": 6.192
+  },
+  {
+   "word": "week",
+   "start": 6.204,
+   "end": 6.539
+  },
+  {
+   "word": "the",
+   "start": 6.782,
+   "end": 6.875
+  },
+  {
+   "word": "chain",
+   "start": 6.887,
+   "end": 7.141
+  },
+  {
+   "word": "itself",
+   "start": 7.153,
+   "end": 7.535
+  },
+  {
+   "word": "becomes",
+   "start": 7.546,
+   "end": 7.917
+  },
+  {
+   "word": "the",
+   "start": 7.928,
+   "end": 8.021
+  },
+  {
+   "word": "motivator",
+   "start": 8.032,
+   "end": 8.646
+  },
+  {
+   "word": "you're",
+   "start": 9.051,
+   "end": 9.12
+  },
+  {
+   "word": "no",
+   "start": 9.132,
+   "end": 9.306
+  },
+  {
+   "word": "longer",
+   "start": 9.317,
+   "end": 9.676
+  },
+  {
+   "word": "chasing",
+   "start": 9.688,
+   "end": 10.069
+  },
+  {
+   "word": "the",
+   "start": 10.081,
+   "end": 10.15
+  },
+  {
+   "word": "report",
+   "start": 10.162,
+   "end": 10.602
+  },
+  {
+   "word": "you're",
+   "start": 10.984,
+   "end": 11.065
+  },
+  {
+   "word": "protecting",
+   "start": 11.076,
+   "end": 11.574
+  },
+  {
+   "word": "the",
+   "start": 11.586,
+   "end": 11.644
+  },
+  {
+   "word": "streak",
+   "start": 11.655,
+   "end": 12.095
+  },
+  {
+   "word": "Track",
+   "start": 12.477,
+   "end": 12.789
+  },
+  {
+   "word": "days",
+   "start": 12.801,
+   "end": 13.032
+  },
+  {
+   "word": "started",
+   "start": 13.044,
+   "end": 13.449
+  },
+  {
+   "word": "not",
+   "start": 13.785,
+   "end": 14.028
+  },
+  {
+   "word": "days",
+   "start": 14.039,
+   "end": 14.271
+  },
+  {
+   "word": "perfected",
+   "start": 14.282,
+   "end": 14.803
+  },
+  {
+   "word": "because",
+   "start": 15.069,
+   "end": 15.336
+  },
+  {
+   "word": "started",
+   "start": 15.347,
+   "end": 15.729
+  },
+  {
+   "word": "is",
+   "start": 15.741,
+   "end": 15.868
+  },
+  {
+   "word": "a",
+   "start": 15.88,
+   "end": 15.949
+  },
+  {
+   "word": "bar",
+   "start": 15.961,
+   "end": 16.377
+  },
+  {
+   "word": "every",
+   "start": 16.516,
+   "end": 16.806
+  },
+  {
+   "word": "human",
+   "start": 16.817,
+   "end": 17.245
+  },
+  {
+   "word": "can",
+   "start": 17.257,
+   "end": 17.419
+  },
+  {
+   "word": "clear",
+   "start": 17.431,
+   "end": 17.87
+  },
+  {
+   "word": "and",
+   "start": 18.241,
+   "end": 18.31
+  },
+  {
+   "word": "cleared",
+   "start": 18.322,
+   "end": 18.657
+  },
+  {
+   "word": "bars",
+   "start": 18.669,
+   "end": 18.935
+  },
+  {
+   "word": "compound",
+   "start": 18.947,
+   "end": 19.502
+  },
+  {
+   "word": "into",
+   "start": 19.572,
+   "end": 19.722
+  },
+  {
+   "word": "finished",
+   "start": 19.734,
+   "end": 20.116
+  },
+  {
+   "word": "work",
+   "start": 20.127,
+   "end": 20.475
+  }
+ ]
+}

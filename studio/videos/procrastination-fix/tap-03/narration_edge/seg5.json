@@ -1,0 +1,261 @@
+{
+ "voice": "en-US-AndrewNeural",
+ "rate": "+8%",
+ "words": [
+  {
+   "word": "Here's",
+   "start": 0.116,
+   "end": 0.301
+  },
+  {
+   "word": "the",
+   "start": 0.312,
+   "end": 0.394
+  },
+  {
+   "word": "good",
+   "start": 0.405,
+   "end": 0.567
+  },
+  {
+   "word": "news",
+   "start": 0.579,
+   "end": 0.984
+  },
+  {
+   "word": "and",
+   "start": 1.192,
+   "end": 1.296
+  },
+  {
+   "word": "it's",
+   "start": 1.308,
+   "end": 1.435
+  },
+  {
+   "word": "real",
+   "start": 1.447,
+   "end": 1.806
+  },
+  {
+   "word": "procrastination",
+   "start": 2.095,
+   "end": 2.905
+  },
+  {
+   "word": "is",
+   "start": 2.986,
+   "end": 3.102
+  },
+  {
+   "word": "not",
+   "start": 3.113,
+   "end": 3.403
+  },
+  {
+   "word": "a",
+   "start": 3.414,
+   "end": 3.449
+  },
+  {
+   "word": "character",
+   "start": 3.461,
+   "end": 3.831
+  },
+  {
+   "word": "flaw",
+   "start": 3.843,
+   "end": 4.19
+  },
+  {
+   "word": "It",
+   "start": 4.572,
+   "end": 4.641
+  },
+  {
+   "word": "is",
+   "start": 4.653,
+   "end": 4.745
+  },
+  {
+   "word": "a",
+   "start": 4.757,
+   "end": 4.815
+  },
+  {
+   "word": "trained",
+   "start": 4.826,
+   "end": 5.231
+  },
+  {
+   "word": "loop",
+   "start": 5.243,
+   "end": 5.498
+  },
+  {
+   "word": "and",
+   "start": 5.787,
+   "end": 5.914
+  },
+  {
+   "word": "loops",
+   "start": 5.926,
+   "end": 6.134
+  },
+  {
+   "word": "can",
+   "start": 6.146,
+   "end": 6.262
+  },
+  {
+   "word": "be",
+   "start": 6.273,
+   "end": 6.435
+  },
+  {
+   "word": "retrained",
+   "start": 6.447,
+   "end": 6.933
+  },
+  {
+   "word": "with",
+   "start": 6.944,
+   "end": 7.06
+  },
+  {
+   "word": "tools",
+   "start": 7.072,
+   "end": 7.373
+  },
+  {
+   "word": "far",
+   "start": 7.384,
+   "end": 7.639
+  },
+  {
+   "word": "easier",
+   "start": 7.731,
+   "end": 8.079
+  },
+  {
+   "word": "than",
+   "start": 8.09,
+   "end": 8.194
+  },
+  {
+   "word": "try",
+   "start": 8.206,
+   "end": 8.449
+  },
+  {
+   "word": "harder",
+   "start": 8.461,
+   "end": 8.854
+  },
+  {
+   "word": "But",
+   "start": 9.248,
+   "end": 9.317
+  },
+  {
+   "word": "the",
+   "start": 9.329,
+   "end": 9.398
+  },
+  {
+   "word": "first",
+   "start": 9.41,
+   "end": 9.711
+  },
+  {
+   "word": "tool",
+   "start": 9.722,
+   "end": 10.093
+  },
+  {
+   "word": "is",
+   "start": 10.185,
+   "end": 10.289
+  },
+  {
+   "word": "the",
+   "start": 10.301,
+   "end": 10.382
+  },
+  {
+   "word": "smallest",
+   "start": 10.393,
+   "end": 10.891
+  },
+  {
+   "word": "one",
+   "start": 10.903,
+   "end": 11.123
+  },
+  {
+   "word": "a",
+   "start": 11.516,
+   "end": 11.539
+  },
+  {
+   "word": "rule",
+   "start": 11.551,
+   "end": 11.875
+  },
+  {
+   "word": "so",
+   "start": 11.887,
+   "end": 12.095
+  },
+  {
+   "word": "small",
+   "start": 12.107,
+   "end": 12.407
+  },
+  {
+   "word": "it",
+   "start": 12.419,
+   "end": 12.477
+  },
+  {
+   "word": "feels",
+   "start": 12.488,
+   "end": 12.743
+  },
+  {
+   "word": "stupid",
+   "start": 12.755,
+   "end": 13.16
+  },
+  {
+   "word": "That",
+   "start": 13.553,
+   "end": 13.634
+  },
+  {
+   "word": "is",
+   "start": 13.646,
+   "end": 13.727
+  },
+  {
+   "word": "exactly",
+   "start": 13.738,
+   "end": 14.201
+  },
+  {
+   "word": "why",
+   "start": 14.213,
+   "end": 14.375
+  },
+  {
+   "word": "it",
+   "start": 14.387,
+   "end": 14.468
+  },
+  {
+   "word": "works",
+   "start": 14.479,
+   "end": 14.907
+  }
+ ]
+}

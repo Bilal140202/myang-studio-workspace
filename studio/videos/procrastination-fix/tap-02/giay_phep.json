@@ -1,0 +1,621 @@
+{
+ "e2s1": {
+  "nguon": "tep",
+  "id": "spiral-staircase-031e49-03.jpg",
+  "url": "",
+  "tags": "spiral staircase",
+  "tac_gia": "Wilfredor",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Spiral_staircase_in_the_Vatican_Museums_from_bottom_02.jpg",
+  "file": "tainguyen/e2s1.jpg",
+  "mb": 0,
+  "q": "spiral staircase",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/spiral-staircase-031e49-03.jpg|1793186344.338308|None",
+  "ngay": "2026-10-28",
+  "w": 7756,
+  "h": 5175,
+  "phong": 0.27,
+  "diem": [
+   [
+    0.521,
+    0.492
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   10.389,
+   20.777
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 10.389,
+    "id": "e2s1"
+   },
+   {
+    "k": "a",
+    "t0": 10.389,
+    "t1": 20.777,
+    "id": "e2s1~2"
+   },
+   {
+    "k": "a",
+    "t0": 20.777,
+    "t1": 31.166,
+    "id": "e2s1~3"
+   }
+  ]
+ },
+ "e2s1~2": {
+  "nguon": "tep",
+  "id": "dominoes-falling-64a5b7-01.jpg",
+  "url": "",
+  "tags": "dominoes falling",
+  "tac_gia": "Kurt:S",
+  "giay_phep": "CC BY 2.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Dominoes_falling.jpg",
+  "file": "tainguyen/e2s1~2.jpg",
+  "mb": 0,
+  "q": "dominoes falling",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/dominoes-falling-64a5b7-01.jpg|1793186356.676373|None",
+  "ngay": "2026-10-28",
+  "w": 6016,
+  "h": 4000,
+  "phong": 0.35,
+  "diem": [
+   [
+    0.521,
+    0.46
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ]
+ },
+ "e2s1~3": {
+  "nguon": "tep",
+  "id": "hamster-wheel-bfacfa-01.jpg",
+  "url": "",
+  "tags": "hamster wheel",
+  "tac_gia": "Adir491",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Blue_Hamster_wheel_10.jpg",
+  "file": "tainguyen/e2s1~3.jpg",
+  "mb": 0,
+  "q": "hamster wheel",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/hamster-wheel-bfacfa-01.jpg|1793186375.299467|None",
+  "ngay": "2026-10-28",
+  "w": 4032,
+  "h": 3024,
+  "phong": 0.52,
+  "diem": [
+   [
+    0.479,
+    0.444
+   ],
+   [
+    0.205,
+    0.204
+   ]
+  ]
+ },
+ "e2s2": {
+  "nguon": "tep",
+  "id": "window-rain-melancholy-f8d702-01.jpg",
+  "url": "",
+  "tags": "window rain melancholy",
+  "tac_gia": "Gunn, Thomas Butler, 1826-1903",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Thomas_Butler_Gunn_Diaries-_Volume_18,_page_7_(newspaper_clipping),_October_10,_1861_-_DPLA_-_a0179bef8e905942b29b789c75d7b411.jpg",
+  "file": "tainguyen/e2s2.jpg",
+  "mb": 0,
+  "q": "window rain melancholy",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/window-rain-melancholy-f8d702-01.jpg|1793186369.2944381|None",
+  "ngay": "2026-10-28",
+  "w": 2926,
+  "h": 4461,
+  "phong": 0.72,
+  "diem": [
+   [
+    0.323,
+    0.258
+   ],
+   [
+    0.371,
+    0.784
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   8.437,
+   16.875
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 8.437,
+    "id": "e2s2"
+   },
+   {
+    "k": "a",
+    "t0": 8.437,
+    "t1": 16.875,
+    "id": "e2s2~2"
+   },
+   {
+    "k": "a",
+    "t0": 16.875,
+    "t1": 25.312,
+    "id": "e2s2~3"
+   }
+  ]
+ },
+ "e2s2~2": {
+  "nguon": "tep",
+  "id": "empty-chair-office-13ef4b-01.jpg",
+  "url": "",
+  "tags": "empty chair office",
+  "tac_gia": "Chicago Tribune",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Chicago_Tribune_illustration_of_%22the_empty_chair_in_the_mayor%27s_office%22_after_Carter_Harrison_Sr.%27s_assassination.jpg",
+  "file": "tainguyen/e2s2~2.jpg",
+  "mb": 0,
+  "q": "empty chair office",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/empty-chair-office-13ef4b-01.jpg|1793186399.6085727|None",
+  "ngay": "2026-10-28",
+  "w": 6243,
+  "h": 6647,
+  "phong": 0.34,
+  "diem": [
+   [
+    0.466,
+    0.332
+   ],
+   [
+    0.612,
+    0.742
+   ]
+  ]
+ },
+ "e2s2~3": {
+  "nguon": "tep",
+  "id": "crumpled-paper-d23672-02.jpg",
+  "url": "",
+  "tags": "crumpled paper",
+  "tac_gia": "Photos Public Domain",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Crumpled_olive_green_paper.jpg",
+  "file": "tainguyen/e2s2~3.jpg",
+  "mb": 0,
+  "q": "crumpled paper",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/crumpled-paper-d23672-02.jpg|1793186399.267571|None",
+  "ngay": "2026-10-28",
+  "w": 3888,
+  "h": 2592,
+  "phong": 0.54,
+  "diem": [
+   [
+    0.416,
+    0.286
+   ],
+   [
+    0.647,
+    0.698
+   ]
+  ]
+ },
+ "e2s3": {
+  "nguon": "tep",
+  "id": "calendar-dates-f0642a-01.jpg",
+  "url": "",
+  "tags": "calendar dates",
+  "tac_gia": "Nautical almanac offices of the United Kingdom and the United States",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Table_of_equivalent_dates_in_the_Julian_and_Gregorian_calendars.JPG",
+  "file": "tainguyen/e2s3.jpg",
+  "mb": 0,
+  "q": "calendar dates",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/calendar-dates-f0642a-01.jpg|1793186354.578362|None",
+  "ngay": "2026-10-28",
+  "w": 2736,
+  "h": 3648,
+  "phong": 0.77,
+  "diem": [
+   [
+    0.782,
+    0.205
+   ],
+   [
+    0.796,
+    0.626
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   9.157,
+   18.315
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 9.157,
+    "id": "e2s3"
+   },
+   {
+    "k": "a",
+    "t0": 9.157,
+    "t1": 18.315,
+    "id": "e2s3~2"
+   },
+   {
+    "k": "a",
+    "t0": 18.315,
+    "t1": 27.472,
+    "id": "e2s3~3"
+   }
+  ]
+ },
+ "e2s3~2": {
+  "nguon": "tep",
+  "id": "alarm-clock-842374-01.jpg",
+  "url": "",
+  "tags": "alarm clock",
+  "tac_gia": "Nenad Stojkovic",
+  "giay_phep": "CC BY 2.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Old_alarm_clock_on_the_bookshelf_-_50233824038.jpg",
+  "file": "tainguyen/e2s3~2.jpg",
+  "mb": 0,
+  "q": "alarm clock",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/alarm-clock-842374-01.jpg|1793186391.129538|None",
+  "ngay": "2026-10-28",
+  "w": 6016,
+  "h": 4016,
+  "phong": 0.35,
+  "diem": [
+   [
+    0.458,
+    0.476
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ]
+ },
+ "e2s3~3": {
+  "nguon": "tep",
+  "id": "hourglass-920487-02.jpg",
+  "url": "",
+  "tags": "hourglass",
+  "tac_gia": "John Morgan",
+  "giay_phep": "CC BY 2.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Hourglass_with_sand.jpg",
+  "file": "tainguyen/e2s3~3.jpg",
+  "mb": 0,
+  "q": "hourglass",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/hourglass-920487-02.jpg|1793186433.6407094|None",
+  "ngay": "2026-10-28",
+  "w": 1894,
+  "h": 2800,
+  "phong": 1.12,
+  "diem": [
+   [
+    0.5,
+    0.711
+   ],
+   [
+    0.484,
+    0.289
+   ]
+  ]
+ },
+ "e2s4": {
+  "nguon": "tep",
+  "id": "studying-night-books-0508e3-01.jpg",
+  "url": "",
+  "tags": "studying night books",
+  "tac_gia": "Internet Archive Book Images",
+  "giay_phep": "No restrictions",
+  "trang": "https://commons.wikimedia.org/wiki/File:Books_and_bookmen_(1899)_(14804014193).jpg",
+  "file": "tainguyen/e2s4.jpg",
+  "mb": 0,
+  "q": "studying night books",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/studying-night-books-0508e3-01.jpg|1793186384.566511|None",
+  "ngay": "2026-10-28",
+  "w": 1856,
+  "h": 2320,
+  "phong": 1.14,
+  "diem": [
+   [
+    0.204,
+    0.795
+   ],
+   [
+    0.204,
+    0.363
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   7.037,
+   14.075
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 7.037,
+    "id": "e2s4"
+   },
+   {
+    "k": "a",
+    "t0": 7.037,
+    "t1": 14.075,
+    "id": "e2s4~2"
+   },
+   {
+    "k": "a",
+    "t0": 14.075,
+    "t1": 21.112,
+    "id": "e2s4~3"
+   }
+  ]
+ },
+ "e2s4~2": {
+  "nguon": "tep",
+  "id": "busy-kitchen-chef-8c1ec1-02.jpg",
+  "url": "",
+  "tags": "busy kitchen chef",
+  "tac_gia": "Erica (Thorp) de Berry (1890-1943)",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:Erica_(Thorp)_de_Berry_to_Thorp_family,_30_October_1918_(0dbb0f12-729b-45f8-b990-f25d71f296ac).jpg",
+  "file": "tainguyen/e2s4~2.jpg",
+  "mb": 0,
+  "q": "busy kitchen chef",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/busy-kitchen-chef-8c1ec1-02.jpg|1793186461.8958619|None",
+  "ngay": "2026-10-28",
+  "w": 2537,
+  "h": 3129,
+  "phong": 0.83,
+  "diem": [
+   [
+    0.74,
+    0.742
+   ],
+   [
+    0.727,
+    0.279
+   ]
+  ]
+ },
+ "e2s4~3": {
+  "nguon": "tep",
+  "id": "firefighter-training-94dc60-02.jpg",
+  "url": "",
+  "tags": "firefighter training",
+  "tac_gia": "Forest Service Pacific Northwest Region",
+  "giay_phep": "Public domain",
+  "trang": "https://commons.wikimedia.org/wiki/File:2024_Annual_Interagency_Firefighter_Training_by_Forest_Service_Pacific_Northwest_Region_-_15.jpg",
+  "file": "tainguyen/e2s4~3.jpg",
+  "mb": 0,
+  "q": "firefighter training",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/firefighter-training-94dc60-02.jpg|1793186465.5918806|None",
+  "ngay": "2026-10-28",
+  "w": 3024,
+  "h": 4032,
+  "phong": 0.7,
+  "diem": [
+   [
+    0.303,
+    0.511
+   ],
+   [
+    0.711,
+    0.7
+   ]
+  ]
+ },
+ "e2s5": {
+  "nguon": "tep",
+  "id": "piggy-bank-e26c46-01.jpg",
+  "url": "",
+  "tags": "piggy bank",
+  "tac_gia": "Noah Wulf",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:A_Model_1925_Kenworth_Collectible_piggy_bank_sitting_on_a_shelf_3.jpg",
+  "file": "tainguyen/e2s5.jpg",
+  "mb": 0,
+  "q": "piggy bank",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/piggy-bank-e26c46-01.jpg|1793186525.8791986|None",
+  "ngay": "2026-10-28",
+  "w": 4272,
+  "h": 2848,
+  "phong": 0.49,
+  "diem": [
+   [
+    0.616,
+    0.619
+   ],
+   [
+    0.205,
+    0.206
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   6.701,
+   13.403
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 6.701,
+    "id": "e2s5"
+   },
+   {
+    "k": "a",
+    "t0": 6.701,
+    "t1": 13.403,
+    "id": "e2s5~2"
+   },
+   {
+    "k": "a",
+    "t0": 13.403,
+    "t1": 20.104,
+    "id": "e2s5~3"
+   }
+  ]
+ },
+ "e2s5~2": {
+  "nguon": "tep",
+  "id": "blood-pressure-monitor-47a511-02.jpg",
+  "url": "",
+  "tags": "blood pressure monitor",
+  "tac_gia": "Marvelousola01",
+  "giay_phep": "CC0",
+  "trang": "https://commons.wikimedia.org/wiki/File:An_Omron_wrist_blood_pressure_monitor.jpg",
+  "file": "tainguyen/e2s5~2.jpg",
+  "mb": 0,
+  "q": "blood pressure monitor",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/blood-pressure-monitor-47a511-02.jpg|1793186465.3428793|None",
+  "ngay": "2026-10-28",
+  "w": 3456,
+  "h": 4608,
+  "phong": 0.61,
+  "diem": [
+   [
+    0.387,
+    0.511
+   ],
+   [
+    0.796,
+    0.468
+   ]
+  ]
+ },
+ "e2s5~3": {
+  "nguon": "tep",
+  "id": "balance-scale-272553-02.jpg",
+  "url": "",
+  "tags": "balance scale",
+  "tac_gia": "Nikodem Nijaki",
+  "giay_phep": "CC BY-SA 3.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9722.jpg",
+  "file": "tainguyen/e2s5~3.jpg",
+  "mb": 0,
+  "q": "balance scale",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/balance-scale-272553-02.jpg|1793186482.5699697|None",
+  "ngay": "2026-10-28",
+  "w": 3960,
+  "h": 2948,
+  "phong": 0.53,
+  "diem": [
+   [
+    0.721,
+    0.45
+   ],
+   [
+    0.279,
+    0.607
+   ]
+  ]
+ },
+ "e2s6": {
+  "nguon": "tep",
+  "id": "piggy-bank-e26c46-02.jpg",
+  "url": "",
+  "tags": "piggy bank",
+  "tac_gia": "Noah Wulf",
+  "giay_phep": "CC BY-SA 4.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:A_Model_1925_Kenworth_Collectible_piggy_bank_sitting_on_table.jpg",
+  "file": "tainguyen/e2s6.jpg",
+  "mb": 0,
+  "q": "piggy bank",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/piggy-bank-e26c46-02.jpg|1793186525.8811986|None",
+  "ngay": "2026-10-28",
+  "w": 4272,
+  "h": 2848,
+  "phong": 0.49,
+  "diem": [
+   [
+    0.795,
+    0.286
+   ],
+   [
+    0.795,
+    0.794
+   ]
+  ],
+  "khung": 0,
+  "cat": [
+   5.253
+  ],
+  "shots": [
+   {
+    "k": "a",
+    "t0": 0.0,
+    "t1": 5.253,
+    "id": "e2s6"
+   },
+   {
+    "k": "a",
+    "t0": 5.253,
+    "t1": 10.506,
+    "id": "e2s6~2"
+   }
+  ]
+ },
+ "e2s6~2": {
+  "nguon": "tep",
+  "id": "balance-scale-272553-01.jpg",
+  "url": "",
+  "tags": "balance scale",
+  "tac_gia": "Nikodem Nijaki",
+  "giay_phep": "CC BY-SA 3.0",
+  "trang": "https://commons.wikimedia.org/wiki/File:Balance_scale_IMGP9749.jpg",
+  "file": "tainguyen/e2s6~2.jpg",
+  "mb": 0,
+  "q": "balance scale",
+  "loai": "anh",
+  "tep_key": "/home/z/my-project/studio/videos/procrastination-fix/_imgpool/balance-scale-272553-01.jpg|1793186482.5679696|None",
+  "ngay": "2026-10-28",
+  "w": 3960,
+  "h": 2663,
+  "phong": 0.53,
+  "diem": [
+   [
+    0.279,
+    0.438
+   ],
+   [
+    0.721,
+    0.594
+   ]
+  ]
+ }
+}
